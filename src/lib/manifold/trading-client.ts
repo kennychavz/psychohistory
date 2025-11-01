@@ -105,7 +105,7 @@ export class ManifoldTradingClient {
 
   async getMarket(marketId: string): Promise<ManifoldMarket> {
     try {
-      const response = await this.client.get(`/market/${marketId}`);
+      const response = await this.client.get(`/slug/${marketId}`);
       return response.data;
     } catch (error) {
       throw new Error(`Failed to fetch market ${marketId}: ${error}`);

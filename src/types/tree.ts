@@ -60,6 +60,11 @@ export interface SeedInput {
   timeframe?: string; // e.g., "next 6 months"
   maxDepth?: number;
   domain?: 'policy' | 'geopolitics' | 'economics' | 'technology' | 'general';
+  // Market analysis fields
+  marketUrl?: string;
+  shouldTrade?: boolean;
+  betAmount?: number;
+  confidenceThreshold?: number;
 }
 
 export interface NodePosition {

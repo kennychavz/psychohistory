@@ -488,7 +488,7 @@ async function main() {
 
   // Step 1: Load events
   console.log('📥 Loading Polymarket events...');
-  const events = await loadPolymarketEvents(5);
+  const events = await loadPolymarketEvents(1); // Testing with 1 event to verify timeout fix
   console.log(`✓ Loaded ${events.length} events\n`);
 
   // Step 2-6: Process events with LLM classification

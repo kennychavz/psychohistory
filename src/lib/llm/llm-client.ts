@@ -29,6 +29,8 @@ export class LLMClient {
       this.openai = new OpenAI({
         apiKey: process.env.OPENROUTER_API_KEY,
         baseURL: 'https://openrouter.ai/api/v1',
+        timeout: 60000, // 60 second timeout to prevent hanging
+        maxRetries: 2,   // Retry failed requests twice
         defaultHeaders: {
           'HTTP-Referer': process.env.SITE_URL || 'http://localhost:3000',
           'X-Title': 'PsychoHistory',
@@ -70,6 +72,27 @@ export class LLMClient {
         jsonStr = jsonMatch[1];
       } else if (jsonStr.startsWith('```') && jsonStr.endsWith('```')) {
         jsonStr = jsonStr.slice(3, -3).trim();
+      }
+
+      // For R1 reasoning model: Extract JSON from before any reasoning text
+      // Look for array pattern and extract up to the closing bracket
+      if (jsonStr.includes('[') && !jsonMatch) {
+        const arrayStart = jsonStr.indexOf('[');
+        let depth = 0;
+        let arrayEnd = -1;
+
+        for (let i = arrayStart; i < jsonStr.length; i++) {
+          if (jsonStr[i] === '[' || jsonStr[i] === '{') depth++;
+          if (jsonStr[i] === ']' || jsonStr[i] === '}') depth--;
+          if (depth === 0 && jsonStr[i] === ']') {
+            arrayEnd = i + 1;
+            break;
+          }
+        }
+
+        if (arrayEnd > 0) {
+          jsonStr = jsonStr.substring(arrayStart, arrayEnd);
+        }
       }
 
       const parsed = JSON.parse(jsonStr);

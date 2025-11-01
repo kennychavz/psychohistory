@@ -34,7 +34,13 @@ export async function analyzeProbabilities(
   );
 
   try {
+    console.log('[R1 Synthesis] Starting probability analysis...');
+    const startTime = Date.now();
+
     let outputs = await reasoningLLM.completeJSON(prompt, ProbabilityArraySchema);
+
+    const elapsed = Date.now() - startTime;
+    console.log(`[R1 Synthesis] Completed in ${elapsed}ms`);
 
     // Normalize probabilities to sum to exactly 1.0
     outputs = normalizeProbabilities(outputs);
@@ -53,7 +59,11 @@ export async function analyzeProbabilities(
 
     return outputs;
   } catch (error) {
-    console.error('Failed to analyze probabilities:', error);
+    console.error('[R1 Synthesis] Failed to analyze probabilities:', error);
+    if (error instanceof Error) {
+      console.error('[R1 Synthesis] Error details:', error.message);
+      console.error('[R1 Synthesis] Stack trace:', error.stack);
+    }
     throw error;
   }
 }

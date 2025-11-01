@@ -1,0 +1,69 @@
+{
+  "title": "DPO Training: Learning from Mistakes",
+  "subtitle": "Teaching the model to prefer correct predictions over incorrect ones",
+  "examples": [
+    {
+      "example_number": 1,
+      "question": "Will Donald Trump win the 2024 US Presidential Election?",
+      "scenario_path": [
+        "[Depth 1] Status quo continues from: Will Donald Trump win the 2024 US Presidential Ele (probability: 0.50)",
+        "[Depth 2] Status quo continues from: Status quo continues from: Will Donald Trump win t (probability: 0.50)",
+        "[Depth 3] Unexpected development from: Status quo continues from: Status quo continues fr (probability: 0.50)"
+      ],
+      "cumulative_probability": 0.125,
+      "model_said": {
+        "prediction": "NO",
+        "label": "REJECTED \u274c",
+        "reasoning": "Model incorrectly predicted this outcome"
+      },
+      "actual_outcome": {
+        "answer": "YES",
+        "label": "CHOSEN \u2713",
+        "reasoning": "Verified historical outcome"
+      },
+      "dpo_action": "Decrease P('NO') and Increase P('YES')"
+    },
+    {
+      "example_number": 2,
+      "question": "Will Donald Trump win the 2024 US Presidential Election?",
+      "scenario_path": [
+        "[Depth 1] Status quo continues from: Will Donald Trump win the 2024 US Presidential Ele (probability: 0.50)",
+        "[Depth 2] Unexpected development from: Status quo continues from: Will Donald Trump win t (probability: 0.50)",
+        "[Depth 3] Unexpected development from: Unexpected development from: Status quo continues  (probability: 0.50)"
+      ],
+      "cumulative_probability": 0.125,
+      "model_said": {
+        "prediction": "NO",
+        "label": "REJECTED \u274c",
+        "reasoning": "Model incorrectly predicted this outcome"
+      },
+      "actual_outcome": {
+        "answer": "YES",
+        "label": "CHOSEN \u2713",
+        "reasoning": "Verified historical outcome"
+      },
+      "dpo_action": "Decrease P('NO') and Increase P('YES')"
+    },
+    {
+      "example_number": 3,
+      "question": "Will Donald Trump win the 2024 US Presidential Election?",
+      "scenario_path": [
+        "[Depth 1] Unexpected development from: Will Donald Trump win the 2024 US Presidential Ele (probability: 0.50)",
+        "[Depth 2] Status quo continues from: Unexpected development from: Will Donald Trump win (probability: 0.50)",
+        "[Depth 3] Unexpected development from: Status quo continues from: Unexpected development  (probability: 0.50)"
+      ],
+      "cumulative_probability": 0.125,
+      "model_said": {
+        "prediction": "NO",
+        "label": "REJECTED \u274c",
+        "reasoning": "Model incorrectly predicted this outcome"
+      },
+      "actual_outcome": {
+        "answer": "YES",
+        "label": "CHOSEN \u2713",
+        "reasoning": "Verified historical outcome"
+      },
+      "dpo_action": "Decrease P('NO') and Increase P('YES')"
+    }
+  ]
+}

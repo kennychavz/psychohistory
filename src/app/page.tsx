@@ -1,9 +1,30 @@
 'use client';
 
+import { useState } from 'react';
 import { SeedInput } from '@/types/tree';
 import SeedInputForm from '@/components/SeedInput/SeedForm';
 import TreeVisualization from '@/components/TreeVisualization/TreeCanvas';
 import { useTreeGeneration } from '@/hooks/useTreeGeneration';
+
+interface MarketAnalysisResult {
+  market: {
+    question: string;
+    currentProbability: number;
+    url: string;
+  };
+  analysis: {
+    analyzedProbability: number;
+    sentiment: number;
+    totalNodes: number;
+  };
+  trade?: {
+    executed: boolean;
+    recommendation: string;
+    reason: string;
+    betId?: string;
+    shares?: number;
+  };
+}
 
 export default function Home() {
   const {
@@ -17,8 +38,46 @@ export default function Home() {
     error,
   } = useTreeGeneration();
 
+  const [marketAnalysis, setMarketAnalysis] = useState<MarketAnalysisResult | null>(null);
+
   const handleGenerateTree = async (seed: SeedInput) => {
-    await generateTree(seed);
+    // If this is a Manifold market analysis, call the market analysis API
+    if (seed.marketUrl) {
+      setMarketAnalysis(null);
+      try {
+        const response = await fetch('/api/analyze-market', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            marketUrl: seed.marketUrl,
+            shouldTrade: seed.shouldTrade,
+            betAmount: seed.betAmount,
+            confidenceThreshold: seed.confidenceThreshold,
+            maxDepth: seed.maxDepth,
+          }),
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || 'Failed to analyze market');
+        }
+
+        const result = await response.json();
+        setMarketAnalysis(result);
+
+        // Also generate the tree for visualization
+        await generateTree(seed);
+      } catch (err) {
+        console.error('Market analysis error:', err);
+        alert(err instanceof Error ? err.message : 'Failed to analyze market');
+      }
+    } else {
+      // Regular tree generation
+      setMarketAnalysis(null);
+      await generateTree(seed);
+    }
   };
 
   return (
@@ -80,7 +139,103 @@ export default function Home() {
           )}
 
           {root && (
-            <TreeVisualization tree={root} />
+            <>
+              <TreeVisualization tree={root} />
+
+              {/* Market Analysis Results Overlay */}
+              {marketAnalysis && (
+                <div className="absolute bottom-4 right-4 z-10 w-96 rounded-lg border border-gray-700/50 shadow-2xl" style={{ backgroundColor: 'rgba(15, 23, 42, 0.98)' }}>
+                  <div className="p-4 space-y-3">
+                    <div className="flex items-center justify-between border-b border-gray-800 pb-2">
+                      <h3 className="text-sm font-semibold text-gray-200">🔮 Market Analysis</h3>
+                      <button
+                        onClick={() => setMarketAnalysis(null)}
+                        className="text-gray-500 hover:text-gray-300 text-xs"
+                      >
+                        ✕
+                      </button>
+                    </div>
+
+                    <div className="space-y-2 text-sm">
+                      <div>
+                        <p className="text-xs text-gray-500">Market Probability</p>
+                        <p className="text-lg font-bold text-gray-200">
+                          {(marketAnalysis.market.currentProbability * 100).toFixed(1)}%
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-xs text-gray-500">Analyzed Probability</p>
+                        <p className="text-lg font-bold text-blue-400">
+                          {(marketAnalysis.analysis.analyzedProbability * 100).toFixed(1)}%
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-xs text-gray-500">Difference</p>
+                        <p className={`text-lg font-bold ${
+                          marketAnalysis.analysis.analyzedProbability > marketAnalysis.market.currentProbability
+                            ? 'text-green-400'
+                            : marketAnalysis.analysis.analyzedProbability < marketAnalysis.market.currentProbability
+                            ? 'text-red-400'
+                            : 'text-gray-400'
+                        }`}>
+                          {((marketAnalysis.analysis.analyzedProbability - marketAnalysis.market.currentProbability) * 100).toFixed(1)}%
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-xs text-gray-500">Sentiment</p>
+                        <p className="text-sm text-gray-300">
+                          {marketAnalysis.analysis.sentiment.toFixed(1)}
+                        </p>
+                      </div>
+
+                      {marketAnalysis.trade && (
+                        <div className="border-t border-gray-800 pt-2 mt-2">
+                          <p className="text-xs text-gray-500">Trading Recommendation</p>
+                          <p className={`text-sm font-semibold ${
+                            marketAnalysis.trade.recommendation === 'BUY_YES'
+                              ? 'text-green-400'
+                              : marketAnalysis.trade.recommendation === 'BUY_NO'
+                              ? 'text-red-400'
+                              : 'text-gray-400'
+                          }`}>
+                            {marketAnalysis.trade.recommendation}
+                          </p>
+                          <p className="text-xs text-gray-400 mt-1">
+                            {marketAnalysis.trade.reason}
+                          </p>
+
+                          {marketAnalysis.trade.executed && marketAnalysis.trade.betId && (
+                            <div className="mt-2 rounded bg-green-900/20 border border-green-800/50 p-2">
+                              <p className="text-xs text-green-400 font-semibold">✓ Trade Executed</p>
+                              <p className="text-xs text-gray-400 mt-1">
+                                Bet ID: {marketAnalysis.trade.betId}
+                              </p>
+                              {marketAnalysis.trade.shares && (
+                                <p className="text-xs text-gray-400">
+                                  Shares: {marketAnalysis.trade.shares.toFixed(2)}
+                                </p>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      <a
+                        href={marketAnalysis.market.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-xs text-blue-400 hover:text-blue-300 mt-2"
+                      >
+                        View Market →
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </>
           )}
 
           {!isGenerating && !root && !error && (
@@ -92,6 +247,9 @@ export default function Home() {
                 </p>
                 <p className="mt-1 text-xs text-gray-400">
                   Watch as nodes appear in real-time!
+                </p>
+                <p className="mt-4 text-sm text-blue-400">
+                  💡 Try the Manifold Market tab to analyze prediction markets!
                 </p>
               </div>
             </div>

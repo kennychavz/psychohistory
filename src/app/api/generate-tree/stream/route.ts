@@ -1,3 +1,9 @@
+import { config } from 'dotenv';
+import { resolve } from 'path';
+
+// Force load .env file ONLY (override system env)
+config({ path: resolve(process.cwd(), '.env'), override: true });
+
 import { NextRequest } from 'next/server';
 import { TreeBuilder } from '@/lib/tree/tree-builder';
 import { SeedInput, TreeStreamEvent } from '@/types/tree';

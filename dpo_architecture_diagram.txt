@@ -1,0 +1,64 @@
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    DPO TRAINING PIPELINE ARCHITECTURE                    ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ STEP 1: Data Generation                                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+
+   Seed Event (e.g., "Will Trump win 2024 election?")
+         │
+         ▼
+   ┌─────────────────┐
+   │ Tree Generation │  ← DeepSeek R1 generates probability tree
+   └─────────────────┘
+         │
+         ▼
+   40 scenario paths with cumulative probabilities
+         │
+         ▼
+   ┌─────────────────┐
+   │ LLM Classifier  │  ← Classify each path as YES/NO
+   └─────────────────┘
+         │
+         ▼
+   Compare predictions to actual outcomes (ground truth)
+         │
+         ├─── Correct prediction → CHOSEN ✓
+         └─── Wrong prediction → REJECTED ❌
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ STEP 2: DPO Training (Reinforcement Learning)                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+   For each (prompt, chosen, rejected) pair:
+
+   Loss = -log(σ(β * [log π_θ(chosen|prompt) - log π_ref(chosen|prompt)
+                     - log π_θ(rejected|prompt) + log π_ref(rejected|prompt)]))
+
+   Where:
+   • π_θ = Policy model (being trained)
+   • π_ref = Reference model (frozen)
+   • β = Temperature parameter (controls strength)
+   • σ = Sigmoid function
+
+   Effect: Model learns to:
+   ✓ Increase probability of correct predictions (chosen)
+   ✗ Decrease probability of incorrect predictions (rejected)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ STEP 3: Expected Improvements                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+   BEFORE DPO (Baseline):           AFTER DPO (Expected):
+   ┌────────────────────┐           ┌────────────────────┐
+   │ Accuracy:    50%   │           │ Accuracy:    85%+  │
+   │ Calibration: 0.25  │    ═══>   │ Calibration: 0.10  │
+   │ Confidence: Random │           │ Confidence: Sharp  │
+   └────────────────────┘           └────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║ KEY INSIGHT: DPO directly optimizes for human preferences without       ║
+║ requiring a separate reward model (unlike RLHF)                         ║
+╚══════════════════════════════════════════════════════════════════════════╝
