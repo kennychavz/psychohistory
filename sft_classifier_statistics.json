@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-01T13:33:43.234Z",
+  "totalExamples": 128,
+  "totalPaths": 320,
+  "correctPaths": 128,
+  "incorrectPaths": 192,
+  "byOutcome": {
+    "YES": 64,
+    "NO": 64
+  },
+  "accuracy": "40.00%"
+}

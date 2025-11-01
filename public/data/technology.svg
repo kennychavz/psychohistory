@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="32" fill="#3B82F6"/>
+  <circle cx="32" cy="32" r="28" fill="#2563EB"/>
+
+  <!-- Chip/Circuit icon -->
+  <rect x="20" y="20" width="24" height="24" rx="2" fill="#60A5FA" stroke="#EFF6FF" stroke-width="1.5"/>
+
+  <!-- Circuit lines -->
+  <line x1="24" y1="28" x2="40" y2="28" stroke="#EFF6FF" stroke-width="1.5"/>
+  <line x1="24" y1="32" x2="40" y2="32" stroke="#EFF6FF" stroke-width="1.5"/>
+  <line x1="24" y1="36" x2="40" y2="36" stroke="#EFF6FF" stroke-width="1.5"/>
+
+  <!-- Corner pins -->
+  <circle cx="22" cy="22" r="1.5" fill="#EFF6FF"/>
+  <circle cx="42" cy="22" r="1.5" fill="#EFF6FF"/>
+  <circle cx="22" cy="42" r="1.5" fill="#EFF6FF"/>
+  <circle cx="42" cy="42" r="1.5" fill="#EFF6FF"/>
+</svg>

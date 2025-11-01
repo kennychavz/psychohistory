@@ -1,0 +1,112 @@
+[
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n[Depth 3] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n\nCumulative Path Probability: 0.0500\n\nContext: Mock analysis suggests this outcome has 36.8% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_0",
+      "cumulativeProbability": 0.050007289692375,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n[Depth 3] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n\nCumulative Path Probability: 0.0429\n\nContext: Mock analysis suggests this outcome has 31.6% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_1",
+      "cumulativeProbability": 0.04286339116489286,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n[Depth 3] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n\nCumulative Path Probability: 0.0429\n\nContext: Mock analysis suggests this outcome has 36.8% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_4",
+      "cumulativeProbability": 0.04286339116489286,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n[Depth 3] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n\nCumulative Path Probability: 0.0367\n\nContext: Mock analysis suggests this outcome has 31.6% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_5",
+      "cumulativeProbability": 0.036740049569908166,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid faces significant obstacles (probability: 0.21)\n[Depth 3] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n\nCumulative Path Probability: 0.0286\n\nContext: Mock analysis suggests this outcome has 36.8% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_8",
+      "cumulativeProbability": 0.028575594109928572,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid faces significant obstacles (probability: 0.21)\n[Depth 3] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n\nCumulative Path Probability: 0.0245\n\nContext: Mock analysis suggests this outcome has 31.6% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_9",
+      "cumulativeProbability": 0.024493366379938777,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid triggers unexpected consequences (probability: 0.11)\n[Depth 3] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n\nCumulative Path Probability: 0.0143\n\nContext: Mock analysis suggests this outcome has 36.8% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_12",
+      "cumulativeProbability": 0.014287797054964286,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: accelerates rapidly (probability: 0.37)\n[Depth 2] Will Donald Trump win the 2024 US Presid triggers unexpected consequences (probability: 0.11)\n[Depth 3] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n\nCumulative Path Probability: 0.0122\n\nContext: Mock analysis suggests this outcome has 31.6% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_13",
+      "cumulativeProbability": 0.012246683189969389,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: proceeds gradually (probability: 0.32)\n[Depth 2] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n[Depth 3] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n\nCumulative Path Probability: 0.0429\n\nContext: Mock analysis suggests this outcome has 36.8% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_16",
+      "cumulativeProbability": 0.04286339116489286,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  },
+  {
+    "prompt": "# Binary Event Classification\n\nQuestion: Will Donald Trump win the 2024 US Presidential Election?\n[Depth 1] Will Donald Trump win the 2024 US Presidential Election?: proceeds gradually (probability: 0.32)\n[Depth 2] Will Donald Trump win the 2024 US Presid accelerates rapidly (probability: 0.37)\n[Depth 3] Will Donald Trump win the 2024 US Presid proceeds gradually (probability: 0.32)\n\nCumulative Path Probability: 0.0367\n\nContext: Mock analysis suggests this outcome has 31.6% probability based on historical patterns and current indicators. Key factors include market dynamics, stakeholder responses, and systemic constraints.\n\nTask: Based on this scenario path, classify whether the original question resolves to YES or NO.\nOutput only: YES or NO",
+    "completion": "YES",
+    "metadata": {
+      "eventId": "will-donald-trump-win-the-2024-us-presidential-election",
+      "pathId": "path_17",
+      "cumulativeProbability": 0.036740049569908166,
+      "actualOutcome": "YES",
+      "isCorrect": true
+    }
+  }
+]

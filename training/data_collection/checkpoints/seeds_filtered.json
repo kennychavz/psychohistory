@@ -1,0 +1,470 @@
+[
+  {
+    "event": "U.S. imposes tariffs on Chinese goods",
+    "date": "2019-05-10",
+    "context": "The United States increases tariffs on $200 billion worth of Chinese goods from 10% to 25%.",
+    "domain": "Economics",
+    "why_significant": "Escalates the U.S.-China trade war, impacting global markets and supply chains",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about trade war escalation, retaliation, and economic impacts. Resolved with Phase One deal in Jan 2020."
+  },
+  {
+    "event": "US-China Phase One Trade Agreement signed",
+    "date": "2020-01-15",
+    "context": "The US and China sign a partial trade deal, pausing escalation of tariffs after a two-year trade war.",
+    "domain": "Economics",
+    "why_significant": "Temporarily eased trade tensions but left major issues unresolved, affecting global supply chains.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about whether deal will hold and what happens next. Led to renewed tensions later."
+  },
+  {
+    "event": "First U.S. COVID-19 case confirmed",
+    "date": "2020-01-20",
+    "context": "The first confirmed case of COVID-19 in the United States is reported in Washington state.",
+    "domain": "Geopolitics",
+    "why_significant": "Marks the beginning of a devastating pandemic in the U.S., prompting widespread public health measures",
+    "post_cutoff": false,
+    "filter_reason": "Creates massive uncertainty about spread, lockdowns, economic impact. Clear causal chain to lockdowns, economic collapse, vaccine development."
+  },
+  {
+    "event": "Brexit officially takes effect",
+    "date": "2020-01-31",
+    "context": "The United Kingdom formally leaves the European Union after a referendum and prolonged negotiations.",
+    "domain": "Politics",
+    "why_significant": "Leads to new trade agreements, economic adjustments, and shifts in UK-EU relations",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about UK-EU trade terms, Northern Ireland, Scottish independence. Led to trade disruptions and political instability."
+  },
+  {
+    "event": "OPEC+ agrees to record oil production cuts",
+    "date": "2020-04-12",
+    "context": "Group agrees to cut output by 9.7M barrels/day amid COVID demand collapse.",
+    "domain": "Economics",
+    "why_significant": "Stabilized crashing oil prices but deepened US-Saudi tensions over energy policy.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about oil price recovery and energy market stability. Led to price stabilization and market restructuring."
+  },
+  {
+    "event": "Hong Kong national security law enacted",
+    "date": "2020-06-30",
+    "context": "China imposes a national security law on Hong Kong, criminalizing secession, subversion, terrorism, and collusion with foreign forces.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to widespread protests, international condemnation, and shifts in Hong Kong's political landscape",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about protests, crackdowns, mass arrests, and exodus. Led to documented suppression, arrests, and emigration wave."
+  },
+  {
+    "event": "Israel-UAE normalization agreement",
+    "date": "2020-08-13",
+    "context": "Israel and the United Arab Emirates agree to normalize relations, brokered by the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Reshapes Middle Eastern geopolitics, leading to economic and technological collaborations",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about regional stability and other Arab states following. Led to Abraham Accords expansion with Bahrain, Morocco."
+  },
+  {
+    "event": "GameStop short squeeze peaks",
+    "date": "2021-01-28",
+    "context": "Retail traders on Reddit's WallStreetBets drive GameStop shares up 1,700%, squeezing hedge funds.",
+    "domain": "Economics",
+    "why_significant": "Exposed power of decentralized retail investing, led to trading platform restrictions and regulatory scrutiny.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about market manipulation, regulatory response, and retail trading future. Led to Congressional hearings, trading restrictions."
+  },
+  {
+    "event": "Ever Given blocks Suez Canal",
+    "date": "2021-03-23",
+    "context": "The 400m container ship runs aground, blocking the canal for 6 days and disrupting 12% of global trade.",
+    "domain": "Geopolitics",
+    "why_significant": "Caused $9.6B/day in trade delays, exposed fragility of global supply chains.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about canal reopening, trade disruption duration, and supply chain impacts. Led to documented trade delays and insurance claims."
+  },
+  {
+    "event": "TSMC announces $100 billion investment",
+    "date": "2021-04-01",
+    "context": "TSMC commits $100 billion over three years to expand chip production amid global semiconductor shortages.",
+    "domain": "Technology",
+    "why_significant": "Accelerates global efforts to address chip shortages, heightens geopolitical competition over semiconductor dominance.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about chip shortage resolution and geopolitical semiconductor race. Led to CHIPS Act and fab construction globally."
+  },
+  {
+    "event": "Amazon acquires MGM for $8.45B",
+    "date": "2021-05-26",
+    "context": "Largest entertainment acquisition since Fox-Disney, adding 4,000 films to Prime Video.",
+    "domain": "Business",
+    "why_significant": "Accelerated streaming wars, raised antitrust concerns about Big Tech expansion.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about streaming competition and antitrust action. Led to intensified content wars and regulatory scrutiny."
+  },
+  {
+    "event": "Afghanistan falls to the Taliban",
+    "date": "2021-08-15",
+    "context": "The Taliban captures Kabul following the withdrawal of U.S. and NATO forces, ending a 20-year military presence.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to humanitarian crises, geopolitical realignments, and questions about U.S. foreign policy effectiveness.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about humanitarian crisis, regional stability, and terrorism resurgence. Led to refugee crisis and Taliban governance."
+  },
+  {
+    "event": "Facebook rebrands as Meta",
+    "date": "2021-10-28",
+    "context": "Mark Zuckerberg announces Facebook's parent company will focus on building the metaverse.",
+    "domain": "Technology",
+    "why_significant": "Marked a high-profile bet on VR/AR future, preceded major metaverse investment losses in 2022.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about metaverse viability and Meta's future. Led to $13B+ losses in Reality Labs and strategic pivot by 2023."
+  },
+  {
+    "event": "Russia begins troop buildup near Ukraine",
+    "date": "2021-11-01",
+    "context": "Satellite images show 100,000+ Russian troops massing near Ukraine's borders.",
+    "domain": "Geopolitics",
+    "why_significant": "Preceded the 2022 invasion, triggered NATO unity and energy market turmoil.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about invasion likelihood and Western response. Led directly to February 2022 invasion."
+  },
+  {
+    "event": "Log4j vulnerability disclosed",
+    "date": "2021-12-09",
+    "context": "Critical zero-day flaw in ubiquitous Java logging library threatens millions of systems.",
+    "domain": "Technology",
+    "why_significant": "One of the most severe cybersecurity threats in history, required emergency patching globally.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about exploit spread and damage. Led to emergency global patching effort and documented attacks."
+  },
+  {
+    "event": "Evergrande defaults on debt",
+    "date": "2021-12-09",
+    "context": "Chinese property giant Evergrande officially defaults on its debt obligations, triggering fears of a broader financial crisis.",
+    "domain": "Economics",
+    "why_significant": "Raises concerns about China's real estate sector, global financial stability, and economic growth.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about Chinese real estate contagion and financial crisis. Led to property sector restructuring and economic slowdown."
+  },
+  {
+    "event": "Russia invades Ukraine",
+    "date": "2022-02-24",
+    "context": "Russia launches a full-scale invasion of Ukraine, leading to widespread conflict and humanitarian crisis.",
+    "domain": "Geopolitics",
+    "why_significant": "Triggers global geopolitical tensions, economic sanctions, and shifts in international alliances",
+    "post_cutoff": false,
+    "filter_reason": "Creates massive uncertainty about war outcome, sanctions impact, energy crisis. Led to documented sanctions, energy crisis, NATO expansion."
+  },
+  {
+    "event": "Elon Musk acquires Twitter",
+    "date": "2022-10-27",
+    "context": "Elon Musk completes a $44 billion acquisition of Twitter after months of legal and financial disputes.",
+    "domain": "Business",
+    "why_significant": "Sparks debates over content moderation, free speech, and the future of social media platforms.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about platform changes, advertiser exodus, and Twitter's viability. Led to mass layoffs, feature changes, X rebrand."
+  },
+  {
+    "event": "FTX cryptocurrency exchange collapses",
+    "date": "2022-11-11",
+    "context": "FTX files for bankruptcy amid allegations of mishandling customer funds and liquidity crises.",
+    "domain": "Technology",
+    "why_significant": "Undermines trust in cryptocurrency markets, accelerates calls for stricter financial regulation.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about crypto contagion and regulatory crackdown. Led to SBF arrest, crypto regulation push, industry consolidation."
+  },
+  {
+    "event": "China ends zero-COVID policy",
+    "date": "2022-12-07",
+    "context": "China abruptly abandons its zero-COVID strategy following widespread protests and economic pressures.",
+    "domain": "Politics",
+    "why_significant": "Leads to a surge in COVID-19 cases globally, impacts supply chains, and signals shifts in China's governance.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about COVID surge, deaths, and economic recovery. Led to massive case surge, supply chain relief, economic reopening."
+  },
+  {
+    "event": "Russia withdraws from New START treaty",
+    "date": "2024-09-05",
+    "context": "Russia formally announces its withdrawal from the New START nuclear arms reduction treaty with the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates US-Russia tensions, arms race risks increase, impacts global security, influences NATO military strategies",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about arms race and nuclear tensions. 3-month window allows assessment of NATO response and arms buildup."
+  },
+  {
+    "event": "EU passes AI Liability Directive",
+    "date": "2024-09-12",
+    "context": "Strict liability framework for AI harms, requiring explainability for high-risk systems. Passed 401-192 in Parliament.",
+    "domain": "Technology",
+    "why_significant": "Forced retooling of major LLMs, slowed EU AI adoption, created compliance market worth €2B+",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about AI industry restructuring and compliance. 3-month window shows impacts on AI deployment and business models."
+  },
+  {
+    "event": "Argentina defaults on IMF debt",
+    "date": "2024-10-01",
+    "context": "$45B default triggers emerging market currency crisis. Milei government implements radical dollarization",
+    "domain": "Geopolitics",
+    "why_significant": "Contagion spreads to Turkey and Egypt, IMF lending policies overhauled, Bitcoin surges as hedge",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about emerging market contagion and dollarization success. 3-month window reveals currency crisis spread and policy impacts."
+  },
+  {
+    "event": "Brazil elects new president amidst economic crisis",
+    "date": "2024-10-02",
+    "context": "Brazil holds a presidential election resulting in a victory for a new political party, amid ongoing economic instability and inflation.",
+    "domain": "Politics",
+    "why_significant": "Shifts Brazil's economic policies, impacts regional trade agreements, influences foreign investments, alters regional geopolitical dynamics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about economic policy changes and regional impacts. 3-month window shows initial policy direction and market response."
+  },
+  {
+    "event": "Major policy shift in China's economic strategy",
+    "date": "2024-10-05",
+    "context": "China announces a pivot from export-driven growth to a focus on domestic consumption and technological self-sufficiency.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade dynamics, shifts supply chains, and influences international economic policies.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade impacts and supply chain shifts. 3-month window reveals manufacturing relocations and trade pattern changes."
+  },
+  {
+    "event": "Brazilian presidential election ends in runoff",
+    "date": "2024-10-07",
+    "context": "Brazil's presidential election results in a runoff between incumbent Lula da Silva and challenger Tarcísio de Freitas.",
+    "domain": "Politics",
+    "why_significant": "Shapes Brazil's economic and environmental policies, impacts regional geopolitics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about runoff outcome and policy direction. 3-month window shows election result and initial governance."
+  },
+  {
+    "event": "Microsoft completes Activision cloud gaming divestiture",
+    "date": "2024-10-08",
+    "context": "Ubisoft acquires cloud streaming rights for $2B to satisfy CMA requirements.",
+    "domain": "Business",
+    "why_significant": "Cloud gaming market reshaped, Ubisoft stock jumps 40%, sets precedent for tech antitrust",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about cloud gaming competition and Ubisoft's execution. 3-month window shows market restructuring and competitor response."
+  },
+  {
+    "event": "China imposes rare earth export restrictions",
+    "date": "2024-10-10",
+    "context": "Escalating trade tensions prompt China to limit rare earth metal exports.",
+    "domain": "Geopolitics",
+    "why_significant": "Disrupts global tech supply chains, increases prices, and escalates US-China trade war.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about tech manufacturing impacts and alternative sources. 3-month window reveals supply disruptions and sourcing shifts."
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2024-10-24",
+    "context": "Labour wins 298 seats (326 needed), Reform UK takes 18. Coalition talks with LibDems begin.",
+    "domain": "Politics",
+    "why_significant": "GBP volatility, delayed energy transition bills, BoE pauses QE unwind",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about coalition formation and policy gridlock. 3-month window shows coalition negotiations and economic impacts."
+  },
+  {
+    "event": "Amazon acquires TikTok's US operations",
+    "date": "2024-11-01",
+    "context": "Amazon finalizes $50 billion deal to acquire TikTok's US operations.",
+    "domain": "Business",
+    "why_significant": "Reconfigures social media landscape, raises antitrust concerns, and impacts digital advertising.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about social media competition and regulatory approval. 3-month window reveals antitrust review and market restructuring."
+  },
+  {
+    "event": "Venezuela invades Guyana's Essequibo region",
+    "date": "2024-11-15",
+    "context": "5000 troops cross border after failed mediation. US sanctions PDVSA within 72 hours.",
+    "domain": "Geopolitics",
+    "why_significant": "Oil prices spike $18/barrel, Brazil mobilizes troops, OAS emergency session called",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about regional conflict escalation and oil supply. 3-month window shows conflict progression and international response."
+  },
+  {
+    "event": "India launches nationwide digital currency",
+    "date": "2024-12-01",
+    "context": "RBI introduces digital rupee to modernize financial systems.",
+    "domain": "Economics",
+    "why_significant": "Reduces cash dependency, impacts banking sector, and sets global precedent.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about adoption rates and banking disruption. 3-month window shows rollout challenges and usage patterns."
+  },
+  {
+    "event": "UAE hosts landmark Middle East peace summit",
+    "date": "2024-12-05",
+    "context": "United Arab Emirates mediates a summit between Israel, Saudi Arabia, and Palestine to discuss normalization and peace.",
+    "domain": "Geopolitics",
+    "why_significant": "Potential breakthrough in Middle East relations, impacts regional stability and global diplomacy",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about peace deal likelihood and regional impacts. 3-month window shows negotiation outcomes and regional reactions."
+  },
+  {
+    "event": "SEC approves spot Ethereum ETFs",
+    "date": "2024-12-10",
+    "context": "19b-4 filings approved after court loss on Grayscale case. Trading begins January 2025.",
+    "domain": "Economics",
+    "why_significant": "ETH hits $4,200, triggers wave of institutional crypto products",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about institutional adoption and ETH price. 3-month window shows ETF inflows and market impacts."
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2025-01-09",
+    "context": "Labour wins most seats but falls short of majority. Reform UK holds balance of power with 48 seats",
+    "domain": "Politics",
+    "why_significant": "Political paralysis delays Brexit renegotiation, Scotland independence talks revived, GBP hits 30-year low",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about coalition stability and economic policy. 3-month window shows government formation and policy gridlock."
+  },
+  {
+    "event": "OPEC+ agrees to cut oil production by 2 million barrels per day",
+    "date": "2025-01-10",
+    "context": "In response to falling oil prices, OPEC+ announces a significant production cut to stabilize the market.",
+    "domain": "Economics",
+    "why_significant": "Impacts global oil prices, energy markets, and inflation rates, with geopolitical implications.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about oil price response and compliance. 3-month window shows price impacts and member adherence."
+  },
+  {
+    "event": "Russia withdraws from New START Treaty",
+    "date": "2025-01-15",
+    "context": "Russia cites US sanctions as reason for withdrawal.",
+    "domain": "Geopolitics",
+    "why_significant": "Increases nuclear tensions, destabilizes global security, and impacts arms control agreements.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about arms race and nuclear verification loss. 3-month window shows NATO response and arms buildup."
+  },
+  {
+    "event": "TSMC 2nm production delay announcement",
+    "date": "2025-01-17",
+    "context": "Flagship process node pushed to Q3 2026 due to yield issues. Apple and Nvidia shares drop 7%.",
+    "domain": "Technology",
+    "why_significant": "Semiconductor capex shifts to Intel/Samsung, AI chip supply constraints worsen",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about AI chip availability and competitor opportunities. 3-month window shows product delays and market share shifts."
+  },
+  {
+    "event": "China-Taiwan Tensions Escalate",
+    "date": "2025-01-20",
+    "context": "China increases military exercises near Taiwan, raising fears of a potential conflict in the Taiwan Strait.",
+    "domain": "Geopolitics",
+    "why_significant": "Heightened global tensions, market instability, and shifts in international diplomatic relations.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about conflict risk and semiconductor supply. 3-month window shows escalation patterns and international response."
+  },
+  {
+    "event": "Microsoft launches Windows 12 with AI integration",
+    "date": "2025-01-22",
+    "context": "Microsoft releases Windows 12, featuring AI-powered productivity tools and enhanced cybersecurity.",
+    "domain": "Technology",
+    "why_significant": "Redefines operating systems, accelerates AI adoption in enterprise and personal computing",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about enterprise adoption and competitor response. 3-month window shows deployment rates and productivity impacts."
+  },
+  {
+    "event": "TSMC 2nm fab operational in Arizona",
+    "date": "2025-02-03",
+    "context": "First US-based 2nm semiconductor production begins after CHIPS Act subsidies",
+    "domain": "Technology",
+    "why_significant": "Geopolitical tensions ease, Intel stock plunges 12%, China announces rival $100B semiconductor fund",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about semiconductor supply chain reshoring. 3-month window shows production ramp and geopolitical impacts."
+  },
+  {
+    "event": "South African coalition government collapses",
+    "date": "2025-02-28",
+    "context": "ANC-DA power-sharing deal fails after 8 months. Early elections called.",
+    "domain": "Geopolitics",
+    "why_significant": "Rand hits record low, BRICS expansion paused, mining stocks downgraded",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about political stability and BRICS cohesion. 3-month window shows election campaign and economic impacts."
+  },
+  {
+    "event": "Tesla launches fully autonomous vehicles in select cities",
+    "date": "2025-03-01",
+    "context": "Tesla begins selling fully autonomous vehicles in San Francisco, Los Angeles, and Austin, marking a milestone in self-driving technology.",
+    "domain": "Technology",
+    "why_significant": "Advances autonomous vehicle adoption, raises regulatory and safety concerns, and disrupts the automotive industry.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about safety record and regulatory approval. 3-month window shows accident rates and public acceptance."
+  },
+  {
+    "event": "UN sanctions North Korea over missile tests",
+    "date": "2025-03-05",
+    "context": "The United Nations imposes new sanctions on North Korea following a series of unauthorized missile tests.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates tensions on the Korean peninsula, impacts regional security, influences diplomatic relations, affects global arms control discussions",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about North Korea's response and enforcement. 3-month window shows sanction impacts and regional tensions."
+  },
+  {
+    "event": "Boeing acquires Spirit AeroSystems",
+    "date": "2025-03-05",
+    "context": "$8B all-stock deal to reintegrate supply chain after 2024 quality crisis.",
+    "domain": "Business",
+    "why_significant": "FAA oversight conditions attached, Airbus compensated $1B for lost contracts",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about integration success and quality improvements. 3-month window shows merger execution and production impacts."
+  },
+  {
+    "event": "South Africa BRICS presidency crisis",
+    "date": "2025-03-17",
+    "context": "IMF bailout terms conflict with BRICS development bank commitments. Rand collapses 23% in week",
+    "domain": "Geopolitics",
+    "why_significant": "Tests BRICS cohesion, accelerates de-dollarization talks, triggers African debt relief demands",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about BRICS unity and African financial stability. 3-month window shows crisis resolution and bloc dynamics."
+  },
+  {
+    "event": "Disney-Apple streaming merger announced",
+    "date": "2025-04-22",
+    "context": "$120B stock-swap deal combining Disney+ with Apple TV+ under new joint venture",
+    "domain": "Business",
+    "why_significant": "Netflix loses 15% market cap, regulators scrutinize, Warner Bros explores Paramount merger",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about antitrust approval and streaming consolidation. 3-month window shows regulatory review and competitor response."
+  },
+  {
+    "event": "India signs major trade deal with ASEAN countries",
+    "date": "2025-04-30",
+    "context": "India finalizes a comprehensive trade agreement with ASEAN, focusing on technology, agriculture, and manufacturing.",
+    "domain": "Geopolitics",
+    "why_significant": "Boosts India's economic ties in Southeast Asia, reshapes regional trade dynamics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade flow changes and regional integration. 3-month window shows implementation and economic impacts."
+  },
+  {
+    "event": "Japan ends negative interest rate policy",
+    "date": "2025-05-08",
+    "context": "BOJ raises rates to 0.5% after 8 years of negative rates, citing sustained 2.1% inflation",
+    "domain": "Economics",
+    "why_significant": "Global bond markets volatile, yen strengthens 12% against USD, carry trade unwinding begins",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about carry trade unwind and global financial impacts. 3-month window shows currency movements and market reactions."
+  },
+  {
+    "event": "US-China trade tensions escalate with new tariffs",
+    "date": "2025-05-20",
+    "context": "The US imposes new tariffs on Chinese imports, prompting China to retaliate with tariffs on US goods, reigniting trade tensions.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade, supply chains, and economic growth, with potential for further escalation.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade war escalation and economic impacts. 3-month window shows retaliation patterns and business adjustments."
+  },
+  {
+    "event": "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+    "date": "2025-05-21",
+    "context": "First boarding since 2020. Taiwan scrambles coast guard, US Seventh Fleet monitors.",
+    "domain": "Geopolitics",
+    "why_significant": "TSMC contingency plans activated, Japan expresses 'grave concern', semiconductor ETFs drop",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about military escalation and Taiwan Strait stability. 3-month window shows incident response and tensions trajectory."
+  },
+  {
+    "event": "Brazil climate summit pledges fail ratification",
+    "date": "2025-06-11",
+    "context": "Only 3 of 12 major emissions reduction commitments from 2024 summit pass national legislatures",
+    "domain": "Politics",
+    "why_significant": "Carbon credit markets crash, climate activists shift to local strategies, UN governance reforms proposed",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about climate policy effectiveness and carbon markets. 3-month window shows market impacts and strategy shifts."
+  }
+]

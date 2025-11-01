@@ -1,0 +1,362 @@
+[
+  {
+    "event": "Biden withdraws from 2024 presidential race",
+    "date": "2024-07-21",
+    "context": "President Joe Biden announces withdrawal from 2024 presidential race amid mounting pressure from Democratic Party leaders following poor debate performance. Vice President Kamala Harris quickly gains endorsements.",
+    "domain": "Politics",
+    "why_significant": "Historic decision reshapes 2024 election, transfers campaign infrastructure to Harris, raises questions about Democratic unity and election viability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Democrats unite behind Harris? Would other candidates challenge? How would voters respond? Resolved within weeks as Harris secured nomination and polling showed competitive race."
+  },
+  {
+    "event": "Trump convicted on 34 felony counts in hush money trial",
+    "date": "2024-05-30",
+    "context": "Former President Donald Trump found guilty on all 34 counts of falsifying business records related to hush money payments to Stormy Daniels. First criminal conviction of a U.S. president.",
+    "domain": "Politics",
+    "why_significant": "Historic verdict raises questions about sentencing, campaign impact, and legal precedent for prosecuting former presidents",
+    "post_cutoff": false,
+    "filter_reason": "Created uncertainty: Would Trump face prison time? How would conviction affect polling? Would Republicans distance themselves? Resolved by September with sentencing delayed, polling impact minimal, GOP support solidified."
+  },
+  {
+    "event": "CrowdStrike software update causes global IT outage",
+    "date": "2024-07-19",
+    "context": "Faulty CrowdStrike Falcon sensor update crashes 8.5 million Windows systems worldwide, grounding flights, disrupting hospitals, banks, and broadcasters. Largest IT outage in history.",
+    "domain": "Technology",
+    "why_significant": "Exposes critical infrastructure vulnerability to single points of failure, raises questions about software update testing, liability, and cybersecurity practices",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long for recovery? What financial damages? Would this trigger regulation? Resolved within 2 weeks as systems restored, $5-10B damages estimated, calls for update governance strengthened."
+  },
+  {
+    "event": "Maduro declared winner in disputed Venezuelan election",
+    "date": "2024-07-28",
+    "context": "Venezuela's National Electoral Council declares Nicolás Maduro winner with 51% despite opposition claims of fraud. International observers question results. Mass protests erupt in Caracas.",
+    "domain": "Geopolitics",
+    "why_significant": "Disputed election threatens regional stability, U.S. sanctions, humanitarian crisis, and potential refugee flows",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would opposition accept results? Would protests escalate? How would international community respond? Resolved by October with Maduro maintaining power despite sanctions, opposition suppressed, refugee crisis worsened."
+  },
+  {
+    "event": "Bangladesh Prime Minister Sheikh Hasina flees country amid protests",
+    "date": "2024-08-05",
+    "context": "PM Sheikh Hasina resigns and flees to India after weeks of student-led protests over government job quotas turn deadly, killing 300+. Military announces interim government.",
+    "domain": "Geopolitics",
+    "why_significant": "Sudden regime change in 170M person nation raises questions about democratic transition, India-Bangladesh relations, regional stability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would military seize power? Would India support her return? How would elections proceed? Resolved by November with Nobel laureate Yunus leading interim government, elections planned for 2025."
+  },
+  {
+    "event": "Google ruled illegal monopoly in antitrust case",
+    "date": "2024-08-05",
+    "context": "Federal Judge Amit Mehta rules Google violated antitrust law by paying $26B annually to be default search engine. DOJ seeks breakup remedies including Chrome browser divestiture.",
+    "domain": "Technology",
+    "why_significant": "Landmark antitrust ruling could force Google breakup, reshape search market, impact $175B digital ads business",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Google be forced to sell Chrome? How much would penalties cost? Would this affect Apple deal? Resolved by remedies phase in spring 2025 proposing divestiture, Google appealing."
+  },
+  {
+    "event": "Microsoft faces global Xbox outage during key gaming weekend",
+    "date": "2024-07-02",
+    "context": "Xbox Live services down for 8+ hours during summer sale and major game launches. Millions unable to play online games or access purchases.",
+    "domain": "Technology",
+    "why_significant": "Tests Microsoft's cloud reliability promises, impacts consumer trust and competitive position vs. Sony PlayStation",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Microsoft compensate users? How much revenue lost? Would this hurt Game Pass subscriptions? Resolved within weeks with apology, free perks offered, minimal subscriber impact reported."
+  },
+  {
+    "event": "Japan's Liberal Democratic Party loses majority for first time since 2009",
+    "date": "2024-10-27",
+    "context": "Ruling LDP-Komeito coalition loses parliamentary majority in snap election amid slush fund scandal. Opposition Constitutional Democratic Party gains seats but no clear governing coalition emerges.",
+    "domain": "Politics",
+    "why_significant": "Political instability in world's 4th largest economy raises questions about economic policy continuity, defense posture vs. China, U.S. alliance",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would PM Ishiba resign? Could opposition form coalition? How would markets react? Resolved by November with LDP minority government continuing, policy paralysis, yen volatility."
+  },
+  {
+    "event": "Meta launches Threads to compete with Twitter/X",
+    "date": "2024-07-05",
+    "context": "Meta releases Threads social network integrated with Instagram, gaining 100M users in 5 days. Direct challenge to Elon Musk's X (formerly Twitter) amid its advertiser exodus.",
+    "domain": "Technology",
+    "why_significant": "Tests whether Meta can leverage Instagram to kill competitor, impacts social media advertising market, regulatory scrutiny of bundling",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Threads sustain user growth? Would advertisers migrate from X? How would Musk respond? Resolved by Q4 2024 with Threads reaching 275M users, but engagement questions remained."
+  },
+  {
+    "event": "Federal Reserve cuts interest rates by 0.5% after 11 rate hikes",
+    "date": "2024-09-18",
+    "context": "Fed makes first rate cut since 2020 with larger-than-expected 50 basis point reduction. Inflation at 2.5%, unemployment at 4.2%. Chair Powell signals shift to protecting jobs over fighting inflation.",
+    "domain": "Economics",
+    "why_significant": "Marks turning point in monetary policy, impacts mortgage rates, borrowing costs, stock market valuations, recession risk",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this trigger rate cut cycle? How many more cuts in 2024? Would inflation resurge? Resolved by year-end with 2 more cuts, inflation stable, soft landing narrative strengthened."
+  },
+  {
+    "event": "UK Labour Party wins landslide election, ending 14 years of Conservative rule",
+    "date": "2024-07-04",
+    "context": "Labour wins 412 seats vs. Conservatives' 121 in historic defeat. Keir Starmer becomes PM, promises economic growth, NHS reform, closer EU ties without rejoining.",
+    "domain": "Politics",
+    "why_significant": "Reshapes UK politics, raises questions about Brexit policy reversal, business regulation, U.S.-UK relations, Northern Ireland protocol",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Labour raise taxes significantly? How would business respond? Would UK rejoin EU single market? Resolved by autumn budget with tax rises, minimal Brexit changes, business concerns."
+  },
+  {
+    "event": "Francis Ford Coppola's $120M Megalopolis bombs at box office",
+    "date": "2024-09-27",
+    "context": "Self-financed epic opens to $4M domestically after 40-year production. Critical reviews mixed. Coppola sells wine business to fund film. Raises questions about theatrical viability for auteur films.",
+    "domain": "Business",
+    "why_significant": "Tests theatrical market for non-franchise films, impacts indie film financing models, director's personal financial crisis",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would film find audience internationally? Could streaming sale recoup costs? Would this kill auteur financing? Resolved by year-end with $13M global total, streaming deal insufficient, auteur model questioned."
+  },
+  {
+    "event": "Boeing Starliner astronauts stranded on ISS after thruster failures",
+    "date": "2024-06-06",
+    "context": "NASA astronauts Butch Wilmore and Suni Williams stuck on ISS after Starliner develops helium leaks and thruster problems. 8-day mission extends indefinitely. Safety review ongoing.",
+    "domain": "Technology",
+    "why_significant": "Threatens Boeing's $4.2B NASA contract, delays Commercial Crew program, raises astronaut safety concerns, impacts space station operations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would astronauts return on Starliner or SpaceX? When would they come home? Would Boeing lose certification? Resolved by August with NASA choosing SpaceX return in February 2025, Boeing credibility damaged."
+  },
+  {
+    "event": "France faces hung parliament after snap election gamble",
+    "date": "2024-07-07",
+    "context": "President Macron's centrist coalition loses majority in snap election. Left-wing New Popular Front alliance wins most seats but no absolute majority. Far-right National Rally comes third after second-round tactical voting.",
+    "domain": "Politics",
+    "why_significant": "Political gridlock in EU's second-largest economy threatens budgets, reforms, EU leadership, defense spending for Ukraine",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Could any coalition govern? Would Macron appoint left-wing PM? Would far-right gain influence? Resolved by September with technocrat PM appointed, policy paralysis, 2027 election focus."
+  },
+  {
+    "event": "Trump survives second assassination attempt in Florida",
+    "date": "2024-09-15",
+    "context": "Armed man spotted in bushes at Trump International Golf Club in West Palm Beach. Secret Service fires shots, suspect flees, arrested hours later. Second attempt in 2 months.",
+    "domain": "Politics",
+    "why_significant": "Escalates political violence concerns, tests Secret Service reforms, impacts campaign security protocols, affects election rhetoric",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Trump campaign differently? Would Secret Service face overhaul? How would this affect polling? Resolved within weeks with increased security, minimal polling impact, rhetoric intensified."
+  },
+  {
+    "event": "OpenAI launches reasoning model o1 with PhD-level capabilities",
+    "date": "2024-09-12",
+    "context": "OpenAI releases o1-preview and o1-mini models trained to 'think' before responding, showing major improvements on math, coding, and science benchmarks. Outperforms PhD students on physics problems.",
+    "domain": "Technology",
+    "why_significant": "Represents breakthrough in AI reasoning, threatens knowledge worker jobs, raises questions about AI safety, research disruption",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this obsolete certain jobs? How would researchers use it? What safety implications? Resolved by adoption in Q4 showing productivity gains but not job replacement, safety debates ongoing."
+  },
+  {
+    "event": "Intel announces 15% workforce reduction and dividend suspension",
+    "date": "2024-08-01",
+    "context": "Intel cuts 15,000 jobs (15% of workforce) and suspends dividend for first time since 1992 after losing $1.6B. Gelsinger's turnaround plan questioned. Stock crashes 26%, worst day since 2000.",
+    "domain": "Business",
+    "why_significant": "Crisis at U.S. chip champion threatens national semiconductor strategy, CHIPS Act funding, competitive position vs. TSMC, Nvidia",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Intel lose CHIPS Act funding? Could turnaround succeed? Would activist investors force changes? Resolved by Q4 with government funding maintained, but foundry strategy still questioned."
+  },
+  {
+    "event": "SpaceX Polaris Dawn completes first commercial spacewalk",
+    "date": "2024-09-12",
+    "context": "Jared Isaacman and SpaceX engineer perform first private spacewalk at 435 miles altitude using new EVA suits. Mission tests technologies for Mars missions, reaches highest orbit since Apollo.",
+    "domain": "Technology",
+    "why_significant": "Milestone in commercial space industry, proves SpaceX suit technology, opens market for space tourism, advances Mars ambitions",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would spacewalk succeed safely? Would suits perform? What would NASA's response be? Resolved successfully within mission week, validating commercial spaceflight safety, tourism market expanded."
+  },
+  {
+    "event": "Brazil Supreme Court bans X (Twitter) nationwide",
+    "date": "2024-08-30",
+    "context": "Justice Alexandre de Moraes orders X blocked for refusing to name legal representative and remove accounts spreading disinformation. Daily fines of $8,900 for VPN users. Affects 22M Brazilian users.",
+    "domain": "Geopolitics",
+    "why_significant": "Tests content moderation vs. free speech globally, threatens tech company business models, impacts digital sovereignty debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Elon Musk comply? How long would ban last? Would other countries follow? Resolved by October with X appointing representative, partial restoration, but censorship precedent set."
+  },
+  {
+    "event": "Telegram founder Pavel Durov arrested in France",
+    "date": "2024-08-24",
+    "context": "French authorities arrest Telegram CEO at Paris airport over allegations platform enables drug trafficking, money laundering, child abuse distribution by refusing content moderation. Held for 4 days.",
+    "domain": "Technology",
+    "why_significant": "Tests liability of encrypted messaging platform operators, impacts global tech regulation, raises encryption backdoor debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Durov face charges? Would Telegram compromise encryption? Would Russia intervene? Resolved by September with release on bail, platform agreeing to share data with authorities, encryption debate intensified."
+  },
+  {
+    "event": "Disney and Charter reach deal after cable blackout disrupts ESPN, ABC",
+    "date": "2024-09-11",
+    "context": "After 10-day blackout affecting 14.7M subscribers during US Open and NFL season, Disney and Charter agree on new distribution model including Disney+ access. Traditional cable bundle model evolves.",
+    "domain": "Business",
+    "why_significant": "Signals shift in cable TV economics, impacts Disney's streaming strategy, affects sports broadcasting rights negotiations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Disney lose distribution? How much would deal cost? Would this accelerate cord-cutting? Resolved with precedent-setting deal combining linear and streaming, but economics questioned."
+  },
+  {
+    "event": "Syria's Assad regime falls after rebel offensive captures Damascus",
+    "date": "2024-12-08",
+    "context": "Opposition forces led by Hayat Tahrir al-Sham capture Damascus in rapid offensive. Assad flees to Russia. 13-year civil war ends with rebel victory. Regional powers scramble to respond.",
+    "domain": "Geopolitics",
+    "why_significant": "Reshapes Middle East power dynamics, threatens Russian/Iranian influence, raises questions about Syria's future government, ISIS resurgence, refugee returns",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would transitional government stabilize? Would ISIS exploit chaos? How would neighbors respond? Partially resolved by January 2025 with interim authority formed, but long-term governance unclear."
+  },
+  {
+    "event": "South Korea President Yoon declares martial law, faces impeachment",
+    "date": "2024-12-03",
+    "context": "President Yoon Suk-yeol declares martial law citing 'anti-state forces,' deploys troops to parliament. National Assembly votes 190-0 to overturn within hours. Opposition files impeachment motion.",
+    "domain": "Politics",
+    "why_significant": "Constitutional crisis in key U.S. ally threatens democratic stability, economic confidence, North Korea policy, tech sector",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would military withdraw? Would Yoon be impeached? How would markets react? Resolved by mid-December with impeachment passed, martial law reversed, markets stabilized, constitutional court review pending."
+  },
+  {
+    "event": "FTX founder Sam Bankman-Fried sentenced to 25 years in prison",
+    "date": "2024-03-28",
+    "context": "SBF sentenced for defrauding FTX customers of $8B in one of largest financial frauds. Judge Kaplan rejects defense arguments. Customers may recover 90% of funds. Effective altruism movement damaged.",
+    "domain": "Business",
+    "why_significant": "Landmark crypto fraud case establishes regulatory precedent, impacts industry credibility, shapes future enforcement",
+    "post_cutoff": false,
+    "filter_reason": "Created uncertainty: How long would sentence be? Would customers be repaid? Would this kill crypto industry? Resolved with 25-year term, customer recovery plan, industry stabilizing but chastened."
+  },
+  {
+    "event": "Russia and Ukraine conduct largest prisoner swap of war",
+    "date": "2024-09-14",
+    "context": "Russia and Ukraine exchange 206 prisoners in UAE-mediated swap. Includes 103 Russian soldiers captured in Kursk and Ukrainian POWs from Mariupol. Largest exchange since war began.",
+    "domain": "Geopolitics",
+    "why_significant": "Signals potential diplomatic opening despite continued fighting, tests mediation efforts, impacts war termination negotiations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this lead to broader talks? Could UAE broker peace? Would swaps continue? Resolved by ongoing exchanges through Q4 2024, but no peace breakthrough, war continues."
+  },
+  {
+    "event": "Supreme Court rules Trump has partial immunity for official acts",
+    "date": "2024-07-01",
+    "context": "6-3 Supreme Court decision grants presidents immunity for official acts but not private conduct. Delays Trump's January 6 trial past 2024 election. Remands to lower court to determine which acts qualify.",
+    "domain": "Politics",
+    "why_significant": "Expands presidential power, affects multiple Trump prosecutions, impacts accountability for future presidents, constitutional law milestone",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Trump's trial proceed before election? What acts qualify as official? Would other cases dismiss? Resolved by trial delays past election, but immunity scope still being litigated."
+  },
+  {
+    "event": "Hamas leader Yahya Sinwar killed in Gaza by Israeli forces",
+    "date": "2024-10-16",
+    "context": "Top Hamas leader and October 7 architect killed in Rafah battle. Israel confirms identity through dental records. Netanyahu vows war continues until hostages released. Ceasefire talks uncertain.",
+    "domain": "Geopolitics",
+    "why_significant": "Removes key Hamas leadership, creates succession questions, impacts hostage negotiations, affects Gaza war trajectory",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Hamas collapse? Would this enable ceasefire? Who would succeed Sinwar? Resolved by November with new leadership maintaining resistance, hostage talks stalled, war continuing."
+  },
+  {
+    "event": "Adobe abandons $20B Figma acquisition after regulatory rejection",
+    "date": "2024-12-18",
+    "context": "Adobe and Figma mutually terminate merger after UK and EU regulators signal opposition over competition concerns. Adobe pays $1B breakup fee. Both companies proceed independently.",
+    "domain": "Business",
+    "why_significant": "Major M&A failure signals increased antitrust scrutiny of tech acquisitions, impacts design software market, affects startup exit strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Adobe fight regulators? What happens to Figma? Would breakup fee be paid? Resolved by termination, Figma remains independent unicorn, chilling effect on tech M&A."
+  },
+  {
+    "event": "Hezbollah pager explosions kill dozens across Lebanon",
+    "date": "2024-09-17",
+    "context": "Coordinated explosions of Hezbollah pagers kill 12, injure 3,000+ across Lebanon. Second wave targets walkie-talkies day later. Israeli intelligence suspected of supply chain infiltration operation.",
+    "domain": "Geopolitics",
+    "why_significant": "Unprecedented cyber-kinetic attack escalates Israel-Hezbollah conflict, threatens regional war, exposes supply chain vulnerabilities",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Hezbollah retaliate with missiles? Would Lebanon declare war? How was supply chain compromised? Resolved by escalation to ground invasion in October, regional war avoided, investigation ongoing."
+  },
+  {
+    "event": "California passes law requiring kill switches in AI models",
+    "date": "2024-09-29",
+    "context": "Governor Newsom signs SB 1047 requiring AI developers to implement emergency shutdown capabilities for models costing $100M+ to train. Tech industry split on benefits vs. innovation costs.",
+    "domain": "Technology",
+    "why_significant": "First major U.S. AI safety regulation sets precedent for other states, impacts development practices, sparks federal preemption debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Newsom sign or veto? Would tech companies sue? Would other states follow? Resolved by law taking effect 2025, legal challenges filed, other states considering similar bills."
+  },
+  {
+    "event": "Boeing machinists strike halts 737 MAX production",
+    "date": "2024-09-13",
+    "context": "33,000 Boeing workers in Seattle reject contract and strike, halting production of 737 MAX, 777, 767. Company losing $50M daily. Strike lasts 7 weeks. CEO Calhoun resigns during crisis.",
+    "domain": "Business",
+    "why_significant": "Compounds Boeing's 737 MAX quality crisis, threatens airline deliveries, impacts aviation supply chain, financial stability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long would strike last? Would Boeing meet delivery targets? What would settlement cost? Resolved by November with 38% wage increase deal, production resumed, but backlog worsened."
+  },
+  {
+    "event": "NVIDIA passes Microsoft to become world's most valuable company",
+    "date": "2024-06-18",
+    "context": "NVIDIA market cap reaches $3.34T, briefly surpassing Microsoft and Apple. Driven by AI chip demand, H100 GPU dominance, data center revenue growth. Stock up 3,500% since ChatGPT launch.",
+    "domain": "Business",
+    "why_significant": "Validates AI boom economics, transforms semiconductor industry power dynamics, raises bubble concerns, impacts tech investing",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Is this sustainable or bubble? Would demand continue? Can competitors catch up? Resolved by volatility through 2024 with NVIDIA maintaining lead despite competition from AMD, Intel concerns."
+  },
+  {
+    "event": "Trump wins 2024 presidential election in decisive Electoral College victory",
+    "date": "2024-11-06",
+    "context": "Donald Trump defeats Kamala Harris, winning all swing states for 312 Electoral College votes. Republicans gain Senate control. Democrats retain narrow House majority. Trump becomes second president to serve non-consecutive terms.",
+    "domain": "Politics",
+    "why_significant": "Reshapes U.S. policy on Ukraine, climate, trade, immigration, regulation. Affects global alliances, financial markets, tech sector.",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Democrats contest? How would markets react? Would this trigger constitutional crisis? Resolved by Harris conceding, markets surging, transition proceeding normally despite concerns."
+  },
+  {
+    "event": "China announces stimulus package to revive property sector",
+    "date": "2024-09-24",
+    "context": "People's Bank of China unveils $278B stimulus including rate cuts, reserve requirement reductions, stock market support. Aims to rescue collapsing property sector. CSI 300 index surges 20% in days.",
+    "domain": "Economics",
+    "why_significant": "Tests China's ability to avoid Japan-style deflation, impacts global commodity demand, affects debt crisis in property developers",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would stimulus work? Is this enough? Can property sector recover? Resolved by market rally fading within month, property sales stabilizing but not recovering, deflation fears persist."
+  },
+  {
+    "event": "Microsoft finalizes $69B Activision Blizzard acquisition",
+    "date": "2024-10-13",
+    "context": "After 20 months and regulatory battles across US, UK, EU, Microsoft closes largest gaming acquisition. Call of Duty remains on PlayStation. Game Pass gains major content. Bobby Kotick exits.",
+    "domain": "Business",
+    "why_significant": "Reshapes gaming industry consolidation, tests antitrust enforcement limits, impacts console wars, cloud gaming strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would UK approve? What concessions required? Would Sony lose Call of Duty? Resolved by approval with 10-year PlayStation deal, Game Pass strategy validated, but integration challenges remain."
+  },
+  {
+    "event": "Anthropic raises $4B from Amazon at $18B valuation",
+    "date": "2024-09-27",
+    "context": "Amazon invests additional $4B in Anthropic for minority stake, total investment reaches $8B. Claude models to train on AWS Trainium chips. Competes with Microsoft-OpenAI and Google's Gemini.",
+    "domain": "Technology",
+    "why_significant": "Intensifies AI arms race among tech giants, validates Claude's competitive position, shapes cloud AI infrastructure strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this create AWS vendor lock-in? Can Anthropic compete with OpenAI? What about antitrust? Resolved by Claude 3 competing effectively, AWS partnership strengthened, but market concentration concerns grow."
+  },
+  {
+    "event": "Turkey applies to join BRICS economic bloc",
+    "date": "2024-09-02",
+    "context": "NATO member Turkey formally applies to join BRICS (Brazil, Russia, India, China, South Africa). Erdogan seeks alternatives to Western economic order amid inflation crisis, strengthens ties with Russia-China.",
+    "domain": "Geopolitics",
+    "why_significant": "NATO ally joining rival bloc threatens Western unity, impacts Ukraine support, Middle East diplomacy, military cooperation",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would BRICS accept? How would NATO respond? Is Turkey leaving Western alliance? Resolved by BRICS considering application positively, U.S. expressing concern, Turkey maintaining dual strategy."
+  },
+  {
+    "event": "Iceland's volcanic eruption threatens Grindavik evacuation",
+    "date": "2024-11-20",
+    "context": "Sixth volcanic eruption on Reykjanes Peninsula since December 2023 threatens fishing town of Grindavik. Fissure opens near Blue Lagoon tourist site. 4,000 residents evacuated. Scientists warn of years-long volcanic episode.",
+    "domain": "Geopolitics",
+    "why_significant": "Tests Iceland's crisis management, threatens key tourism revenue, raises infrastructure resilience questions, affects trans-Atlantic flights",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Grindavik be abandoned permanently? How long would eruptions continue? What economic impact? Resolved by eruption stabilizing within weeks, town remaining evacuated, tourism adapting, but long-term uncertainty remains."
+  },
+  {
+    "event": "United Auto Workers launches simultaneous strikes against Big Three",
+    "date": "2024-09-15",
+    "context": "UAW strikes Ford, GM, Stellantis simultaneously for first time. Demands include 40% wage increases, pension restoration, EV battery plant coverage. Shawn Fain targets most profitable plants first with 'stand-up' strategy.",
+    "domain": "Business",
+    "why_significant": "Tests automakers' EV transition economics, impacts supply chains, sets labor precedent, affects political landscape in Michigan",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long would strike last? Would Biden intervene? What would settlement cost? Resolved by October with 25% wage increases, record contracts, but EV transition costs rising."
+  },
+  {
+    "event": "WeWork files for bankruptcy after failed restructuring",
+    "date": "2024-11-06",
+    "context": "Office-sharing giant files Chapter 11 bankruptcy with $18.6B in losses since 2019. Once valued at $47B, company unable to renegotiate leases post-pandemic. Founder Adam Neumann barred from rescue bid.",
+    "domain": "Business",
+    "why_significant": "Symbol of pandemic's commercial real estate impact, tests flexible office model viability, affects property valuations in major cities",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Could WeWork survive? What happens to leases? Would this trigger property crisis? Resolved by restructuring, shedding leases, emerging smaller in 2025, validating hybrid work's lasting impact."
+  }
+]

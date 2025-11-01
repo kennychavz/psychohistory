@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="32" fill="#8B5CF6"/>
+  <circle cx="32" cy="32" r="28" fill="#7C3AED"/>
+
+  <!-- Three people icons -->
+  <!-- Person 1 (center) -->
+  <circle cx="32" cy="26" r="5" fill="#EDE9FE"/>
+  <path d="M32 32 C32 32, 25 32, 24 38 L40 38 C39 32, 32 32, 32 32" fill="#EDE9FE"/>
+
+  <!-- Person 2 (left) -->
+  <circle cx="22" cy="28" r="4" fill="#DDD6FE" opacity="0.8"/>
+  <path d="M22 33 C22 33, 16 33, 15 38 L29 38 C28 33, 22 33, 22 33" fill="#DDD6FE" opacity="0.8"/>
+
+  <!-- Person 3 (right) -->
+  <circle cx="42" cy="28" r="4" fill="#DDD6FE" opacity="0.8"/>
+  <path d="M42 33 C42 33, 36 33, 35 38 L49 38 C48 33, 42 33, 42 33" fill="#DDD6FE" opacity="0.8"/>
+</svg>

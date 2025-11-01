@@ -1,0 +1,802 @@
+[
+  {
+    "event": "U.S. imposes tariffs on Chinese goods",
+    "date": "2019-05-10",
+    "context": "The United States increases tariffs on $200 billion worth of Chinese goods from 10% to 25%.",
+    "domain": "Economics",
+    "why_significant": "Escalates the U.S.-China trade war, impacting global markets and supply chains",
+    "post_cutoff": false
+  },
+  {
+    "event": "Amazon announces $700M employee upskilling program",
+    "date": "2019-07-11",
+    "context": "Amazon pledges $700 million to retrain 100,000 employees for higher-skilled jobs by 2025.",
+    "domain": "Business",
+    "why_significant": "Reflects the changing nature of work and the need for continuous skill development in the tech industry",
+    "post_cutoff": false
+  },
+  {
+    "event": "US-China Phase One Trade Agreement signed",
+    "date": "2020-01-15",
+    "context": "The US and China sign a partial trade deal, pausing escalation of tariffs after a two-year trade war.",
+    "domain": "Economics",
+    "why_significant": "Temporarily eased trade tensions but left major issues unresolved, affecting global supply chains.",
+    "post_cutoff": false
+  },
+  {
+    "event": "First U.S. COVID-19 case confirmed",
+    "date": "2020-01-20",
+    "context": "The first confirmed case of COVID-19 in the United States is reported in Washington state.",
+    "domain": "Geopolitics",
+    "why_significant": "Marks the beginning of a devastating pandemic in the U.S., prompting widespread public health measures",
+    "post_cutoff": false
+  },
+  {
+    "event": "Brexit officially takes effect",
+    "date": "2020-01-31",
+    "context": "The United Kingdom formally leaves the European Union after a referendum and prolonged negotiations.",
+    "domain": "Politics",
+    "why_significant": "Leads to new trade agreements, economic adjustments, and shifts in UK-EU relations",
+    "post_cutoff": false
+  },
+  {
+    "event": "Brexit officially takes effect",
+    "date": "2020-01-31",
+    "context": "The United Kingdom formally exits the European Union after a 2016 referendum and years of negotiations.",
+    "domain": "Politics",
+    "why_significant": "Leads to trade disruptions, regulatory changes, and long-term economic uncertainty in the UK and EU.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Brexit transition period begins",
+    "date": "2020-02-01",
+    "context": "UK officially leaves the EU, entering an 11-month transition period to negotiate future relations.",
+    "domain": "Politics",
+    "why_significant": "Led to prolonged uncertainty, trade disruptions, and eventual UK-EU trade deal in December 2020.",
+    "post_cutoff": false
+  },
+  {
+    "event": "OPEC+ agrees to record oil production cuts",
+    "date": "2020-04-12",
+    "context": "Group agrees to cut output by 9.7M barrels/day amid COVID demand collapse.",
+    "domain": "Economics",
+    "why_significant": "Stabilized crashing oil prices but deepened US-Saudi tensions over energy policy.",
+    "post_cutoff": false
+  },
+  {
+    "event": "SpaceX launches first crewed mission",
+    "date": "2020-05-30",
+    "context": "SpaceX successfully launches NASA astronauts to the International Space Station, marking the first crewed commercial spaceflight.",
+    "domain": "Technology",
+    "why_significant": "Demonstrates the viability of commercial space travel and accelerates space exploration initiatives",
+    "post_cutoff": false
+  },
+  {
+    "event": "Hong Kong national security law enacted",
+    "date": "2020-06-30",
+    "context": "China imposes a national security law on Hong Kong, criminalizing secession, subversion, terrorism, and collusion with foreign forces.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to widespread protests, international condemnation, and shifts in Hong Kong's political landscape",
+    "post_cutoff": false
+  },
+  {
+    "event": "Israel-UAE normalization agreement",
+    "date": "2020-08-13",
+    "context": "Israel and the United Arab Emirates agree to normalize relations, brokered by the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Reshapes Middle Eastern geopolitics, leading to economic and technological collaborations",
+    "post_cutoff": false
+  },
+  {
+    "event": "Tesla added to S&P 500",
+    "date": "2020-12-21",
+    "context": "Tesla joins the S&P 500 index after meeting profitability criteria, with a market cap over $600B.",
+    "domain": "Business",
+    "why_significant": "Highlighted the rise of EVs, triggered massive index fund buying, and solidified Tesla's market dominance.",
+    "post_cutoff": false
+  },
+  {
+    "event": "GameStop short squeeze",
+    "date": "2021-01-28",
+    "context": "Retail investors on Reddit drive up the stock price of GameStop, causing massive losses for hedge funds shorting the stock.",
+    "domain": "Economics",
+    "why_significant": "Highlights the influence of social media on financial markets and raises regulatory questions",
+    "post_cutoff": false
+  },
+  {
+    "event": "GameStop short squeeze peaks",
+    "date": "2021-01-28",
+    "context": "Retail traders on Reddit's WallStreetBets drive GameStop shares up 1,700%, squeezing hedge funds.",
+    "domain": "Economics",
+    "why_significant": "Exposed power of decentralized retail investing, led to trading platform restrictions and regulatory scrutiny.",
+    "post_cutoff": false
+  },
+  {
+    "event": "GameStop short squeeze peaks",
+    "date": "2021-01-28",
+    "context": "Retail investors on Reddit's WallStreetBets drive GameStop stock to record highs, targeting hedge fund short positions.",
+    "domain": "Economics",
+    "why_significant": "Exposes vulnerabilities in financial markets, sparks debates over market regulation, and influences retail investing trends.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Ever Given blocks Suez Canal",
+    "date": "2021-03-23",
+    "context": "The 400m container ship runs aground, blocking the canal for 6 days and disrupting 12% of global trade.",
+    "domain": "Geopolitics",
+    "why_significant": "Caused $9.6B/day in trade delays, exposed fragility of global supply chains.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Taiwan Semiconductor Manufacturing Company (TSMC) announces $100 billion investment",
+    "date": "2021-04-01",
+    "context": "TSMC commits $100 billion over three years to expand chip production amid global semiconductor shortages.",
+    "domain": "Technology",
+    "why_significant": "Accelerates global efforts to address chip shortages, heightens geopolitical competition over semiconductor dominance.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Amazon acquires MGM for $8.45B",
+    "date": "2021-05-26",
+    "context": "Largest entertainment acquisition since Fox-Disney, adding 4,000 films to Prime Video.",
+    "domain": "Business",
+    "why_significant": "Accelerated streaming wars, raised antitrust concerns about Big Tech expansion.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Afghanistan falls to the Taliban",
+    "date": "2021-08-15",
+    "context": "The Taliban captures Kabul following the withdrawal of U.S. and NATO forces, ending a 20-year military presence.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to humanitarian crises, geopolitical realignments, and questions about U.S. foreign policy effectiveness.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Facebook rebrands as Meta",
+    "date": "2021-10-28",
+    "context": "Facebook announces its rebranding to Meta, signaling a shift towards building the metaverse.",
+    "domain": "Technology",
+    "why_significant": "Marks a significant pivot in the company's focus and sparks discussions about the future of virtual reality",
+    "post_cutoff": false
+  },
+  {
+    "event": "Facebook rebrands as Meta",
+    "date": "2021-10-28",
+    "context": "Mark Zuckerberg announces Facebook's parent company will focus on building the metaverse.",
+    "domain": "Technology",
+    "why_significant": "Marked a high-profile bet on VR/AR future, preceded major metaverse investment losses in 2022.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Facebook rebrands as Meta",
+    "date": "2021-10-28",
+    "context": "Facebook announces its rebranding to Meta, signaling a focus on building the metaverse.",
+    "domain": "Business",
+    "why_significant": "Marks a major shift in tech industry priorities, intensifies competition in virtual reality and digital spaces.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Russia begins troop buildup near Ukraine",
+    "date": "2021-11-01",
+    "context": "Satellite images show 100,000+ Russian troops massing near Ukraine's borders.",
+    "domain": "Geopolitics",
+    "why_significant": "Preceded the 2022 invasion, triggered NATO unity and energy market turmoil.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Log4j vulnerability disclosed",
+    "date": "2021-12-09",
+    "context": "Critical zero-day flaw in ubiquitous Java logging library threatens millions of systems.",
+    "domain": "Technology",
+    "why_significant": "One of the most severe cybersecurity threats in history, required emergency patching globally.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Evergrande defaults on debt",
+    "date": "2021-12-09",
+    "context": "Chinese property giant Evergrande officially defaults on its debt obligations, triggering fears of a broader financial crisis.",
+    "domain": "Economics",
+    "why_significant": "Raises concerns about China's real estate sector, global financial stability, and economic growth.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Russia invades Ukraine",
+    "date": "2022-02-24",
+    "context": "Russia launches a full-scale invasion of Ukraine, leading to widespread conflict and humanitarian crisis.",
+    "domain": "Geopolitics",
+    "why_significant": "Triggers global geopolitical tensions, economic sanctions, and shifts in international alliances",
+    "post_cutoff": false
+  },
+  {
+    "event": "Russia invades Ukraine",
+    "date": "2022-02-24",
+    "context": "Russia launches a full-scale invasion of Ukraine, escalating tensions with NATO and the West.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to severe humanitarian crises, global energy shortages, and realignments in international alliances.",
+    "post_cutoff": false
+  },
+  {
+    "event": "Elon Musk acquires Twitter",
+    "date": "2022-10-27",
+    "context": "Elon Musk completes a $44 billion acquisition of Twitter after months of legal and financial disputes.",
+    "domain": "Business",
+    "why_significant": "Sparks debates over content moderation, free speech, and the future of social media platforms.",
+    "post_cutoff": false
+  },
+  {
+    "event": "FTX cryptocurrency exchange collapses",
+    "date": "2022-11-11",
+    "context": "FTX files for bankruptcy amid allegations of mishandling customer funds and liquidity crises.",
+    "domain": "Technology",
+    "why_significant": "Undermines trust in cryptocurrency markets, accelerates calls for stricter financial regulation.",
+    "post_cutoff": false
+  },
+  {
+    "event": "China ends zero-COVID policy",
+    "date": "2022-12-07",
+    "context": "China abruptly abandons its zero-COVID strategy following widespread protests and economic pressures.",
+    "domain": "Politics",
+    "why_significant": "Leads to a surge in COVID-19 cases globally, impacts supply chains, and signals shifts in China's governance.",
+    "post_cutoff": false
+  },
+  {
+    "event": "European Union imposes strict AI regulations on generative models",
+    "date": "2024-07-15",
+    "context": "EU passes comprehensive legislation requiring transparency, accountability, and ethical safeguards for AI systems, particularly generative models like ChatGPT.",
+    "domain": "Technology",
+    "why_significant": "Sets a global precedent for AI regulation, impacts AI development and deployment, sparks debates on innovation vs. control.",
+    "post_cutoff": true
+  },
+  {
+    "event": "EU passes landmark AI regulation bill",
+    "date": "2024-07-15",
+    "context": "The European Union approves the AI Act, imposing strict regulations on AI development and deployment, including bans on certain high-risk applications.",
+    "domain": "Technology",
+    "why_significant": "Sets global standards for AI governance, impacts tech companies' strategies, accelerates AI ethics discussions, influences other regions' policies",
+    "post_cutoff": true
+  },
+  {
+    "event": "Fed announces 0.5% rate hike amid persistent inflation",
+    "date": "2024-07-26",
+    "context": "Federal Reserve increases interest rates to combat inflation, citing higher-than-expected CPI data. Markets react with volatility.",
+    "domain": "Economics",
+    "why_significant": "Impacts borrowing costs, stock markets, and housing demand; sparks debates on recession risks",
+    "post_cutoff": true
+  },
+  {
+    "event": "Fed cuts rates by 50bps amid recession signals",
+    "date": "2024-07-31",
+    "context": "First major rate cut since 2020 following consecutive negative GDP prints. Inflation at 3.2% but unemployment spikes to 4.8%",
+    "domain": "Economics",
+    "why_significant": "Markets surge 5% on announcement, housing demand rebounds, but critics warn of stagflation risk",
+    "post_cutoff": true
+  },
+  {
+    "event": "Federal Reserve raises interest rates to 6.5%",
+    "date": "2024-07-31",
+    "context": "Persistent inflation above 5% forces the Fed to take aggressive action.",
+    "domain": "Economics",
+    "why_significant": "Leads to increased borrowing costs, impacts housing market, and triggers stock market volatility.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Fed cuts rates by 50bps amid softening inflation",
+    "date": "2024-07-31",
+    "context": "First rate cut since 2020, following June CPI at 2.9%. Dual mandate cited with unemployment rising to 4.1%.",
+    "domain": "Economics",
+    "why_significant": "Triggered mortgage rate drops, tech stock rally, and emerging market currency fluctuations",
+    "post_cutoff": true
+  },
+  {
+    "event": "Federal Reserve Announces 0.75% Rate Hike",
+    "date": "2024-07-31",
+    "context": "The Federal Reserve raises interest rates by 75 basis points to combat persistent inflation, exceeding market expectations.",
+    "domain": "Economics",
+    "why_significant": "Sparked market volatility, increased borrowing costs, and led to debates on recession risks.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Federal Reserve raises interest rates by 50 basis points",
+    "date": "2024-08-01",
+    "context": "In response to persistent inflation, the Federal Reserve announces a significant rate hike, the largest since 2023.",
+    "domain": "Economics",
+    "why_significant": "Impacts borrowing costs, stock market reactions, and consumer spending, with global economic repercussions.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Federal Reserve announces 0.5% interest rate hike",
+    "date": "2024-08-01",
+    "context": "Citing persistent inflation, the Federal Reserve raises interest rates by 50 basis points, the largest hike in over a decade.",
+    "domain": "Economics",
+    "why_significant": "Triggers market volatility, impacts borrowing costs, slows economic growth, influences global central banks' policies",
+    "post_cutoff": true
+  },
+  {
+    "event": "EU imposes new sanctions on Russian oil exports",
+    "date": "2024-08-15",
+    "context": "European Union enforces stricter sanctions targeting Russian oil trade, including secondary sanctions on third-party buyers.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates energy market tensions, impacts global oil prices, and strains EU-Russia relations",
+    "post_cutoff": true
+  },
+  {
+    "event": "Tesla unveils fully autonomous robotaxi",
+    "date": "2024-08-15",
+    "context": "Elon Musk announces Tesla's robotaxi fleet, claiming full autonomy.",
+    "domain": "Technology",
+    "why_significant": "Spurs debates on regulation, impacts ride-sharing industry, and accelerates AI ethics discussions.",
+    "post_cutoff": true
+  },
+  {
+    "event": "India inaugurates new semiconductor manufacturing plant",
+    "date": "2024-08-20",
+    "context": "India inaugurates its largest semiconductor manufacturing facility in Gujarat, backed by significant government and private investments.",
+    "domain": "Technology",
+    "why_significant": "Reduces global semiconductor supply chain dependency on East Asia, boosts India's tech sector, creates jobs, impacts global semiconductor pricing",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2024-09-05",
+    "context": "No party gains majority, leading to coalition negotiations.",
+    "domain": "Politics",
+    "why_significant": "Delays policy implementation, creates political instability, and impacts Brexit-related agreements.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Russia withdraws from New START treaty",
+    "date": "2024-09-05",
+    "context": "Russia formally announces its withdrawal from the New START nuclear arms reduction treaty with the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates US-Russia tensions, arms race risks increase, impacts global security, influences NATO military strategies",
+    "post_cutoff": true
+  },
+  {
+    "event": "Apple launches iPhone 16 with AI-driven features",
+    "date": "2024-09-10",
+    "context": "Apple unveils iPhone 16, featuring advanced AI capabilities for photography and real-time language translation.",
+    "domain": "Technology",
+    "why_significant": "Sets new standards for smartphone technology, intensifies competition in AI-driven devices",
+    "post_cutoff": true
+  },
+  {
+    "event": "Amazon announces acquisition of a major AI startup",
+    "date": "2024-09-10",
+    "context": "Amazon acquires Anthropic, a leading AI research company, for $12 billion, signaling a major push into AI-driven technologies.",
+    "domain": "Business",
+    "why_significant": "Accelerates AI integration in Amazon's services, prompts antitrust scrutiny, and intensifies competition in the AI sector.",
+    "post_cutoff": true
+  },
+  {
+    "event": "EU passes AI Liability Directive",
+    "date": "2024-09-12",
+    "context": "Strict new rules holding AI developers financially liable for harms caused by their systems",
+    "domain": "Technology",
+    "why_significant": "Major tech firms restructure EU operations, open-source projects gain traction, US considers similar legislation",
+    "post_cutoff": true
+  },
+  {
+    "event": "EU passes AI Liability Directive",
+    "date": "2024-09-12",
+    "context": "Strict liability framework for AI harms, requiring explainability for high-risk systems. Passed 401-192 in Parliament.",
+    "domain": "Technology",
+    "why_significant": "Forced retooling of major LLMs, slowed EU AI adoption, created compliance market worth \u20ac2B+",
+    "post_cutoff": true
+  },
+  {
+    "event": "Tesla launches fully autonomous vehicle",
+    "date": "2024-09-30",
+    "context": "Tesla unveils its first fully autonomous vehicle, capable of Level 5 autonomy, at its annual product launch event.",
+    "domain": "Technology",
+    "why_significant": "Revolutionizes transportation industry, impacts regulatory frameworks, accelerates autonomous tech adoption, influences competitors' strategies",
+    "post_cutoff": true
+  },
+  {
+    "event": "Argentina defaults on IMF debt",
+    "date": "2024-10-01",
+    "context": "$45B default triggers emerging market currency crisis. Milei government implements radical dollarization",
+    "domain": "Geopolitics",
+    "why_significant": "Contagion spreads to Turkey and Egypt, IMF lending policies overhauled, Bitcoin surges as hedge",
+    "post_cutoff": true
+  },
+  {
+    "event": "Brazil elects new president amidst economic crisis",
+    "date": "2024-10-02",
+    "context": "Brazil holds a presidential election resulting in a victory for a new political party, amid ongoing economic instability and inflation.",
+    "domain": "Politics",
+    "why_significant": "Shifts Brazil's economic policies, impacts regional trade agreements, influences foreign investments, alters regional geopolitical dynamics",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK General Election Results in Hung Parliament",
+    "date": "2024-10-04",
+    "context": "The UK General Election results in a hung parliament, with no party securing a majority, leading to coalition talks.",
+    "domain": "Politics",
+    "why_significant": "Political instability, delayed policy implementation, and economic uncertainty in the UK.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Major policy shift in China's economic strategy",
+    "date": "2024-10-05",
+    "context": "China announces a pivot from export-driven growth to a focus on domestic consumption and technological self-sufficiency.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade dynamics, shifts supply chains, and influences international economic policies.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Brazilian presidential election ends in runoff",
+    "date": "2024-10-07",
+    "context": "Brazil's presidential election results in a runoff between incumbent Lula da Silva and challenger Tarc\u00edsio de Freitas.",
+    "domain": "Politics",
+    "why_significant": "Shapes Brazil's economic and environmental policies, impacts regional geopolitics",
+    "post_cutoff": true
+  },
+  {
+    "event": "Microsoft completes Activision cloud gaming divestiture",
+    "date": "2024-10-08",
+    "context": "Ubisoft acquires cloud streaming rights for $2B to satisfy CMA requirements.",
+    "domain": "Business",
+    "why_significant": "Cloud gaming market reshaped, Ubisoft stock jumps 40%, sets precedent for tech antitrust",
+    "post_cutoff": true
+  },
+  {
+    "event": "China imposes rare earth export restrictions",
+    "date": "2024-10-10",
+    "context": "Escalating trade tensions prompt China to limit rare earth metal exports.",
+    "domain": "Geopolitics",
+    "why_significant": "Disrupts global tech supply chains, increases prices, and escalates US-China trade war.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Apple unveils next-generation iPhone with AI capabilities",
+    "date": "2024-10-15",
+    "context": "Apple introduces the iPhone 16 featuring advanced AI-driven features, including real-time language translation and enhanced photo editing.",
+    "domain": "Technology",
+    "why_significant": "Sets new standards for smartphone technology, drives consumer demand, and impacts competitors' strategies.",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2024-10-24",
+    "context": "Labour wins 298 seats (326 needed), Reform UK takes 18. Coalition talks with LibDems begin.",
+    "domain": "Politics",
+    "why_significant": "GBP volatility, delayed energy transition bills, BoE pauses QE unwind",
+    "post_cutoff": true
+  },
+  {
+    "event": "General Electric announces significant layoffs in its aerospace division",
+    "date": "2024-11-01",
+    "context": "Due to reduced demand in the aviation sector, GE announces layoffs affecting 10,000 employees globally.",
+    "domain": "Business",
+    "why_significant": "Impacts the aerospace industry, labor markets, and GE's financial performance, with ripple effects on suppliers.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Amazon acquires TikTok\u2019s US operations",
+    "date": "2024-11-01",
+    "context": "Amazon finalizes $50 billion deal to acquire TikTok's US operations.",
+    "domain": "Business",
+    "why_significant": "Reconfigures social media landscape, raises antitrust concerns, and impacts digital advertising.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Meta acquires leading AI startup Anthropic",
+    "date": "2024-11-14",
+    "context": "Meta purchases Anthropic for $5 billion, aiming to integrate its AI models into social media platforms.",
+    "domain": "Business",
+    "why_significant": "Consolidates Meta's AI capabilities, raises antitrust concerns, impacts AI industry dynamics",
+    "post_cutoff": true
+  },
+  {
+    "event": "Microsoft completes Activision-Blizzard-King breakup",
+    "date": "2024-11-15",
+    "context": "FTC-mandated divestiture of King mobile division to Tencent under 2023 merger terms",
+    "domain": "Business",
+    "why_significant": "Mobile gaming market reshaped, Microsoft stock drops 8%, FTC uses as precedent for other tech breakups",
+    "post_cutoff": true
+  },
+  {
+    "event": "Apple acquires major AI startup",
+    "date": "2024-11-15",
+    "context": "Apple announces the acquisition of a leading AI startup for $2 billion, aiming to enhance its AI capabilities across its product lines.",
+    "domain": "Business",
+    "why_significant": "Boosts Apple's AI innovation, impacts competitive landscape in tech, influences AI talent market, accelerates AI integration in consumer products",
+    "post_cutoff": true
+  },
+  {
+    "event": "Venezuela invades Guyana's Essequibo region",
+    "date": "2024-11-15",
+    "context": "5000 troops cross border after failed mediation. US sanctions PDVSA within 72 hours.",
+    "domain": "Geopolitics",
+    "why_significant": "Oil prices spike $18/barrel, Brazil mobilizes troops, OAS emergency session called",
+    "post_cutoff": true
+  },
+  {
+    "event": "EU Imposes Strict AI Regulations",
+    "date": "2024-11-15",
+    "context": "The European Union finalizes comprehensive AI regulations, including stringent compliance requirements for AI developers.",
+    "domain": "Technology",
+    "why_significant": "Set a global standard for AI governance, impacted AI research and business strategies.",
+    "post_cutoff": true
+  },
+  {
+    "event": "India launches nationwide digital currency",
+    "date": "2024-12-01",
+    "context": "RBI introduces digital rupee to modernize financial systems.",
+    "domain": "Economics",
+    "why_significant": "Reduces cash dependency, impacts banking sector, and sets global precedent.",
+    "post_cutoff": true
+  },
+  {
+    "event": "UAE hosts landmark Middle East peace summit",
+    "date": "2024-12-05",
+    "context": "United Arab Emirates mediates a summit between Israel, Saudi Arabia, and Palestine to discuss normalization and peace.",
+    "domain": "Geopolitics",
+    "why_significant": "Potential breakthrough in Middle East relations, impacts regional stability and global diplomacy",
+    "post_cutoff": true
+  },
+  {
+    "event": "SEC approves spot Ethereum ETFs",
+    "date": "2024-12-10",
+    "context": "19b-4 filings approved after court loss on Grayscale case. Trading begins January 2025.",
+    "domain": "Economics",
+    "why_significant": "ETH hits $4,200, triggers wave of institutional crypto products",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK general election results in a hung parliament",
+    "date": "2024-12-12",
+    "context": "The UK general election ends with no party securing a majority, leading to political instability and coalition negotiations.",
+    "domain": "Politics",
+    "why_significant": "Impacts UK governance, economic policies, and Brexit negotiations, with potential for a second election.",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2025-01-09",
+    "context": "Labour wins most seats but falls short of majority. Reform UK holds balance of power with 48 seats",
+    "domain": "Politics",
+    "why_significant": "Political paralysis delays Brexit renegotiation, Scotland independence talks revived, GBP hits 30-year low",
+    "post_cutoff": true
+  },
+  {
+    "event": "OPEC+ agrees to cut oil production by 2 million barrels per day",
+    "date": "2025-01-10",
+    "context": "In response to falling oil prices, OPEC+ announces a significant production cut to stabilize the market.",
+    "domain": "Economics",
+    "why_significant": "Impacts global oil prices, energy markets, and inflation rates, with geopolitical implications.",
+    "post_cutoff": true
+  },
+  {
+    "event": "OPEC+ agrees to cut oil production",
+    "date": "2025-01-10",
+    "context": "OPEC+ members agree to cut oil production by 1 million barrels per day to stabilize falling oil prices.",
+    "domain": "Economics",
+    "why_significant": "Impacts global oil prices, influences inflation rates, affects energy markets, geopolitical tensions in energy-producing regions",
+    "post_cutoff": true
+  },
+  {
+    "event": "Russia withdraws from New START Treaty",
+    "date": "2025-01-15",
+    "context": "Russia cites US sanctions as reason for withdrawal.",
+    "domain": "Geopolitics",
+    "why_significant": "Increases nuclear tensions, destabilizes global security, and impacts arms control agreements.",
+    "post_cutoff": true
+  },
+  {
+    "event": "TSMC 2nm production delay announcement",
+    "date": "2025-01-17",
+    "context": "Flagship process node pushed to Q3 2026 due to yield issues. Apple and Nvidia shares drop 7%.",
+    "domain": "Technology",
+    "why_significant": "Semiconductor capex shifts to Intel/Samsung, AI chip supply constraints worsen",
+    "post_cutoff": true
+  },
+  {
+    "event": "China-Taiwan Tensions Escalate",
+    "date": "2025-01-20",
+    "context": "China increases military exercises near Taiwan, raising fears of a potential conflict in the Taiwan Strait.",
+    "domain": "Geopolitics",
+    "why_significant": "Heightened global tensions, market instability, and shifts in international diplomatic relations.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Microsoft launches Windows 12 with AI integration",
+    "date": "2025-01-22",
+    "context": "Microsoft releases Windows 12, featuring AI-powered productivity tools and enhanced cybersecurity.",
+    "domain": "Technology",
+    "why_significant": "Redefines operating systems, accelerates AI adoption in enterprise and personal computing",
+    "post_cutoff": true
+  },
+  {
+    "event": "TSMC 2nm fab operational in Arizona",
+    "date": "2025-02-03",
+    "context": "First US-based 2nm semiconductor production begins after CHIPS Act subsidies",
+    "domain": "Technology",
+    "why_significant": "Geopolitical tensions ease, Intel stock plunges 12%, China announces rival $100B semiconductor fund",
+    "post_cutoff": true
+  },
+  {
+    "event": "Tesla Announces Major Layoffs",
+    "date": "2025-02-10",
+    "context": "Tesla announces layoffs of 10% of its global workforce due to declining sales and increased competition.",
+    "domain": "Business",
+    "why_significant": "Impacted stock prices, raised questions about the electric vehicle market's sustainability.",
+    "post_cutoff": true
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2025-02-18",
+    "context": "UK's general election produces a hung parliament, with no party securing a majority.",
+    "domain": "Politics",
+    "why_significant": "Leads to political uncertainty, coalition negotiations, and potential policy gridlock",
+    "post_cutoff": true
+  },
+  {
+    "event": "South African coalition government collapses",
+    "date": "2025-02-28",
+    "context": "ANC-DA power-sharing deal fails after 8 months. Early elections called.",
+    "domain": "Geopolitics",
+    "why_significant": "Rand hits record low, BRICS expansion paused, mining stocks downgraded",
+    "post_cutoff": true
+  },
+  {
+    "event": "Tesla launches fully autonomous vehicles in select cities",
+    "date": "2025-03-01",
+    "context": "Tesla begins selling fully autonomous vehicles in San Francisco, Los Angeles, and Austin, marking a milestone in self-driving technology.",
+    "domain": "Technology",
+    "why_significant": "Advances autonomous vehicle adoption, raises regulatory and safety concerns, and disrupts the automotive industry.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Apple launches AR glasses",
+    "date": "2025-03-01",
+    "context": "Apple debuts augmented reality glasses, integrating AI and wearable tech.",
+    "domain": "Technology",
+    "why_significant": "Revolutionizes consumer tech, impacts competitor strategies, and drives AR adoption.",
+    "post_cutoff": true
+  },
+  {
+    "event": "UN sanctions North Korea over missile tests",
+    "date": "2025-03-05",
+    "context": "The United Nations imposes new sanctions on North Korea following a series of unauthorized missile tests.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates tensions on the Korean peninsula, impacts regional security, influences diplomatic relations, affects global arms control discussions",
+    "post_cutoff": true
+  },
+  {
+    "event": "Boeing acquires Spirit AeroSystems",
+    "date": "2025-03-05",
+    "context": "$8B all-stock deal to reintegrate supply chain after 2024 quality crisis.",
+    "domain": "Business",
+    "why_significant": "FAA oversight conditions attached, Airbus compensated $1B for lost contracts",
+    "post_cutoff": true
+  },
+  {
+    "event": "US Congress Passes Climate Change Bill",
+    "date": "2025-03-05",
+    "context": "The US Congress passes a landmark climate change bill, aiming for net-zero emissions by 2050.",
+    "domain": "Politics",
+    "why_significant": "Significant impact on energy policies, corporate strategies, and international climate agreements.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Tesla announces record Q1 earnings despite price cuts",
+    "date": "2025-03-12",
+    "context": "Tesla reports $5 billion in Q1 profits, driven by increased sales volume despite aggressive price reductions.",
+    "domain": "Economics",
+    "why_significant": "Impacts EV market competition, influences stock performance, sparks debates on profitability vs. market share",
+    "post_cutoff": true
+  },
+  {
+    "event": "South Africa BRICS presidency crisis",
+    "date": "2025-03-17",
+    "context": "IMF bailout terms conflict with BRICS development bank commitments. Rand collapses 23% in week",
+    "domain": "Geopolitics",
+    "why_significant": "Tests BRICS cohesion, accelerates de-dollarization talks, triggers African debt relief demands",
+    "post_cutoff": true
+  },
+  {
+    "event": "US passes AI Accountability Act",
+    "date": "2025-04-10",
+    "context": "Congress enacts law requiring transparency in AI decision-making.",
+    "domain": "Politics",
+    "why_significant": "Shapes AI development, impacts tech companies, and sets global regulatory standards.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Apple Launches Vision Pro 2",
+    "date": "2025-04-15",
+    "context": "Apple unveils the Vision Pro 2, a next-generation augmented reality headset with advanced features.",
+    "domain": "Technology",
+    "why_significant": "Revolutionized the AR market, influenced consumer behavior, and spurred competition among tech giants.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Disney-Apple streaming merger announced",
+    "date": "2025-04-22",
+    "context": "$120B stock-swap deal combining Disney+ with Apple TV+ under new joint venture",
+    "domain": "Business",
+    "why_significant": "Netflix loses 15% market cap, regulators scrutinize, Warner Bros explores Paramount merger",
+    "post_cutoff": true
+  },
+  {
+    "event": "India signs major trade deal with ASEAN countries",
+    "date": "2025-04-30",
+    "context": "India finalizes a comprehensive trade agreement with ASEAN, focusing on technology, agriculture, and manufacturing.",
+    "domain": "Geopolitics",
+    "why_significant": "Boosts India's economic ties in Southeast Asia, reshapes regional trade dynamics",
+    "post_cutoff": true
+  },
+  {
+    "event": "OPEC+ Agrees to Increase Oil Production",
+    "date": "2025-05-01",
+    "context": "OPEC+ agrees to increase oil production by 1 million barrels per day to stabilize global oil prices.",
+    "domain": "Economics",
+    "why_significant": "Impacted global oil markets, inflation rates, and energy-dependent industries.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Japan ends negative interest rate policy",
+    "date": "2025-05-08",
+    "context": "BOJ raises rates to 0.5% after 8 years of negative rates, citing sustained 2.1% inflation",
+    "domain": "Economics",
+    "why_significant": "Global bond markets volatile, yen strengthens 12% against USD, carry trade unwinding begins",
+    "post_cutoff": true
+  },
+  {
+    "event": "US-China trade tensions escalate with new tariffs",
+    "date": "2025-05-20",
+    "context": "The US imposes new tariffs on Chinese imports, prompting China to retaliate with tariffs on US goods, reigniting trade tensions.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade, supply chains, and economic growth, with potential for further escalation.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Meta announces major workforce reduction",
+    "date": "2025-05-20",
+    "context": "Meta cuts 15% of its global workforce due to declining ad revenue.",
+    "domain": "Business",
+    "why_significant": "Impacts tech job market, raises concerns about Meta's future, and triggers stock price drop.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Major tech company announces mass layoffs",
+    "date": "2025-05-20",
+    "context": "A leading global tech company announces layoffs of 10,000 employees as part of cost-cutting measures amidst slowing revenue growth.",
+    "domain": "Business",
+    "why_significant": "Impacts tech sector job market, influences investor confidence, affects related industries, accelerates automation trends",
+    "post_cutoff": true
+  },
+  {
+    "event": "Japan Enters Recession",
+    "date": "2025-05-20",
+    "context": "Japan announces it is in a technical recession following two consecutive quarters of GDP decline.",
+    "domain": "Economics",
+    "why_significant": "Raised concerns about global economic stability and impacted international trade relations.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+    "date": "2025-05-21",
+    "context": "First boarding since 2020. Taiwan scrambles coast guard, US Seventh Fleet monitors.",
+    "domain": "Geopolitics",
+    "why_significant": "TSMC contingency plans activated, Japan expresses 'grave concern', semiconductor ETFs drop",
+    "post_cutoff": true
+  },
+  {
+    "event": "India-Pakistan Peace Talks Collapse",
+    "date": "2025-06-10",
+    "context": "Peace talks between India and Pakistan collapse over unresolved territorial disputes, leading to increased border tensions.",
+    "domain": "Geopolitics",
+    "why_significant": "Heightened regional instability, impacted global diplomatic efforts, and raised security concerns.",
+    "post_cutoff": true
+  },
+  {
+    "event": "Brazil climate summit pledges fail ratification",
+    "date": "2025-06-11",
+    "context": "Only 3 of 12 major emissions reduction commitments from 2024 summit pass national legislatures",
+    "domain": "Politics",
+    "why_significant": "Carbon credit markets crash, climate activists shift to local strategies, UN governance reforms proposed",
+    "post_cutoff": true
+  }
+]
