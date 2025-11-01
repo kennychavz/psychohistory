@@ -42,12 +42,11 @@ Predict 1-5 possible next events following from the current situation.
 
 Requirements:
 - Probabilities sum to 1.0
-- Justify using research evidence
-- Sentiment: -100 to 100
 - Specific, measurable outcomes
+- Base predictions on research evidence
 
 Output JSON only:
-[{"event": "...", "probability": 0.3, "justification": "...", "sentiment": 0}]
+[{"event": "...", "probability": 0.3}]
 `;
 
 export const TIMEFRAME_PROMPT = (event: string, depth: number) => `

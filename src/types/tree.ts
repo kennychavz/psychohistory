@@ -14,7 +14,6 @@ export interface EventNode {
   parentId: string | null;
   createdAt: Date;
   processingStatus: 'pending' | 'processing' | 'completed' | 'failed';
-  iconUrl?: string;
 }
 
 export interface Source {
@@ -39,8 +38,6 @@ export interface ResearchResult {
 export interface ProbabilityOutput {
   event: string;
   probability: number;
-  justification: string;
-  sentiment: number;
 }
 
 export interface TreeState {
@@ -71,7 +68,7 @@ export interface NodePosition {
 export interface LayoutConfig {
   depthSpacing: number;
   childSpacing: number;
-  orientation: 'vertical' | 'horizontal' | 'radial';
+  orientation: 'vertical' | 'horizontal';
 }
 
 export interface TreeMetrics {

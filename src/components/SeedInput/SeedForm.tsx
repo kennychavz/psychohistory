@@ -56,7 +56,7 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
-        <label className="block text-sm font-medium text-gray-300">
+        <label className="block text-sm font-medium text-gray-700">
           Seed Event *
         </label>
         <textarea
@@ -64,13 +64,13 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
           onChange={e => setEvent(e.target.value)}
           placeholder="e.g., New York implements rent control policy"
           rows={3}
-          className="mt-1 block w-full rounded-md border border-gray-700/50 bg-gray-900/30 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:border-gray-600 focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
           disabled={isLoading}
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-gray-300">
+        <label className="block text-sm font-medium text-gray-700">
           Context (Optional)
         </label>
         <textarea
@@ -78,13 +78,13 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
           onChange={e => setContext(e.target.value)}
           placeholder="Additional background information..."
           rows={3}
-          className="mt-1 block w-full rounded-md border border-gray-700/50 bg-gray-900/30 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:border-gray-600 focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
           disabled={isLoading}
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-gray-300">
+        <label className="block text-sm font-medium text-gray-700">
           Timeframe (Optional)
         </label>
         <input
@@ -92,13 +92,13 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
           value={timeframe}
           onChange={e => setTimeframe(e.target.value)}
           placeholder="e.g., next 6 months"
-          className="mt-1 block w-full rounded-md border border-gray-700/50 bg-gray-900/30 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:border-gray-600 focus:outline-none focus:ring-1 focus:ring-gray-600"
+          className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
           disabled={isLoading}
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-gray-300">
+        <label className="block text-sm font-medium text-gray-700">
           Max Depth: {maxDepth}
         </label>
         <input
@@ -107,7 +107,7 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
           max={5}
           value={maxDepth}
           onChange={e => setMaxDepth(parseInt(e.target.value))}
-          className="mt-1 block w-full accent-gray-500"
+          className="mt-1 block w-full"
           disabled={isLoading}
         />
         <p className="mt-1 text-xs text-gray-500">
@@ -118,13 +118,13 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
       <button
         type="submit"
         disabled={isLoading || !event.trim()}
-        className="w-full rounded-md bg-gray-700 px-4 py-2 text-sm font-semibold text-gray-100 hover:bg-gray-600 disabled:cursor-not-allowed disabled:opacity-50 shadow-lg shadow-gray-900/30"
+        className="w-full rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
       >
         {isLoading ? 'Generating...' : 'Generate Tree'}
       </button>
 
-      <div className="border-t border-gray-800/30 pt-4">
-        <p className="mb-2 text-sm font-medium text-gray-300">Templates</p>
+      <div className="border-t border-gray-200 pt-4">
+        <p className="mb-2 text-sm font-medium text-gray-700">Templates</p>
         <div className="space-y-2">
           {templates.map((template, i) => (
             <button
@@ -132,7 +132,7 @@ export default function SeedInputForm({ onSubmit, isLoading }: Props) {
               type="button"
               onClick={() => loadTemplate(template)}
               disabled={isLoading}
-              className="w-full rounded border border-gray-700/50 bg-gray-900/30 px-3 py-2 text-left text-sm text-gray-300 hover:bg-gray-800/50 disabled:cursor-not-allowed disabled:opacity-50"
+              className="w-full rounded border border-gray-300 bg-white px-3 py-2 text-left text-sm hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {template.name}
             </button>

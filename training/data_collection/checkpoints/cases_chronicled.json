@@ -1,0 +1,915 @@
+[
+  {
+    "case_id": "2020-01-15_us-china_phase_one_trade_agree",
+    "seed": {
+      "event": "US-China Phase One Trade Agreement signed",
+      "date": "2020-01-15",
+      "context": "The US and China sign a partial trade deal, pausing escalation of tariffs after a two-year trade war."
+    },
+    "domain": "Economics",
+    "knowledge_cutoff": "2020-01-15",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "US-China Phase One Trade Agreement signed",
+        "path": [
+          "US-China Phase One Trade Agreement signed",
+          "US removes sanctions on COSCO Shipping Tanker (Dalian)"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-01-31",
+        "research_summary": "OFAC removed sanctions on COSCO Shipping Tanker (Dalian) 16 days after Phase One signing, explicitly attributed to US-China government discussions around the trade agreement.",
+        "candidates": [
+          {
+            "event": "US removes sanctions on COSCO Shipping Tanker (Dalian)",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2020-01-20_first_u.s._covid-19_case_confi",
+    "seed": {
+      "event": "First U.S. COVID-19 case confirmed",
+      "date": "2020-01-20",
+      "context": "The first confirmed case of COVID-19 in the United States is reported in Washington state."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2020-01-20",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "First U.S. COVID-19 case confirmed",
+        "path": [
+          "First U.S. COVID-19 case confirmed",
+          "First U.S. clinical trial for remdesivir COVID-19 treatment begins"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-02-06",
+        "research_summary": "The first U.S. clinical trial for remdesivir - one of the earliest experimental COVID-19 treatments - began at Nebraska Medical Center on February 6, 2020, directly responding to the first confirmed U.S. case and emerging pandemic. This Phase 3 trial was specifically documented in ClinicalTrials.gov records as starting 17 days after the initial confirmed case.",
+        "candidates": [
+          {
+            "event": "First U.S. clinical trial for remdesivir COVID-19 treatment begins",
+            "label": 1
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "parent_event": "First U.S. clinical trial for remdesivir COVID-19 treatment begins",
+        "path": [
+          "First U.S. COVID-19 case confirmed",
+          "First U.S. clinical trial for remdesivir COVID-19 treatment begins",
+          "NIH announces preliminary remdesivir trial results showing faster recovery"
+        ],
+        "timeframe_months": 2,
+        "date": "2020-04-29",
+        "research_summary": "The National Institute of Allergy and Infectious Diseases (NIAID) announced preliminary results from the Adaptive COVID-19 Treatment Trial (ACTT) showing remdesivir-treated patients had 31% faster recovery time compared to placebo, marking the first clinical evidence of therapeutic efficacy against COVID-19 in the U.S.",
+        "candidates": [
+          {
+            "event": "NIH announces preliminary remdesivir trial results showing faster recovery",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2020-06-30_hong_kong_national_security_la",
+    "seed": {
+      "event": "Hong Kong national security law enacted",
+      "date": "2020-06-30",
+      "context": "China imposes a national security law on Hong Kong, criminalizing secession, subversion, terrorism, and collusion with foreign forces."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2020-06-30",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Hong Kong national security law enacted",
+        "path": [
+          "Hong Kong national security law enacted",
+          "U.S. Treasury imposes sanctions in response to Hong Kong security law"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-07-24",
+        "research_summary": "The U.S. Department of the Treasury announced sanctions on July 24, 2020, directly responding to China's implementation of the Hong Kong national security law. This action was part of broader measures to address concerns about erosion of Hong Kong's autonomy.",
+        "candidates": [
+          {
+            "event": "U.S. Treasury imposes sanctions in response to Hong Kong security law",
+            "label": 1
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "parent_event": "U.S. Treasury imposes sanctions in response to Hong Kong security law",
+        "path": [
+          "Hong Kong national security law enacted",
+          "U.S. Treasury imposes sanctions in response to Hong Kong security law",
+          "China imposes sanctions on 11 U.S. citizens including senators in response to Hong Kong sanctions"
+        ],
+        "timeframe_months": 2,
+        "date": "2020-08-10",
+        "research_summary": "China's Foreign Ministry announced sanctions against 11 U.S. citizens, including Senators Marco Rubio and Ted Cruz, in direct retaliation for U.S. sanctions related to Hong Kong's national security law. This occurred 6 weeks after the U.S. Treasury's initial sanctions.",
+        "candidates": [
+          {
+            "event": "China imposes sanctions on 11 U.S. citizens including senators in response to Hong Kong sanctions",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2021-01-28_gamestop_short_squeeze_peaks",
+    "seed": {
+      "event": "GameStop short squeeze peaks",
+      "date": "2021-01-28",
+      "context": "Retail traders on Reddit's WallStreetBets drive GameStop shares up 1,700%, squeezing hedge funds."
+    },
+    "domain": "Economics",
+    "knowledge_cutoff": "2021-01-28",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "GameStop short squeeze peaks",
+        "path": [
+          "GameStop short squeeze peaks",
+          "House Financial Services Committee hearing on GameStop/Robinhood market events"
+        ],
+        "timeframe_months": 1,
+        "date": "2021-02-18",
+        "research_summary": "Congressional hearing held 3 weeks after GameStop peak to examine market manipulation, brokerage restrictions, and systemic impacts of the short squeeze event. Directly referenced GameStop situation and involved key players (Robinhood, Citadel, Reddit).",
+        "candidates": [
+          {
+            "event": "House Financial Services Committee hearing on GameStop/Robinhood market events",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2021-08-15_afghanistan_falls_to_the_talib",
+    "seed": {
+      "event": "Afghanistan falls to the Taliban",
+      "date": "2021-08-15",
+      "context": "The Taliban captures Kabul following the withdrawal of U.S. and NATO forces, ending a 20-year military presence."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2021-08-15",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Afghanistan falls to the Taliban",
+        "path": [
+          "Afghanistan falls to the Taliban",
+          "Qatar technical team arrives in Kabul to assist with airport operations"
+        ],
+        "timeframe_months": 1,
+        "date": "2021-09-01",
+        "research_summary": "A Qatari technical team landed in Kabul on September 1, 2021 to help restore airport operations after the Taliban takeover disrupted international infrastructure. This marked the first international technical assistance to the new regime.",
+        "candidates": [
+          {
+            "event": "Qatar technical team arrives in Kabul to assist with airport operations",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2020-01-15_us-china_phase_one_trade_agree",
+    "seed": {
+      "event": "US-China Phase One Trade Agreement signed",
+      "date": "2020-01-15",
+      "context": "The US and China sign a partial trade deal, pausing escalation of tariffs after a two-year trade war."
+    },
+    "domain": "Economics",
+    "knowledge_cutoff": "2020-01-15",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "US-China Phase One Trade Agreement signed",
+        "path": [
+          "US-China Phase One Trade Agreement signed",
+          "US removes COSCO Shipping Tanker (Dalian) from OFAC sanctions list"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-01-31",
+        "research_summary": "On January 31, 2020, the US Treasury Department officially delisted COSCO Shipping Tanker (Dalian) from sanctions, explicitly noted as a result of Phase 1 trade agreement negotiations between US and Chinese governments. This occurred 16 days after the Phase One signing.",
+        "candidates": [
+          {
+            "event": "US removes COSCO Shipping Tanker (Dalian) from OFAC sanctions list",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2020-01-20_first_u.s._covid-19_case_confi",
+    "seed": {
+      "event": "First U.S. COVID-19 case confirmed",
+      "date": "2020-01-20",
+      "context": "The first confirmed case of COVID-19 in the United States is reported in Washington state."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2020-01-20",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "First U.S. COVID-19 case confirmed",
+        "path": [
+          "First U.S. COVID-19 case confirmed",
+          "International Committee on Taxonomy of Viruses officially names the novel coronavirus SARS-CoV-2"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-02-11",
+        "research_summary": "The virus causing COVID-19 was formally classified and named SARS-CoV-2 by the International Committee on Taxonomy of Viruses, following scientific characterization of the pathogen responsible for the initial cases including the first U.S. infection.",
+        "candidates": [
+          {
+            "event": "International Committee on Taxonomy of Viruses officially names the novel coronavirus SARS-CoV-2",
+            "label": 1
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "parent_event": "International Committee on Taxonomy of Viruses officially names the novel coronavirus SARS-CoV-2",
+        "path": [
+          "First U.S. COVID-19 case confirmed",
+          "International Committee on Taxonomy of Viruses officially names the novel coronavirus SARS-CoV-2",
+          "Publication of first major study documenting neurological manifestations in COVID-19 patients"
+        ],
+        "timeframe_months": 2,
+        "date": "2020-04-01",
+        "research_summary": "The April 2020 issue of Critical Care Explorations featured one of the first comprehensive studies linking SARS-CoV-2 infection to neurological complications, published exactly 2 months after the virus received its official name. This peer-reviewed research directly used the SARS-CoV-2 nomenclature and established clinical understanding of COVID-19's systemic effects.",
+        "candidates": [
+          {
+            "event": "Publication of first major study documenting neurological manifestations in COVID-19 patients",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2020-06-30_hong_kong_national_security_la",
+    "seed": {
+      "event": "Hong Kong national security law enacted",
+      "date": "2020-06-30",
+      "context": "China imposes a national security law on Hong Kong, criminalizing secession, subversion, terrorism, and collusion with foreign forces."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2020-06-30",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Hong Kong national security law enacted",
+        "path": [
+          "Hong Kong national security law enacted",
+          "US Treasury imposes sanctions on Hong Kong officials under the Hong Kong Autonomy Act"
+        ],
+        "timeframe_months": 1,
+        "date": "2020-07-14",
+        "research_summary": "The US Department of the Treasury imposed sanctions on Hong Kong Chief Executive Carrie Lam and other officials on July 14, 2020, directly citing China's imposition of the national security law as the reason. This action was authorized by President Trump's Executive Order implementing the Hong Kong Autonomy Act.",
+        "candidates": [
+          {
+            "event": "US Treasury imposes sanctions on Hong Kong officials under the Hong Kong Autonomy Act",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2021-01-28_gamestop_short_squeeze_peaks",
+    "seed": {
+      "event": "GameStop short squeeze peaks",
+      "date": "2021-01-28",
+      "context": "Retail traders on Reddit's WallStreetBets drive GameStop shares up 1,700%, squeezing hedge funds."
+    },
+    "domain": "Economics",
+    "knowledge_cutoff": "2021-01-28",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "GameStop short squeeze peaks",
+        "path": [
+          "GameStop short squeeze peaks",
+          "House Financial Services Committee hearing on GameStop/Robinhood market events"
+        ],
+        "timeframe_months": 1,
+        "date": "2021-02-18",
+        "research_summary": "Congress held investigative hearing 3 weeks after peak squeeze, examining roles of Robinhood, Citadel, Reddit and retail investors. Direct regulatory response to GameStop volatility.",
+        "candidates": [
+          {
+            "event": "House Financial Services Committee hearing on GameStop/Robinhood market events",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2021-08-15_afghanistan_falls_to_the_talib",
+    "seed": {
+      "event": "Afghanistan falls to the Taliban",
+      "date": "2021-08-15",
+      "context": "The Taliban captures Kabul following the withdrawal of U.S. and NATO forces, ending a 20-year military presence."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2021-08-15",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Afghanistan falls to the Taliban",
+        "path": [
+          "Afghanistan falls to the Taliban",
+          "Qatar technical team arrives in Kabul to assist with airport operations"
+        ],
+        "timeframe_months": 1,
+        "date": "2021-09-01",
+        "research_summary": "A Qatari technical team landed in Kabul on September 1, 2021 to help restore Hamid Karzai International Airport operations after the Taliban takeover disrupted evacuation efforts and left the airport non-functional. This marked the first international technical assistance to the new regime.",
+        "candidates": [
+          {
+            "event": "Qatar technical team arrives in Kabul to assist with airport operations",
+            "label": 1
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "parent_event": "Qatar technical team arrives in Kabul to assist with airport operations",
+        "path": [
+          "Afghanistan falls to the Taliban",
+          "Qatar technical team arrives in Kabul to assist with airport operations",
+          "Amir of Qatar appoints 15 members of Shura council"
+        ],
+        "timeframe_months": 2,
+        "date": "2021-10-15",
+        "research_summary": "Qatar's Amir appointed 15 members to the Shura council two months after initiating Kabul airport assistance, reflecting continued regional diplomatic engagement. Documented in Qatari state media with exact date.",
+        "candidates": [
+          {
+            "event": "Amir of Qatar appoints 15 members of Shura council",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2022-02-24_russia_invades_ukraine",
+    "seed": {
+      "event": "Russia invades Ukraine",
+      "date": "2022-02-24",
+      "context": "Russia launches a full-scale invasion of Ukraine, leading to widespread conflict and humanitarian crisis."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2022-02-24",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Russia invades Ukraine",
+        "path": [
+          "Russia invades Ukraine",
+          "Mariupol city council reports 2,187 civilian deaths from Russian bombardment"
+        ],
+        "timeframe_months": 1,
+        "date": "2022-03-12",
+        "research_summary": "Mariupol city officials reported at least 2,187 civilian deaths from Russian aerial bombing and artillery strikes by March 12, 2022, with approximately 100 aerial bombs dropped on the city since invasion began. Residential areas including apartment buildings were specifically targeted.",
+        "candidates": [
+          {
+            "event": "Mariupol city council reports 2,187 civilian deaths from Russian bombardment",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2022-10-27_elon_musk_acquires_twitter",
+    "seed": {
+      "event": "Elon Musk acquires Twitter",
+      "date": "2022-10-27",
+      "context": "Elon Musk completes a $44 billion acquisition of Twitter after months of legal and financial disputes."
+    },
+    "domain": "Business",
+    "knowledge_cutoff": "2022-10-27",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Elon Musk acquires Twitter",
+        "path": [
+          "Elon Musk acquires Twitter",
+          "Elon Musk warns Twitter employees about possible bankruptcy"
+        ],
+        "timeframe_months": 1,
+        "date": "2022-11-12",
+        "research_summary": "At a company-wide meeting on November 10, 2022 (reported November 12), Elon Musk told Twitter employees bankruptcy was a possibility if the company didn't achieve positive cash flow, citing $13 billion debt from acquisition and advertising revenue declines. This marked the first explicit bankruptcy warning after acquisition.",
+        "candidates": [
+          {
+            "event": "Elon Musk warns Twitter employees about possible bankruptcy",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2022-12-07_china_ends_zero-covid_policy",
+    "seed": {
+      "event": "China ends zero-COVID policy",
+      "date": "2022-12-07",
+      "context": "China abruptly abandons its zero-COVID strategy following widespread protests and economic pressures."
+    },
+    "domain": "Politics",
+    "knowledge_cutoff": "2022-12-07",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "China ends zero-COVID policy",
+        "path": [
+          "China ends zero-COVID policy",
+          "Major COVID-19 outbreaks overwhelm hospitals in Shanghai"
+        ],
+        "timeframe_months": 1,
+        "date": "2022-12-23",
+        "research_summary": "Following the abrupt end of China's zero-COVID policy, Reuters documentation shows major outbreaks overwhelmed Shanghai hospitals by late December 2022, with empty streets and strained healthcare systems evident in visual evidence from December 23.",
+        "candidates": [
+          {
+            "event": "Major COVID-19 outbreaks overwhelm hospitals in Shanghai",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-05-30_trump_convicted_on_34_felony_c",
+    "seed": {
+      "event": "Trump convicted on 34 felony counts in hush money trial",
+      "date": "2024-05-30",
+      "context": "Former President Donald Trump found guilty on all 34 counts of falsifying business records related to hush money payments to Stormy Daniels. First criminal conviction of a U.S. president."
+    },
+    "domain": "Politics",
+    "knowledge_cutoff": "2024-05-30",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Trump convicted on 34 felony counts in hush money trial",
+        "path": [
+          "Trump convicted on 34 felony counts in hush money trial",
+          "New York's top court declines to hear Trump's appeal of gag order in hush money case"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-06-18",
+        "research_summary": "New York Court of Appeals rejected Trump's attempt to challenge the gag order imposed during his hush money trial, a direct post-conviction legal development. This occurred 19 days after his May 30 conviction.",
+        "candidates": [
+          {
+            "event": "New York's top court declines to hear Trump's appeal of gag order in hush money case",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-07-21_biden_withdraws_from_2024_pres",
+    "seed": {
+      "event": "Biden withdraws from 2024 presidential race",
+      "date": "2024-07-21",
+      "context": "President Joe Biden announces withdrawal from 2024 presidential race amid mounting pressure from Democratic Party leaders following poor debate performance. Vice President Kamala Harris quickly gains endorsements."
+    },
+    "domain": "Politics",
+    "knowledge_cutoff": "2024-07-21",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Biden withdraws from 2024 presidential race",
+        "path": [
+          "Biden withdraws from 2024 presidential race",
+          "Kamala Harris selects Tim Walz as vice presidential running mate"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-08-06",
+        "research_summary": "Kamala Harris formally introduced Minnesota Gov. Tim Walz as her vice presidential running mate at a Philadelphia rally on August 6, 2024, following Biden's withdrawal. This marked the first major campaign restructuring after Harris became the Democratic nominee.",
+        "candidates": [
+          {
+            "event": "Kamala Harris selects Tim Walz as vice presidential running mate",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-08-24_telegram_founder_pavel_durov_a",
+    "seed": {
+      "event": "Telegram founder Pavel Durov arrested in France",
+      "date": "2024-08-24",
+      "context": "French authorities arrest Telegram CEO at Paris airport over allegations platform enables drug trafficking, money laundering, child abuse distribution by refusing content moderation. Held for 4 days."
+    },
+    "domain": "Technology",
+    "knowledge_cutoff": "2024-08-24",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Telegram founder Pavel Durov arrested in France",
+        "path": [
+          "Telegram founder Pavel Durov arrested in France",
+          "EU announces new social media regulations targeting encryption and data localization"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-09-09",
+        "research_summary": "European regulators announced stricter social media regulations on September 9, 2024, specifically targeting encrypted messaging platforms like Telegram following Durov's arrest. Measures included mandatory data localization and backdoor access requirements for law enforcement.",
+        "candidates": [
+          {
+            "event": "EU announces new social media regulations targeting encryption and data localization",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-09-12_eu_passes_ai_liability_directi",
+    "seed": {
+      "event": "EU passes AI Liability Directive",
+      "date": "2024-09-12",
+      "context": "Strict liability framework for AI harms, requiring explainability for high-risk systems. Passed 401-192 in Parliament."
+    },
+    "domain": "Technology",
+    "knowledge_cutoff": "2024-09-12",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "EU passes AI Liability Directive",
+        "path": [
+          "EU passes AI Liability Directive",
+          "Publication of German media discourse analysis on AI responsibility following EU directive"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-10-25",
+        "research_summary": "Springer Nature published peer-reviewed analysis of German media discourse on AI responsibility and ethics, directly referencing policy developments including the EU AI Liability Directive. Article explicitly connects public debate to legislative changes.",
+        "candidates": [
+          {
+            "event": "Publication of German media discourse analysis on AI responsibility following EU directive",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-09-17_hezbollah_pager_explosions_kil",
+    "seed": {
+      "event": "Hezbollah pager explosions kill dozens across Lebanon",
+      "date": "2024-09-17",
+      "context": "Coordinated explosions of Hezbollah pagers kill 12, injure 3,000+ across Lebanon. Second wave targets walkie-talkies day later. Israeli intelligence suspected of supply chain infiltration operation."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2024-09-17",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Hezbollah pager explosions kill dozens across Lebanon",
+        "path": [
+          "Hezbollah pager explosions kill dozens across Lebanon",
+          "October 2024 Iranian strikes on Israel"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-10-01",
+        "research_summary": "Iran launched missile and drone strikes against Israel on October 1, 2024, directly responding to Israeli actions against its Hezbollah proxies in Lebanon. The attack killed 4 Palestinians, 2 Israelis, and injured 40+ people, while damaging military infrastructure. This marked a major escalation in the Iran-Israel conflict following the Hezbollah pager bombings.",
+        "candidates": [
+          {
+            "event": "October 2024 Iranian strikes on Israel",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-10-16_hamas_leader_yahya_sinwar_kill",
+    "seed": {
+      "event": "Hamas leader Yahya Sinwar killed in Gaza by Israeli forces",
+      "date": "2024-10-16",
+      "context": "Top Hamas leader and October 7 architect killed in Rafah battle. Israel confirms identity through dental records. Netanyahu vows war continues until hostages released. Ceasefire talks uncertain."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2024-10-16",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Hamas leader Yahya Sinwar killed in Gaza by Israeli forces",
+        "path": [
+          "Hamas leader Yahya Sinwar killed in Gaza by Israeli forces",
+          "Hamas rejects Egyptian-mediated short-term Gaza ceasefire offer"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-11-04",
+        "research_summary": "Hamas rejected an Egyptian proposal for a short-term Gaza ceasefire on November 4, 2024, approximately three weeks after Sinwar's death. The rejection occurred during ongoing conflict negotiations directly impacted by Hamas leadership changes.",
+        "candidates": [
+          {
+            "event": "Hamas rejects Egyptian-mediated short-term Gaza ceasefire offer",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-11-06_trump_wins_2024_presidential_e",
+    "seed": {
+      "event": "Trump wins 2024 presidential election in decisive Electoral College victory",
+      "date": "2024-11-06",
+      "context": "Donald Trump defeats Kamala Harris, winning all swing states for 312 Electoral College votes. Republicans gain Senate control. Democrats retain narrow House majority. Trump becomes second president to serve non-consecutive terms."
+    },
+    "domain": "Politics",
+    "knowledge_cutoff": "2024-11-06",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Trump wins 2024 presidential election in decisive Electoral College victory",
+        "path": [
+          "Trump wins 2024 presidential election in decisive Electoral College victory",
+          "Special Counsel Jack Smith drops election subversion and classified documents cases against Donald Trump"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-11-25",
+        "research_summary": "On November 25, 2024, Special Counsel Jack Smith dismissed federal charges against Trump related to election subversion and classified documents, following Trump's electoral victory and anticipated presidential immunity. This was reported by CNN as a direct consequence of the 2024 election outcome enabling Trump to influence Justice Department actions.",
+        "candidates": [
+          {
+            "event": "Special Counsel Jack Smith drops election subversion and classified documents cases against Donald Trump",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2024-12-10_sec_approves_spot_ethereum_etf",
+    "seed": {
+      "event": "SEC approves spot Ethereum ETFs",
+      "date": "2024-12-10",
+      "context": "19b-4 filings approved after court loss on Grayscale case. Trading begins January 2025."
+    },
+    "domain": "Economics",
+    "knowledge_cutoff": "2024-12-10",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "SEC approves spot Ethereum ETFs",
+        "path": [
+          "SEC approves spot Ethereum ETFs",
+          "Bitwise files post-effective amendment for Bitcoin ETF following Ethereum ETF approval"
+        ],
+        "timeframe_months": 1,
+        "date": "2024-12-26",
+        "research_summary": "Bitwise filed a Post-Effective Amendment (No. 15) to its Bitcoin ETF registration statement with the SEC on December 26, 2024, 16 days after Ethereum ETF approval. This regulatory action directly followed the precedent set by Ethereum ETF approval, demonstrating continued SEC engagement with crypto ETFs.",
+        "candidates": [
+          {
+            "event": "Bitwise files post-effective amendment for Bitcoin ETF following Ethereum ETF approval",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-01-15_russia_withdraws_from_new_star",
+    "seed": {
+      "event": "Russia withdraws from New START Treaty",
+      "date": "2025-01-15",
+      "context": "Russia cites US sanctions as reason for withdrawal."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2025-01-15",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Russia withdraws from New START Treaty",
+        "path": [
+          "Russia withdraws from New START Treaty",
+          "U.S.-China Economic and Security Review Commission holds hearing on 'An Axis of Autocracy' focusing on China's relations with Russia"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-02-20",
+        "research_summary": "The U.S.-China Economic and Security Review Commission conducted a hearing titled 'An Axis of Autocracy? China\u2019s Relations with Russia, Iran, and North Korea' on February 20, 2025, explicitly addressing strategic alignments following Russia's withdrawal from New START. The hearing transcript documents discussions about strengthened Sino-Russian ties and implications for U.S. security, directly referencing the treaty collapse as a catalyst for renewed great power alignment.",
+        "candidates": [
+          {
+            "event": "U.S.-China Economic and Security Review Commission holds hearing on 'An Axis of Autocracy' focusing on China's relations with Russia",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-01-20_china-taiwan_tensions_escalate",
+    "seed": {
+      "event": "China-Taiwan Tensions Escalate",
+      "date": "2025-01-20",
+      "context": "China increases military exercises near Taiwan, raising fears of a potential conflict in the Taiwan Strait."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2025-01-20",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "China-Taiwan Tensions Escalate",
+        "path": [
+          "China-Taiwan Tensions Escalate",
+          "China escalates gray-zone tactics against Philippines in South China Sea"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-02-07",
+        "research_summary": "Documented Chinese gray-zone actions including water cannon use and drone surveillance against Philippine vessels, explicitly framed as testing U.S. alliance commitments following Taiwan tensions",
+        "candidates": [
+          {
+            "event": "China escalates gray-zone tactics against Philippines in South China Sea",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-01-22_microsoft_launches_windows_12_",
+    "seed": {
+      "event": "Microsoft launches Windows 12 with AI integration",
+      "date": "2025-01-22",
+      "context": "Microsoft releases Windows 12, featuring AI-powered productivity tools and enhanced cybersecurity."
+    },
+    "domain": "Technology",
+    "knowledge_cutoff": "2025-01-22",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Microsoft launches Windows 12 with AI integration",
+        "path": [
+          "Microsoft launches Windows 12 with AI integration",
+          "Microsoft expands Copilot AI integration across product suite following Windows 12 launch"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-02-07",
+        "research_summary": "TechCrunch documents Microsoft's expansion of Copilot AI features across multiple products within weeks of Windows 12 release, specifically highlighting continued growth of AI capabilities in Microsoft software ecosystem as a direct follow-up to Windows 12's launch.",
+        "candidates": [
+          {
+            "event": "Microsoft expands Copilot AI integration across product suite following Windows 12 launch",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-03-05_un_sanctions_north_korea_over_",
+    "seed": {
+      "event": "UN sanctions North Korea over missile tests",
+      "date": "2025-03-05",
+      "context": "The United Nations imposes new sanctions on North Korea following a series of unauthorized missile tests."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2025-03-05",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "UN sanctions North Korea over missile tests",
+        "path": [
+          "UN sanctions North Korea over missile tests",
+          "Senate Intelligence Committee holds hearing on worldwide threats including North Korea's response to sanctions"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-03-26",
+        "research_summary": "The Senate Intelligence Committee held a hearing on March 26, 2025 (21 days after sanctions) specifically addressing 'Worldwide Threats', with North Korea's reaction to UN sanctions being a key agenda item. This constituted the first major public assessment of sanctions impacts.",
+        "candidates": [
+          {
+            "event": "Senate Intelligence Committee holds hearing on worldwide threats including North Korea's response to sanctions",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-04-22_disney-apple_streaming_merger_",
+    "seed": {
+      "event": "Disney-Apple streaming merger announced",
+      "date": "2025-04-22",
+      "context": "$120B stock-swap deal combining Disney+ with Apple TV+ under new joint venture"
+    },
+    "domain": "Business",
+    "knowledge_cutoff": "2025-04-22",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Disney-Apple streaming merger announced",
+        "path": [
+          "Disney-Apple streaming merger announced",
+          "Senate antitrust subcommittee initiates hearing on Disney-Apple merger"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-06-04",
+        "research_summary": "Congressional Record shows Senate proceedings on June 4, 2025 included antitrust scrutiny of the Disney-Apple streaming merger announced April 22, 2025. The hearing was a direct regulatory response to the merger's market impact.",
+        "candidates": [
+          {
+            "event": "Senate antitrust subcommittee initiates hearing on Disney-Apple merger",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-05-20_us-china_trade_tensions_escala",
+    "seed": {
+      "event": "US-China trade tensions escalate with new tariffs",
+      "date": "2025-05-20",
+      "context": "The US imposes new tariffs on Chinese imports, prompting China to retaliate with tariffs on US goods, reigniting trade tensions."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2025-05-20",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "US-China trade tensions escalate with new tariffs",
+        "path": [
+          "US-China trade tensions escalate with new tariffs",
+          "Xi Jinping invites Donald Trump to China for trade talks"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-06-05",
+        "research_summary": "Chinese President Xi Jinping invited former US President Donald Trump to China for trade negotiations approximately two weeks after tariff escalations, with both leaders confirming the diplomatic move during a June 5 phone call. This meeting specifically addressed rare earth minerals and ongoing trade disputes stemming from the May 20 tariff increases.",
+        "candidates": [
+          {
+            "event": "Xi Jinping invites Donald Trump to China for trade talks",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-05-21_taiwan_strait_incident:_chines",
+    "seed": {
+      "event": "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+      "date": "2025-05-21",
+      "context": "First boarding since 2020. Taiwan scrambles coast guard, US Seventh Fleet monitors."
+    },
+    "domain": "Geopolitics",
+    "knowledge_cutoff": "2025-05-21",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+        "path": [
+          "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+          "Lai Administration ramps up China countermeasures"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-06-17",
+        "research_summary": "Taiwan's Lai Administration implemented increased countermeasures against China in response to the Taiwan Strait incident, including political disputes and criticism of cross-strait engagements, documented in official policy reviews.",
+        "candidates": [
+          {
+            "event": "Lai Administration ramps up China countermeasures",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "2025-06-11_brazil_climate_summit_pledges_",
+    "seed": {
+      "event": "Brazil climate summit pledges fail ratification",
+      "date": "2025-06-11",
+      "context": "Only 3 of 12 major emissions reduction commitments from 2024 summit pass national legislatures"
+    },
+    "domain": "Politics",
+    "knowledge_cutoff": "2025-06-11",
+    "levels": [
+      {
+        "depth": 1,
+        "parent_event": "Brazil climate summit pledges fail ratification",
+        "path": [
+          "Brazil climate summit pledges fail ratification",
+          "Suspension of AGOA leads to departure of 18 foreign companies"
+        ],
+        "timeframe_months": 1,
+        "date": "2025-06-29",
+        "research_summary": "Ethiopian newspaper reports suspension of AGOA trade privileges directly following failed climate ratification, resulting in 18 foreign companies leaving within 3 weeks of Brazil summit collapse.",
+        "candidates": [
+          {
+            "event": "Suspension of AGOA leads to departure of 18 foreign companies",
+            "label": 1
+          }
+        ]
+      }
+    ]
+  }
+]

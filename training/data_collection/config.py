@@ -16,7 +16,7 @@ class Config:
 
     # Model Settings (via OpenRouter)
     RESEARCH_MODEL: str = "deepseek/deepseek-chat"  # DeepSeek V3.1
-    REASONING_MODEL: str = "deepseek/deepseek-reasoner"  # DeepSeek R1
+    REASONING_MODEL: str = "deepseek/deepseek-r1"  # DeepSeek R1 (correct ID)
     OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
 
     # GPT-OSS Training Data Cutoff

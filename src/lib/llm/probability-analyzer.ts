@@ -10,8 +10,6 @@ import { ProbabilityOutput } from '@/types/tree';
 const ProbabilityOutputSchema = z.object({
   event: z.string().min(10),
   probability: z.number().min(0).max(1),
-  justification: z.string().min(20),
-  sentiment: z.number().min(-100).max(100),
 });
 
 const ProbabilityArraySchema = z.array(ProbabilityOutputSchema).min(1).max(5);

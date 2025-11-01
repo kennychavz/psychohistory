@@ -53,7 +53,7 @@ image = (
 )
 def train_sft_impl(
     model_name: str = "unsloth/gpt-oss-20b",  # ✅ Use Unsloth's optimized variant!
-    data_path: str = "/training_data/historical_cases.jsonl",  # Mounted from local
+    data_path: str = "/training_data/real_historical_cases.jsonl",  # Mounted from local
     output_dir: str = "/data/models/sft",
     lora_rank: int = 64,
     learning_rate: float = 3e-4,
@@ -155,41 +155,49 @@ def train_sft_impl(
     # Format training examples
     def format_example(case):
         """
-        Format case with candidate sets into training example
+        Format case to match inference prompt structure.
 
-        For each depth level, model learns to assign probability 1.0 to actual outcome,
-        0.0 to alternatives. This teaches proper probability distribution.
+        Model learns to generate events with calibrated probabilities.
+        Uses soft labels: actual event gets 0.7, alternatives split remaining 0.3.
         """
         training_texts = []
 
         for level in case['levels']:
-            # Build prompt for this depth level with path context
+            # Build prompt matching inference format (src/lib/llm/prompt-templates.ts)
             path_str = ' → '.join(level['path']) if level.get('path') else case['seed']['event']
 
             prompt = f"""Initial Event: {case['seed']['event']}
-Date: {case['seed']['date']}
-Context: {case['seed']['context']}
 Path so far: {path_str}
-Current Depth: {level['depth']}
+Current Event: {level['parent_event']}
+Depth: {level['depth']}/3
 Timeframe: next {level['timeframe_months']} months
 
-Research summary:
+Research:
 {level['research_summary']}
 
-Candidate outcomes:
+Predict 1-5 possible next events following from the current situation.
+
+Requirements:
+- Probabilities sum to 1.0
+- Specific, measurable outcomes
+- Base predictions on research evidence
+
+Output JSON only:
+[{{"event": "...", "probability": 0.3}}]
 """
-            # List candidates
-            for i, cand in enumerate(level['candidates']):
-                prompt += f"{i+1}. {cand['event']}\n"
 
-            prompt += "\nAssign probability to each candidate (must sum to 1.0). Return JSON:"
+            # Build target: array format with soft labels
+            target = []
+            num_alternatives = sum(1 for c in level['candidates'] if c['label'] == 0)
+            alt_prob = 0.3 / num_alternatives if num_alternatives > 0 else 0.0
 
-            # Build target distribution (1.0 for actual, 0.0 for alternatives)
-            prob_map = {}
             for cand in level['candidates']:
-                prob_map[cand['event']] = 1.0 if cand['label'] == 1 else 0.0
+                target.append({
+                    "event": cand['event'],
+                    "probability": 0.7 if cand['label'] == 1 else alt_prob
+                })
 
-            completion = json.dumps(prob_map, indent=2)
+            completion = json.dumps(target)
 
             # Concatenate
             full_text = prompt + "\n" + completion + tokenizer.eos_token

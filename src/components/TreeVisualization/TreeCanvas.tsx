@@ -4,11 +4,13 @@ import { useCallback, useMemo, useState, useEffect } from 'react';
 import ReactFlow, {
   Background,
   Controls,
+  MiniMap,
   useNodesState,
   useEdgesState,
   Panel,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
+import * as d3 from 'd3';
 
 import { EventNode } from '@/types/tree';
 import { calculateTreeLayout } from '@/lib/layout/depth-layout';
@@ -34,7 +36,7 @@ const edgeTypes = {
 
 export default function TreeVisualization({ tree }: Props) {
   const [selectedNode, setSelectedNode] = useState<EventNode | null>(null);
-  const [orientation, setOrientation] = useState<'vertical' | 'horizontal' | 'radial'>('radial');
+  const [orientation, setOrientation] = useState<'vertical' | 'horizontal'>('vertical');
 
   // Find most probable path
   const mostProbablePath = useMemo(() => findMostProbablePath(tree), [tree]);
@@ -49,8 +51,8 @@ export default function TreeVisualization({ tree }: Props) {
   const { nodes: initialNodes, edges: initialEdges } = useMemo(
     () =>
       calculateTreeLayout(tree, {
-        depthSpacing: 450,
-        childSpacing: 300,
+        depthSpacing: 300,
+        childSpacing: 200,
         orientation,
       }, mostProbablePath, cumulativeProbabilities),
     [tree, orientation, mostProbablePath, cumulativeProbabilities]
@@ -62,8 +64,8 @@ export default function TreeVisualization({ tree }: Props) {
   // Update nodes/edges when tree changes
   useEffect(() => {
     const { nodes: newNodes, edges: newEdges } = calculateTreeLayout(tree, {
-      depthSpacing: 450,
-      childSpacing: 300,
+      depthSpacing: 300,
+      childSpacing: 200,
       orientation,
     }, mostProbablePath, cumulativeProbabilities);
 
@@ -80,11 +82,7 @@ export default function TreeVisualization({ tree }: Props) {
   );
 
   const toggleOrientation = () => {
-    setOrientation(prev => {
-      if (prev === 'radial') return 'vertical';
-      if (prev === 'vertical') return 'horizontal';
-      return 'radial';
-    });
+    setOrientation(prev => (prev === 'vertical' ? 'horizontal' : 'vertical'));
   };
 
   return (
@@ -103,24 +101,31 @@ export default function TreeVisualization({ tree }: Props) {
       >
         <Background />
         <Controls />
+        <MiniMap
+          nodeColor={node => {
+            const sentiment = node.data?.sentiment || 0;
+            // Use D3 color scale for minimap
+            return d3.interpolateRdYlGn((sentiment + 100) / 200);
+          }}
+        />
 
         <Panel position="top-right" className="flex flex-col gap-2">
           <button
             onClick={toggleOrientation}
-            className="rounded-md bg-gray-800/70 px-3 py-2 text-sm font-medium text-gray-300 shadow-md hover:bg-gray-700/70 border border-gray-700/50"
+            className="rounded-md bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50"
           >
-            {orientation === 'radial' ? 'Radial' : orientation === 'vertical' ? 'Vertical' : 'Horizontal'}
+            {orientation === 'vertical' ? 'Vertical' : 'Horizontal'}
           </button>
 
           {/* Probability verification panel */}
           <div className={`rounded-md px-3 py-2 text-xs font-medium shadow-md ${
             probabilitySum.isValid
-              ? 'bg-green-900/30 text-green-400 border border-green-700/50'
-              : 'bg-orange-900/30 text-orange-400 border border-orange-700/50'
+              ? 'bg-green-50 text-green-800 border border-green-200'
+              : 'bg-yellow-50 text-yellow-800 border border-yellow-200'
           }`}>
             <div className="font-bold">Leaf Sum</div>
             <div>{(probabilitySum.sum * 100).toFixed(2)}%</div>
-            {probabilitySum.isValid && <div className="text-green-400">✓ Valid</div>}
+            {probabilitySum.isValid && <div className="text-green-600">✓ Valid</div>}
           </div>
         </Panel>
       </ReactFlow>

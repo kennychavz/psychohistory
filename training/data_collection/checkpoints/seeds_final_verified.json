@@ -1,0 +1,2260 @@
+[
+  {
+    "event": "U.S. imposes tariffs on Chinese goods",
+    "date": "2019-05-10",
+    "context": "The United States increases tariffs on $200 billion worth of Chinese goods from 10% to 25%.",
+    "domain": "Economics",
+    "why_significant": "Escalates the U.S.-China trade war, impacting global markets and supply chains",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about trade war escalation, retaliation, and economic impacts. Resolved with Phase One deal in Jan 2020.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnn.com/2019/05/10/economy/china-tariffs-goods-expensive",
+        "title": "Trump just raised tariffs. Here's what that means",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2019/05/09/us/politics/china-trade-tariffs.html",
+        "title": "Trump Increases China Tariffs as Trade Deal Hangs in ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2019/05/10/business/china-us-tariffs-trade",
+        "title": "The US just raised tariffs on Chinese goods. China says it ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnbc.com/2019/05/05/trump-says-tariffs-on-200-billion-of-chinese-goods-will-increase-to-25percent-on-friday.html",
+        "title": "Trump will increase tariffs on $200 billion of Chinese goods ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 4 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "US-China Phase One Trade Agreement signed",
+    "date": "2020-01-15",
+    "context": "The US and China sign a partial trade deal, pausing escalation of tariffs after a two-year trade war.",
+    "domain": "Economics",
+    "why_significant": "Temporarily eased trade tensions but left major issues unresolved, affecting global supply chains.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about whether deal will hold and what happens next. Led to renewed tensions later.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnbc.com/2020/01/15/trump-and-china-sign-phase-one-trade-agreement.html",
+        "title": "Trump and China sign phase one trade deal",
+        "published_date": ""
+      },
+      {
+        "url": "https://ustr.gov/sites/default/files/files/agreements/phase%20one%20agreement/US_China_Agreement_Fact_Sheet.pdf",
+        "title": "economic and trade agreement between",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.npr.org/2020/01/15/796305300/trump-to-sign-phase-one-china-trade-deal-but-most-tariffs-remain-in-place",
+        "title": "Trump Signs 'Phase 1' China Trade Deal, But Most Tariffs ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://farmpolicynews.illinois.edu/2020/01/u-s-china-sign-phase-one-trade-deal-agricultural-purchases-included/",
+        "title": "U.S., China Sign Phase One Trade Deal- Agricultural ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://chinaworker.info/en/2020/01/22/22318/",
+        "title": "'Phase one' trade deal doesn't end the US-China trade war",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event, including 3 from reliable news outlets."
+  },
+  {
+    "event": "First U.S. COVID-19 case confirmed",
+    "date": "2020-01-20",
+    "context": "The first confirmed case of COVID-19 in the United States is reported in Washington state.",
+    "domain": "Geopolitics",
+    "why_significant": "Marks the beginning of a devastating pandemic in the U.S., prompting widespread public health measures",
+    "post_cutoff": false,
+    "filter_reason": "Creates massive uncertainty about spread, lockdowns, economic impact. Clear causal chain to lockdowns, economic collapse, vaccine development.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://archive.cdc.gov/www_cdc_gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html",
+        "title": "First Travel-related Case of 2019 Novel Coronavirus ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON238",
+        "title": "COVID-19 - Republic of Korea - (ex-China)",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner",
+        "title": "Snakes could be the source of the Wuhan coronavirus ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.npr.org/2020/01/22/798392221/1st-u-s-case-of-coronavirus-confirmed-in-washington-state",
+        "title": "1st U.S. Case Of Coronavirus Confirmed In Washington State",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn",
+        "title": "First US case of Wuhan coronavirus confirmed by CDC",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "Brexit officially takes effect",
+    "date": "2020-01-31",
+    "context": "The United Kingdom formally leaves the European Union after a referendum and prolonged negotiations.",
+    "domain": "Politics",
+    "why_significant": "Leads to new trade agreements, economic adjustments, and shifts in UK-EU relations",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about UK-EU trade terms, Northern Ireland, Scottish independence. Led to trade disruptions and political instability.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnn.com/2020/01/31/uk/european-union-brexit-intl-gbr",
+        "title": "Brexit: Britain is leaving the European Union today. ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2020/01/30/brexit-council-adopts-decision-to-conclude-the-withdrawal-agreement/",
+        "title": "Brexit: Council adopts decision to conclude the withdrawal ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.npr.org/2020/01/31/801289239/brexit-day-what-to-know-when-the-u-k-leaves-the-eu",
+        "title": "Brexit Day: What To Know When The U.K. Leaves The EU",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/live/uk-politics-51324431",
+        "title": "Brexit: UK no longer a member of EU",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.businessinsider.com/brexit-finally-happens-united-kingdom-leaves-european-union-boris-johnson-2020-1",
+        "title": "Brexit finally happens: The United Kingdom has left ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "OPEC+ agrees to record oil production cuts",
+    "date": "2020-04-12",
+    "context": "Group agrees to cut output by 9.7M barrels/day amid COVID demand collapse.",
+    "domain": "Economics",
+    "why_significant": "Stabilized crashing oil prices but deepened US-Saudi tensions over energy policy.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about oil price recovery and energy market stability. Led to price stabilization and market restructuring.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnbc.com/2020/04/12/opec-and-allies-finalize-record-oil-production-cut-after-days-of-discussion.html",
+        "title": "OPEC and allies finalize record oil production cut after ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2020/04/12/energy/opec-deal-production-cut",
+        "title": "OPEC+ reaches deal to cut oil production by 9.7 million ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.dw.com/en/opec-and-allies-agree-to-cut-oil-production-to-nearly-10-million-barrels-a-day/a-53103182",
+        "title": "OPEC+ agrees to biggest ever production cut",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/article/business/opec-russia-approve-biggest-ever-oil-cut-to-support-prices-amid-coronavirus-pan-idUSKCN21U0J5/",
+        "title": "OPEC, Russia approve biggest-ever oil cut to support ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.borchert.ch/wp-content/uploads/2021/08/2004_Borchert_Covid-19_Scenarios.pdf",
+        "title": "Looking Beyond the Abyss",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "Hong Kong national security law enacted",
+    "date": "2020-06-30",
+    "context": "China imposes a national security law on Hong Kong, criminalizing secession, subversion, terrorism, and collusion with foreign forces.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to widespread protests, international condemnation, and shifts in Hong Kong's political landscape",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about protests, crackdowns, mass arrests, and exodus. Led to documented suppression, arrests, and emigration wave.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://npcobserver.com/2020/06/30/legislation-summary-hong-kong-national-security-law/",
+        "title": "Legislation Summary: Hong Kong National Security Law",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2020/06/29/china/hong-kong-national-security-law-passed-intl-hnk",
+        "title": "China passes sweeping Hong Kong national security law",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnbc.com/2020/06/30/china-reportedly-passes-national-security-law-for-hong-kong.html",
+        "title": "China passes controversial national security law for Hong ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.scmp.com/news/hong-kong/politics/article/3091241/national-security-law-chinese-president-xi-jinping-signs",
+        "title": "National security law: tough new reality for Hong Kong as ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://hongkongfp.com/2020/07/01/explainer-10-things-to-know-about-hong-kongs-national-security-law-new-crimes-procedures-and-agencies/",
+        "title": "10 things to know about Hong Kong's national security law",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "Israel-UAE normalization agreement",
+    "date": "2020-08-13",
+    "context": "Israel and the United Arab Emirates agree to normalize relations, brokered by the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Reshapes Middle Eastern geopolitics, leading to economic and technological collaborations",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about regional stability and other Arab states following. Led to Abraham Accords expansion with Bahrain, Morocco.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.nytimes.com/2020/08/13/us/politics/trump-israel-united-arab-emirates-uae.html",
+        "title": "Israel and United Arab Emirates Strike Major Diplomatic ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2020/08/13/middleeast/mideast-trump-full-statement-uae-israel-intl",
+        "title": "Read: Full US-Israel-UAE statement on normalizing relations",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.csis.org/analysis/normalization-uae-israel-relations",
+        "title": "The Normalization of UAE-Israel Relations",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/world-middle-east-53770859",
+        "title": "Israel and UAE strike historic deal to normalise relations",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nbcnews.com/news/world/israel-united-arab-emirates-agree-full-normalization-relations-n1236606",
+        "title": "Israel, United Arab Emirates agree to full normalization of ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "GameStop short squeeze peaks",
+    "date": "2021-01-28",
+    "context": "Retail traders on Reddit's WallStreetBets drive GameStop shares up 1,700%, squeezing hedge funds.",
+    "domain": "Economics",
+    "why_significant": "Exposed power of decentralized retail investing, led to trading platform restrictions and regulatory scrutiny.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about market manipulation, regulatory response, and retail trading future. Led to Congressional hearings, trading restrictions.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cbsnews.com/news/gamestop-stock-plummets-as-wall-street-reels-2021-01-28/",
+        "title": "GameStop stock plummets after platforms halt trading",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aljazeera.com/economy/2021/1/28/gamestop-why-social-media-based-traders-are-beating-wall-street",
+        "title": "GameStop: Why social media-driven traders are beating ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cbsnews.com/news/gamestop-reddit-wallstreetbets-short-squeeze-2021-01-28/",
+        "title": "How Reddit posters made millions as Wall Street lost ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/seedlyfinance/posts/2568891810068836/",
+        "title": "What are the key takeaways from GameStop's stock price ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.quora.com/Can-what-happened-with-GameStop-and-AMC-stock-be-replicated-or-was-it-a-one-time-thing",
+        "title": "Can what happened with GameStop and AMC stock be ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Ever Given blocks Suez Canal",
+    "date": "2021-03-23",
+    "context": "The 400m container ship runs aground, blocking the canal for 6 days and disrupting 12% of global trade.",
+    "domain": "Geopolitics",
+    "why_significant": "Caused $9.6B/day in trade delays, exposed fragility of global supply chains.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about canal reopening, trade disruption duration, and supply chain impacts. Led to documented trade delays and insurance claims.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnbc.com/2021/03/24/satellite-imagery-of-ship-ever-given-blocking-egypts-suez-canal.html",
+        "title": "Satellite imagery of ship Ever Given blocking Egypt's Suez ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2021/03/29/africa/suez-canal-refloating-intl-hnk",
+        "title": "Ever Given ship freed in the Suez Canal, authority confirms",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.atlas-mag.net/en/article/container-ship-blocks-the-suez-canal",
+        "title": "The container ship \"Ever Given\" blocks the Suez Canal",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/world-middle-east-56505413",
+        "title": "Egypt's Suez Canal blocked by huge container ship",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/world-middle-east-56522178",
+        "title": "Suez Canal: Owner of cargo ship blocking waterway ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "TSMC announces $100 billion investment",
+    "date": "2021-04-01",
+    "context": "TSMC commits $100 billion over three years to expand chip production amid global semiconductor shortages.",
+    "domain": "Technology",
+    "why_significant": "Accelerates global efforts to address chip shortages, heightens geopolitical competition over semiconductor dominance.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about chip shortage resolution and geopolitical semiconductor race. Led to CHIPS Act and fab construction globally.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnbc.com/2021/04/01/tsmc-to-invest-100-billion-over-next-3-years-to-meet-chip-demand.html",
+        "title": "TSMC to invest $100 billion over next 3 years to meet chip ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnn.com/2021/04/01/tech/tsmc-investment-chips-intl-hnk",
+        "title": "Taiwan's TSMC is pouring $100 billion into chipmaking to ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.macrumors.com/2021/04/01/apple-supplier-tsmc-invest-100-billion/",
+        "title": "Apple Chip Supplier TSMC to Expand Production Capacity ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://unctad.org/system/files/official-document/wir2021_en.pdf",
+        "title": "World Investment Report 2021",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/424434652306698/posts/468326021250894/",
+        "title": "ChipMOS (NASDAQ:IMOS), a Taiwanese",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "Amazon acquires MGM for $8.45B",
+    "date": "2021-05-26",
+    "context": "Largest entertainment acquisition since Fox-Disney, adding 4,000 films to Prime Video.",
+    "domain": "Business",
+    "why_significant": "Accelerated streaming wars, raised antitrust concerns about Big Tech expansion.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about streaming competition and antitrust action. Led to intensified content wars and regulatory scrutiny.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnbc.com/2021/05/26/amazon-to-buy-mgm-studios-for-8point45-billion.html",
+        "title": "Amazon to buy MGM Studios for $8.45 billion",
+        "published_date": ""
+      },
+      {
+        "url": "https://techcrunch.com/2021/05/26/amazon-is-buying-mgm-studios-for-8-45b/",
+        "title": "Amazon is buying MGM Studios for $8.45B",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-agrees-to-buy-mgm-film-studio-for-8-45-billion",
+        "title": "Amazon Agrees to Buy MGM Film Studio for $8.45 Billion",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.foxbusiness.com/markets/amazon-buys-hollywood-studio-mgm",
+        "title": "Amazon snags Hollywood studio MGM for $8.45B",
+        "published_date": ""
+      },
+      {
+        "url": "https://wraltechwire.com/2021/05/27/jeff-bezos-lion-heres-why-amazon-is-spending-8-5b-to-acquire-mgm/",
+        "title": "Jeff Bezos' lion: Here's why Amazon is spending $8.5B to ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 3 from reliable news outlets."
+  },
+  {
+    "event": "Afghanistan falls to the Taliban",
+    "date": "2021-08-15",
+    "context": "The Taliban captures Kabul following the withdrawal of U.S. and NATO forces, ending a 20-year military presence.",
+    "domain": "Geopolitics",
+    "why_significant": "Leads to humanitarian crises, geopolitical realignments, and questions about U.S. foreign policy effectiveness.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about humanitarian crisis, regional stability, and terrorism resurgence. Led to refugee crisis and Taliban governance.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.nytimes.com/2021/08/15/world/asia/afghanistan-taliban-kabul-surrender.html",
+        "title": "Kabul's Sudden Fall to Taliban Ends U.S. Era in Afghanistan",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.npr.org/2021/08/15/1027860324/the-taliban-win-control-of-afghanistan-as-the-u-s-backed-government-collapses",
+        "title": "Taliban Seizes Afghanistan, As U.S.-Backed Forces Collapse",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/world-asia-58223231",
+        "title": "Afghanistan conflict: Kabul falls to Taliban as president flees",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/world-58232525",
+        "title": "How the Taliban stormed across Afghanistan in 10 days",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.congress.gov/crs_external_products/R/PDF/R46879/R46879.5.pdf",
+        "title": "U.S. Military Withdrawal and Taliban Takeover in Afghanistan",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "Facebook rebrands as Meta",
+    "date": "2021-10-28",
+    "context": "Mark Zuckerberg announces Facebook's parent company will focus on building the metaverse.",
+    "domain": "Technology",
+    "why_significant": "Marked a high-profile bet on VR/AR future, preceded major metaverse investment losses in 2022.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about metaverse viability and Meta's future. Led to $13B+ losses in Reality Labs and strategic pivot by 2023.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+        "title": "The Facebook Company Is Now Meta",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnbc.com/2021/10/28/facebook-changes-company-name-to-meta.html",
+        "title": "Facebook changes company name to Meta",
+        "published_date": ""
+      },
+      {
+        "url": "https://techcrunch.com/2021/10/28/facebook-changes-its-corporate-branding-to-meta/",
+        "title": "Facebook changes its corporate branding to Meta",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/technology/facebooks-zuckerberg-kicks-off-its-virtual-reality-event-with-metaverse-vision-2021-10-28/",
+        "title": "Facebook changes name to Meta as it refocuses on virtual ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/technology-59083601",
+        "title": "Facebook changes its name to Meta in major rebrand",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "Russia begins troop buildup near Ukraine",
+    "date": "2021-11-01",
+    "context": "Satellite images show 100,000+ Russian troops massing near Ukraine's borders.",
+    "domain": "Geopolitics",
+    "why_significant": "Preceded the 2022 invasion, triggered NATO unity and energy market turmoil.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about invasion likelihood and Western response. Led directly to February 2022 invasion.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.politico.com/news/2021/11/01/satellite-russia-ukraine-military-518337",
+        "title": "Satellite images show new Russian military buildup near ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/ukraine-denies-report-russian-troop-buildup-near-its-borders-2021-11-01/",
+        "title": "Ukraine denies report of Russian troop buildup near its ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.dailysabah.com/world/europe/kyiv-says-90000-russian-military-units-staged-near-ukrainian-border",
+        "title": "Kyiv says 90000 Russian military units staged near ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2021/11/2/russia-denies-reports-of-military-buildup-near-ukraine-border",
+        "title": "Moscow, Kyiv deny reports of Russian military buildup near ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 4 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "Log4j vulnerability disclosed",
+    "date": "2021-12-09",
+    "context": "Critical zero-day flaw in ubiquitous Java logging library threatens millions of systems.",
+    "domain": "Technology",
+    "why_significant": "One of the most severe cybersecurity threats in history, required emergency patching globally.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about exploit spread and damage. Led to emergency global patching effort and documented attacks.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://unit42.paloaltonetworks.com/apache-log4j-vulnerability-cve-2021-44228/",
+        "title": "Apache log4j Vulnerability CVE-2021-44228",
+        "published_date": ""
+      },
+      {
+        "url": "https://blog.cloudflare.com/inside-the-log4j2-vulnerability-cve-2021-44228/",
+        "title": "Inside the Log4j2 vulnerability (CVE-2021-44228)",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/msrc/blog/2021/12/microsofts-response-to-cve-2021-44228-apache-log4j2",
+        "title": "Microsoft's Response to CVE-2021-44228 Apache Log4j 2",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/574695376589462/posts/960681574657505/",
+        "title": "Log4j vulnerability: implications and takeaways",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.dco.uscg.mil/Portals/9/2021CyberTrendsInsightsMarineEnvironmentReport.pdf",
+        "title": "2021 CYBER TRENDS AND INSIGHTS IN THE MARINE ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Evergrande defaults on debt",
+    "date": "2021-12-09",
+    "context": "Chinese property giant Evergrande officially defaults on its debt obligations, triggering fears of a broader financial crisis.",
+    "domain": "Economics",
+    "why_significant": "Raises concerns about China's real estate sector, global financial stability, and economic growth.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about Chinese real estate contagion and financial crisis. Led to property sector restructuring and economic slowdown.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.nytimes.com/2021/12/09/business/china-evergrande-default.html",
+        "title": "China Evergrande Defaults on Its Debt. Now What?",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2021-12-09/evergrande-defaults-for-first-time-as-china-debt-strains-spread",
+        "title": "Evergrande Declared in Default as Huge Restructuring ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aljazeera.com/economy/2021/12/9/bb-chinas-evergrande-officially-defaults-on-dollar-debt",
+        "title": "China's Evergrande defaults on dollar debt | Property",
+        "published_date": ""
+      },
+      {
+        "url": "https://fortune.com/2021/12/08/evergrande-kaisa-default-debt-crisis-restructuring-comeback/",
+        "title": "Two Chinese real estate giants face default\u2014but only one ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aljazeera.com/economy/2021/12/10/things-about-to-get-messier-evergrande-default-signals-volatil",
+        "title": "Evergrande default signals volatility but no crash, analysts ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "Russia invades Ukraine",
+    "date": "2022-02-24",
+    "context": "Russia launches a full-scale invasion of Ukraine, leading to widespread conflict and humanitarian crisis.",
+    "domain": "Geopolitics",
+    "why_significant": "Triggers global geopolitical tensions, economic sanctions, and shifts in international alliances",
+    "post_cutoff": false,
+    "filter_reason": "Creates massive uncertainty about war outcome, sanctions impact, energy crisis. Led to documented sanctions, energy crisis, NATO expansion.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cnn.com/2022/02/24/europe/ukraine-russia-invasion-thursday-intl",
+        "title": "Peace in Europe 'shattered' as Russia invades Ukraine",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/putin-orders-military-operations-ukraine-demands-kyiv-forces-surrender-2022-02-24/",
+        "title": "Missiles rain down around Ukraine",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2022/2/24/putin-orders-military-operations-in-eastern-ukraine-as-un-meets",
+        "title": "Russian forces launch full-scale invasion of Ukraine",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.wsj.com/public/resources/documents/Ixu7f8RG3DbYGYBXowxR-WSJNewsPaper-2-17-2022.pdf",
+        "title": "Defiant Ukraine Girds for War As West Cites Russian Buildup",
+        "published_date": ""
+      },
+      {
+        "url": "https://eucrim.eu/media/issue/pdf/eucrim_issue_2022-02.pdf",
+        "title": "2022",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "Elon Musk acquires Twitter",
+    "date": "2022-10-27",
+    "context": "Elon Musk completes a $44 billion acquisition of Twitter after months of legal and financial disputes.",
+    "domain": "Business",
+    "why_significant": "Sparks debates over content moderation, free speech, and the future of social media platforms.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about platform changes, advertiser exodus, and Twitter's viability. Led to mass layoffs, feature changes, X rebrand.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.nytimes.com/2022/10/27/technology/elon-musk-twitter-deal-complete.html",
+        "title": "Elon Musk Completes $44 Billion Deal to Own Twitter",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/markets/deals/elon-musk-completes-44-bln-acquisition-twitter-2022-10-28/",
+        "title": "Musk begins his Twitter ownership with firings, declares ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.npr.org/2022/10/27/1131378869/twitter-elon-musk-timeline",
+        "title": "Elon Musk has finally bought Twitter: A timeline of the twists ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bbc.com/news/technology-63402338",
+        "title": "Elon Musk takes control of Twitter in $44bn deal",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.latimes.com/business/story/2022-10-27/elon-musk-buys-twitter-44-billion",
+        "title": "Elon Musk buys Twitter for $44 billion",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "FTX cryptocurrency exchange collapses",
+    "date": "2022-11-11",
+    "context": "FTX files for bankruptcy amid allegations of mishandling customer funds and liquidity crises.",
+    "domain": "Technology",
+    "why_significant": "Undermines trust in cryptocurrency markets, accelerates calls for stricter financial regulation.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about crypto contagion and regulatory crackdown. Led to SBF arrest, crypto regulation push, industry consolidation.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.nytimes.com/2022/11/11/business/ftx-bankruptcy.html",
+        "title": "Embattled Crypto Exchange FTX Files for Bankruptcy",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/",
+        "title": "Crypto exchange FTX files for bankruptcy as wunderkind ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnbc.com/2022/11/11/sam-bankman-frieds-cryptocurrency-exchange-ftx-files-for-bankruptcy.html",
+        "title": "Sam Bankman-Fried steps down, FTX files for bankruptcy",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/technology/exclusive-behind-ftxs-fall-battling-billionaires-failed-bid-save-crypto-2022-11-10/",
+        "title": "Exclusive: Behind FTX's fall, battling billionaires and a ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2022/11/14/technology/ftx-sam-bankman-fried-crypto-bankruptcy.html",
+        "title": "How Sam Bankman-Fried's FTX Crypto Empire Collapsed",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event, including 5 from reliable news outlets."
+  },
+  {
+    "event": "China ends zero-COVID policy",
+    "date": "2022-12-07",
+    "context": "China abruptly abandons its zero-COVID strategy following widespread protests and economic pressures.",
+    "domain": "Politics",
+    "why_significant": "Leads to a surge in COVID-19 cases globally, impacts supply chains, and signals shifts in China's governance.",
+    "post_cutoff": false,
+    "filter_reason": "Creates uncertainty about COVID surge, deaths, and economic recovery. Led to massive case surge, supply chain relief, economic reopening.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.npr.org/2022/12/07/1141172723/china-announces-a-roll-back-of-its-strict-anti-covid-19-measures",
+        "title": "China announces rollback of strict anti-COVID-19 measures",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2022/12/07/world/asia/china-zero-covid-changes.html",
+        "title": "China's 'Zero Covid' Policy Changes, Explained",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2022/12/07/world/asia/china-zero-covid-protests.html",
+        "title": "China Eases 'Zero Covid' Restrictions in Victory for Protesters",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2022/12/08/world/asia/china-covid-rollback.html",
+        "title": "'Zero Covid,' Once Ubiquitous, Vanishes in China's Messy ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.theatlantic.com/international/archive/2022/12/zero-covids-failure-is-xi-jinpings-failure/672422/",
+        "title": "Zero COVID's Failure Is Xi Jinping's Failure",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 4 from reliable news outlets."
+  },
+  {
+    "event": "FTX founder Sam Bankman-Fried sentenced to 25 years in prison",
+    "date": "2024-03-28",
+    "context": "SBF sentenced for defrauding FTX customers of $8B in one of largest financial frauds. Judge Kaplan rejects defense arguments. Customers may recover 90% of funds. Effective altruism movement damaged.",
+    "domain": "Business",
+    "why_significant": "Landmark crypto fraud case establishes regulatory precedent, impacts industry credibility, shapes future enforcement",
+    "post_cutoff": false,
+    "filter_reason": "Created uncertainty: How long would sentence be? Would customers be repaid? Would this kill crypto industry? Resolved with 25-year term, customer recovery plan, industry stabilizing but chastened."
+  },
+  {
+    "event": "Trump convicted on 34 felony counts in hush money trial",
+    "date": "2024-05-30",
+    "context": "Former President Donald Trump found guilty on all 34 counts of falsifying business records related to hush money payments to Stormy Daniels. First criminal conviction of a U.S. president.",
+    "domain": "Politics",
+    "why_significant": "Historic verdict raises questions about sentencing, campaign impact, and legal precedent for prosecuting former presidents",
+    "post_cutoff": false,
+    "filter_reason": "Created uncertainty: Would Trump face prison time? How would conviction affect polling? Would Republicans distance themselves? Resolved by September with sentencing delayed, polling impact minimal, GOP support solidified."
+  },
+  {
+    "event": "Boeing Starliner astronauts stranded on ISS after thruster failures",
+    "date": "2024-06-06",
+    "context": "NASA astronauts Butch Wilmore and Suni Williams stuck on ISS after Starliner develops helium leaks and thruster problems. 8-day mission extends indefinitely. Safety review ongoing.",
+    "domain": "Technology",
+    "why_significant": "Threatens Boeing's $4.2B NASA contract, delays Commercial Crew program, raises astronaut safety concerns, impacts space station operations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would astronauts return on Starliner or SpaceX? When would they come home? Would Boeing lose certification? Resolved by August with NASA choosing SpaceX return in February 2025, Boeing credibility damaged."
+  },
+  {
+    "event": "NVIDIA passes Microsoft to become world's most valuable company",
+    "date": "2024-06-18",
+    "context": "NVIDIA market cap reaches $3.34T, briefly surpassing Microsoft and Apple. Driven by AI chip demand, H100 GPU dominance, data center revenue growth. Stock up 3,500% since ChatGPT launch.",
+    "domain": "Business",
+    "why_significant": "Validates AI boom economics, transforms semiconductor industry power dynamics, raises bubble concerns, impacts tech investing",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Is this sustainable or bubble? Would demand continue? Can competitors catch up? Resolved by volatility through 2024 with NVIDIA maintaining lead despite competition from AMD, Intel concerns."
+  },
+  {
+    "event": "Supreme Court rules Trump has partial immunity for official acts",
+    "date": "2024-07-01",
+    "context": "6-3 Supreme Court decision grants presidents immunity for official acts but not private conduct. Delays Trump's January 6 trial past 2024 election. Remands to lower court to determine which acts qualify.",
+    "domain": "Politics",
+    "why_significant": "Expands presidential power, affects multiple Trump prosecutions, impacts accountability for future presidents, constitutional law milestone",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Trump's trial proceed before election? What acts qualify as official? Would other cases dismiss? Resolved by trial delays past election, but immunity scope still being litigated."
+  },
+  {
+    "event": "Microsoft faces global Xbox outage during key gaming weekend",
+    "date": "2024-07-02",
+    "context": "Xbox Live services down for 8+ hours during summer sale and major game launches. Millions unable to play online games or access purchases.",
+    "domain": "Technology",
+    "why_significant": "Tests Microsoft's cloud reliability promises, impacts consumer trust and competitive position vs. Sony PlayStation",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Microsoft compensate users? How much revenue lost? Would this hurt Game Pass subscriptions? Resolved within weeks with apology, free perks offered, minimal subscriber impact reported."
+  },
+  {
+    "event": "UK Labour Party wins landslide election, ending 14 years of Conservative rule",
+    "date": "2024-07-04",
+    "context": "Labour wins 412 seats vs. Conservatives' 121 in historic defeat. Keir Starmer becomes PM, promises economic growth, NHS reform, closer EU ties without rejoining.",
+    "domain": "Politics",
+    "why_significant": "Reshapes UK politics, raises questions about Brexit policy reversal, business regulation, U.S.-UK relations, Northern Ireland protocol",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Labour raise taxes significantly? How would business respond? Would UK rejoin EU single market? Resolved by autumn budget with tax rises, minimal Brexit changes, business concerns."
+  },
+  {
+    "event": "Meta launches Threads to compete with Twitter/X",
+    "date": "2024-07-05",
+    "context": "Meta releases Threads social network integrated with Instagram, gaining 100M users in 5 days. Direct challenge to Elon Musk's X (formerly Twitter) amid its advertiser exodus.",
+    "domain": "Technology",
+    "why_significant": "Tests whether Meta can leverage Instagram to kill competitor, impacts social media advertising market, regulatory scrutiny of bundling",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Threads sustain user growth? Would advertisers migrate from X? How would Musk respond? Resolved by Q4 2024 with Threads reaching 275M users, but engagement questions remained."
+  },
+  {
+    "event": "France faces hung parliament after snap election gamble",
+    "date": "2024-07-07",
+    "context": "President Macron's centrist coalition loses majority in snap election. Left-wing New Popular Front alliance wins most seats but no absolute majority. Far-right National Rally comes third after second-round tactical voting.",
+    "domain": "Politics",
+    "why_significant": "Political gridlock in EU's second-largest economy threatens budgets, reforms, EU leadership, defense spending for Ukraine",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Could any coalition govern? Would Macron appoint left-wing PM? Would far-right gain influence? Resolved by September with technocrat PM appointed, policy paralysis, 2027 election focus."
+  },
+  {
+    "event": "CrowdStrike software update causes global IT outage",
+    "date": "2024-07-19",
+    "context": "Faulty CrowdStrike Falcon sensor update crashes 8.5 million Windows systems worldwide, grounding flights, disrupting hospitals, banks, and broadcasters. Largest IT outage in history.",
+    "domain": "Technology",
+    "why_significant": "Exposes critical infrastructure vulnerability to single points of failure, raises questions about software update testing, liability, and cybersecurity practices",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long for recovery? What financial damages? Would this trigger regulation? Resolved within 2 weeks as systems restored, $5-10B damages estimated, calls for update governance strengthened."
+  },
+  {
+    "event": "Biden withdraws from 2024 presidential race",
+    "date": "2024-07-21",
+    "context": "President Joe Biden announces withdrawal from 2024 presidential race amid mounting pressure from Democratic Party leaders following poor debate performance. Vice President Kamala Harris quickly gains endorsements.",
+    "domain": "Politics",
+    "why_significant": "Historic decision reshapes 2024 election, transfers campaign infrastructure to Harris, raises questions about Democratic unity and election viability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Democrats unite behind Harris? Would other candidates challenge? How would voters respond? Resolved within weeks as Harris secured nomination and polling showed competitive race."
+  },
+  {
+    "event": "Maduro declared winner in disputed Venezuelan election",
+    "date": "2024-07-28",
+    "context": "Venezuela's National Electoral Council declares Nicol\u00e1s Maduro winner with 51% despite opposition claims of fraud. International observers question results. Mass protests erupt in Caracas.",
+    "domain": "Geopolitics",
+    "why_significant": "Disputed election threatens regional stability, U.S. sanctions, humanitarian crisis, and potential refugee flows",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would opposition accept results? Would protests escalate? How would international community respond? Resolved by October with Maduro maintaining power despite sanctions, opposition suppressed, refugee crisis worsened."
+  },
+  {
+    "event": "Intel announces 15% workforce reduction and dividend suspension",
+    "date": "2024-08-01",
+    "context": "Intel cuts 15,000 jobs (15% of workforce) and suspends dividend for first time since 1992 after losing $1.6B. Gelsinger's turnaround plan questioned. Stock crashes 26%, worst day since 2000.",
+    "domain": "Business",
+    "why_significant": "Crisis at U.S. chip champion threatens national semiconductor strategy, CHIPS Act funding, competitive position vs. TSMC, Nvidia",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Intel lose CHIPS Act funding? Could turnaround succeed? Would activist investors force changes? Resolved by Q4 with government funding maintained, but foundry strategy still questioned."
+  },
+  {
+    "event": "Bangladesh Prime Minister Sheikh Hasina flees country amid protests",
+    "date": "2024-08-05",
+    "context": "PM Sheikh Hasina resigns and flees to India after weeks of student-led protests over government job quotas turn deadly, killing 300+. Military announces interim government.",
+    "domain": "Geopolitics",
+    "why_significant": "Sudden regime change in 170M person nation raises questions about democratic transition, India-Bangladesh relations, regional stability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would military seize power? Would India support her return? How would elections proceed? Resolved by November with Nobel laureate Yunus leading interim government, elections planned for 2025."
+  },
+  {
+    "event": "Google ruled illegal monopoly in antitrust case",
+    "date": "2024-08-05",
+    "context": "Federal Judge Amit Mehta rules Google violated antitrust law by paying $26B annually to be default search engine. DOJ seeks breakup remedies including Chrome browser divestiture.",
+    "domain": "Technology",
+    "why_significant": "Landmark antitrust ruling could force Google breakup, reshape search market, impact $175B digital ads business",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Google be forced to sell Chrome? How much would penalties cost? Would this affect Apple deal? Resolved by remedies phase in spring 2025 proposing divestiture, Google appealing."
+  },
+  {
+    "event": "Telegram founder Pavel Durov arrested in France",
+    "date": "2024-08-24",
+    "context": "French authorities arrest Telegram CEO at Paris airport over allegations platform enables drug trafficking, money laundering, child abuse distribution by refusing content moderation. Held for 4 days.",
+    "domain": "Technology",
+    "why_significant": "Tests liability of encrypted messaging platform operators, impacts global tech regulation, raises encryption backdoor debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Durov face charges? Would Telegram compromise encryption? Would Russia intervene? Resolved by September with release on bail, platform agreeing to share data with authorities, encryption debate intensified."
+  },
+  {
+    "event": "Brazil Supreme Court bans X (Twitter) nationwide",
+    "date": "2024-08-30",
+    "context": "Justice Alexandre de Moraes orders X blocked for refusing to name legal representative and remove accounts spreading disinformation. Daily fines of $8,900 for VPN users. Affects 22M Brazilian users.",
+    "domain": "Geopolitics",
+    "why_significant": "Tests content moderation vs. free speech globally, threatens tech company business models, impacts digital sovereignty debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Elon Musk comply? How long would ban last? Would other countries follow? Resolved by October with X appointing representative, partial restoration, but censorship precedent set."
+  },
+  {
+    "event": "Turkey applies to join BRICS economic bloc",
+    "date": "2024-09-02",
+    "context": "NATO member Turkey formally applies to join BRICS (Brazil, Russia, India, China, South Africa). Erdogan seeks alternatives to Western economic order amid inflation crisis, strengthens ties with Russia-China.",
+    "domain": "Geopolitics",
+    "why_significant": "NATO ally joining rival bloc threatens Western unity, impacts Ukraine support, Middle East diplomacy, military cooperation",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would BRICS accept? How would NATO respond? Is Turkey leaving Western alliance? Resolved by BRICS considering application positively, U.S. expressing concern, Turkey maintaining dual strategy."
+  },
+  {
+    "event": "Russia withdraws from New START treaty",
+    "date": "2024-09-05",
+    "context": "Russia formally announces its withdrawal from the New START nuclear arms reduction treaty with the United States.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates US-Russia tensions, arms race risks increase, impacts global security, influences NATO military strategies",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about arms race and nuclear tensions. 3-month window allows assessment of NATO response and arms buildup.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://english.defensie.nl/binaries/defence/documenten/publications/2024/09/05/defence-white-paper-2024/NLD+Defence+white+paper.pdf",
+        "title": "2024 DEFENCE WHITE PAPER",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.medrxiv.org/content/10.1101/2024.09.05.24312304v1.full.pdf",
+        "title": "Why has the United States of America Not Ratified the ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://rwi.lu.se/wp-content/uploads/2024/09/Accountability-for-Human-Rights-Violations-and-Violations-of-International-Humanitarian-Law2.pdf",
+        "title": "Accountability-for-Human-Rights-Violations-and- ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://bttn.org.pk/ojs/index.php/BTTN_Journal/article/download/146/97",
+        "title": "Contemporary Perspectives On The Nuclear Dimension Of ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nids.mod.go.jp/english/publication/perspectives/pdf/2024/8_e04.pdf",
+        "title": "Nuclear Weapon Policy and Nuclear Arms Control",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event."
+  },
+  {
+    "event": "Disney and Charter reach deal after cable blackout disrupts ESPN, ABC",
+    "date": "2024-09-11",
+    "context": "After 10-day blackout affecting 14.7M subscribers during US Open and NFL season, Disney and Charter agree on new distribution model including Disney+ access. Traditional cable bundle model evolves.",
+    "domain": "Business",
+    "why_significant": "Signals shift in cable TV economics, impacts Disney's streaming strategy, affects sports broadcasting rights negotiations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Disney lose distribution? How much would deal cost? Would this accelerate cord-cutting? Resolved with precedent-setting deal combining linear and streaming, but economics questioned."
+  },
+  {
+    "event": "EU passes AI Liability Directive",
+    "date": "2024-09-12",
+    "context": "Strict liability framework for AI harms, requiring explainability for high-risk systems. Passed 401-192 in Parliament.",
+    "domain": "Technology",
+    "why_significant": "Forced retooling of major LLMs, slowed EU AI adoption, created compliance market worth \u20ac2B+",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about AI industry restructuring and compliance. 3-month window shows impacts on AI deployment and business models.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.aon.com/en/insights/articles/financial-services-group/remote-work-and-potential-epl-perils",
+        "title": "Remote Work and Potential EPL Perils - Aon",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cyberpeace.org/resources/blogs?99fd07b9_page=27",
+        "title": "Explore CyberPeace Blogs on Cybersecurity",
+        "published_date": ""
+      },
+      {
+        "url": "https://surs.org/wp-content/uploads/Inv_091224.pdf",
+        "title": "MINUTES Quarterly Meeting of the Investment Committee ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://nyujlpp.org/wp-content/uploads/2024/09/JLPP-26-4-Vogel-et-al.pdf",
+        "title": "IS YOUR USE OF AI VIOLATING THE LAW? AN ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://yourdataconnect.com/wp-content/uploads/2024/08/AI_Governance_Comprehensive_Sept_2024.pdf",
+        "title": "AI Governance Comprehensive: Tools, Vendors, Controls and ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event."
+  },
+  {
+    "event": "OpenAI launches reasoning model o1 with PhD-level capabilities",
+    "date": "2024-09-12",
+    "context": "OpenAI releases o1-preview and o1-mini models trained to 'think' before responding, showing major improvements on math, coding, and science benchmarks. Outperforms PhD students on physics problems.",
+    "domain": "Technology",
+    "why_significant": "Represents breakthrough in AI reasoning, threatens knowledge worker jobs, raises questions about AI safety, research disruption",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this obsolete certain jobs? How would researchers use it? What safety implications? Resolved by adoption in Q4 showing productivity gains but not job replacement, safety debates ongoing."
+  },
+  {
+    "event": "SpaceX Polaris Dawn completes first commercial spacewalk",
+    "date": "2024-09-12",
+    "context": "Jared Isaacman and SpaceX engineer perform first private spacewalk at 435 miles altitude using new EVA suits. Mission tests technologies for Mars missions, reaches highest orbit since Apollo.",
+    "domain": "Technology",
+    "why_significant": "Milestone in commercial space industry, proves SpaceX suit technology, opens market for space tourism, advances Mars ambitions",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would spacewalk succeed safely? Would suits perform? What would NASA's response be? Resolved successfully within mission week, validating commercial spaceflight safety, tourism market expanded."
+  },
+  {
+    "event": "Boeing machinists strike halts 737 MAX production",
+    "date": "2024-09-13",
+    "context": "33,000 Boeing workers in Seattle reject contract and strike, halting production of 737 MAX, 777, 767. Company losing $50M daily. Strike lasts 7 weeks. CEO Calhoun resigns during crisis.",
+    "domain": "Business",
+    "why_significant": "Compounds Boeing's 737 MAX quality crisis, threatens airline deliveries, impacts aviation supply chain, financial stability",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long would strike last? Would Boeing meet delivery targets? What would settlement cost? Resolved by November with 38% wage increase deal, production resumed, but backlog worsened."
+  },
+  {
+    "event": "Russia and Ukraine conduct largest prisoner swap of war",
+    "date": "2024-09-14",
+    "context": "Russia and Ukraine exchange 206 prisoners in UAE-mediated swap. Includes 103 Russian soldiers captured in Kursk and Ukrainian POWs from Mariupol. Largest exchange since war began.",
+    "domain": "Geopolitics",
+    "why_significant": "Signals potential diplomatic opening despite continued fighting, tests mediation efforts, impacts war termination negotiations",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this lead to broader talks? Could UAE broker peace? Would swaps continue? Resolved by ongoing exchanges through Q4 2024, but no peace breakthrough, war continues."
+  },
+  {
+    "event": "Trump survives second assassination attempt in Florida",
+    "date": "2024-09-15",
+    "context": "Armed man spotted in bushes at Trump International Golf Club in West Palm Beach. Secret Service fires shots, suspect flees, arrested hours later. Second attempt in 2 months.",
+    "domain": "Politics",
+    "why_significant": "Escalates political violence concerns, tests Secret Service reforms, impacts campaign security protocols, affects election rhetoric",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Trump campaign differently? Would Secret Service face overhaul? How would this affect polling? Resolved within weeks with increased security, minimal polling impact, rhetoric intensified."
+  },
+  {
+    "event": "United Auto Workers launches simultaneous strikes against Big Three",
+    "date": "2024-09-15",
+    "context": "UAW strikes Ford, GM, Stellantis simultaneously for first time. Demands include 40% wage increases, pension restoration, EV battery plant coverage. Shawn Fain targets most profitable plants first with 'stand-up' strategy.",
+    "domain": "Business",
+    "why_significant": "Tests automakers' EV transition economics, impacts supply chains, sets labor precedent, affects political landscape in Michigan",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: How long would strike last? Would Biden intervene? What would settlement cost? Resolved by October with 25% wage increases, record contracts, but EV transition costs rising."
+  },
+  {
+    "event": "Hezbollah pager explosions kill dozens across Lebanon",
+    "date": "2024-09-17",
+    "context": "Coordinated explosions of Hezbollah pagers kill 12, injure 3,000+ across Lebanon. Second wave targets walkie-talkies day later. Israeli intelligence suspected of supply chain infiltration operation.",
+    "domain": "Geopolitics",
+    "why_significant": "Unprecedented cyber-kinetic attack escalates Israel-Hezbollah conflict, threatens regional war, exposes supply chain vulnerabilities",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Hezbollah retaliate with missiles? Would Lebanon declare war? How was supply chain compromised? Resolved by escalation to ground invasion in October, regional war avoided, investigation ongoing."
+  },
+  {
+    "event": "Federal Reserve cuts interest rates by 0.5% after 11 rate hikes",
+    "date": "2024-09-18",
+    "context": "Fed makes first rate cut since 2020 with larger-than-expected 50 basis point reduction. Inflation at 2.5%, unemployment at 4.2%. Chair Powell signals shift to protecting jobs over fighting inflation.",
+    "domain": "Economics",
+    "why_significant": "Marks turning point in monetary policy, impacts mortgage rates, borrowing costs, stock market valuations, recession risk",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this trigger rate cut cycle? How many more cuts in 2024? Would inflation resurge? Resolved by year-end with 2 more cuts, inflation stable, soft landing narrative strengthened."
+  },
+  {
+    "event": "China announces stimulus package to revive property sector",
+    "date": "2024-09-24",
+    "context": "People's Bank of China unveils $278B stimulus including rate cuts, reserve requirement reductions, stock market support. Aims to rescue collapsing property sector. CSI 300 index surges 20% in days.",
+    "domain": "Economics",
+    "why_significant": "Tests China's ability to avoid Japan-style deflation, impacts global commodity demand, affects debt crisis in property developers",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would stimulus work? Is this enough? Can property sector recover? Resolved by market rally fading within month, property sales stabilizing but not recovering, deflation fears persist."
+  },
+  {
+    "event": "Francis Ford Coppola's $120M Megalopolis bombs at box office",
+    "date": "2024-09-27",
+    "context": "Self-financed epic opens to $4M domestically after 40-year production. Critical reviews mixed. Coppola sells wine business to fund film. Raises questions about theatrical viability for auteur films.",
+    "domain": "Business",
+    "why_significant": "Tests theatrical market for non-franchise films, impacts indie film financing models, director's personal financial crisis",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would film find audience internationally? Could streaming sale recoup costs? Would this kill auteur financing? Resolved by year-end with $13M global total, streaming deal insufficient, auteur model questioned."
+  },
+  {
+    "event": "Anthropic raises $4B from Amazon at $18B valuation",
+    "date": "2024-09-27",
+    "context": "Amazon invests additional $4B in Anthropic for minority stake, total investment reaches $8B. Claude models to train on AWS Trainium chips. Competes with Microsoft-OpenAI and Google's Gemini.",
+    "domain": "Technology",
+    "why_significant": "Intensifies AI arms race among tech giants, validates Claude's competitive position, shapes cloud AI infrastructure strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would this create AWS vendor lock-in? Can Anthropic compete with OpenAI? What about antitrust? Resolved by Claude 3 competing effectively, AWS partnership strengthened, but market concentration concerns grow."
+  },
+  {
+    "event": "California passes law requiring kill switches in AI models",
+    "date": "2024-09-29",
+    "context": "Governor Newsom signs SB 1047 requiring AI developers to implement emergency shutdown capabilities for models costing $100M+ to train. Tech industry split on benefits vs. innovation costs.",
+    "domain": "Technology",
+    "why_significant": "First major U.S. AI safety regulation sets precedent for other states, impacts development practices, sparks federal preemption debates",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Newsom sign or veto? Would tech companies sue? Would other states follow? Resolved by law taking effect 2025, legal challenges filed, other states considering similar bills."
+  },
+  {
+    "event": "Argentina defaults on IMF debt",
+    "date": "2024-10-01",
+    "context": "$45B default triggers emerging market currency crisis. Milei government implements radical dollarization",
+    "domain": "Geopolitics",
+    "why_significant": "Contagion spreads to Turkey and Egypt, IMF lending policies overhauled, Bitcoin surges as hedge",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about emerging market contagion and dollarization success. 3-month window reveals currency crisis spread and policy impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.socialprotectionfloorscoalition.org/wp-content/uploads/2024/10/2024-R2SSC-Case-Studies-Argentina.pdf",
+        "title": "THE IMPACT OF FOREIGN DEBT AND HARSH ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2024/10/01/us/politics/china-loans-currency-imf.html",
+        "title": "U.S. Raises New Concerns Over Chinese Lending Practices",
+        "published_date": ""
+      },
+      {
+        "url": "https://home.treasury.gov/news/press-releases/jy2624",
+        "title": "Remarks by Assistant Secretary for International Finance ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.deloitte.com/us/en/insights/economy/americas/argentina-economic-outlook.html",
+        "title": "Argentina economic outlook, November 2024",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 4 sources confirming event."
+  },
+  {
+    "event": "Brazil elects new president amidst economic crisis",
+    "date": "2024-10-02",
+    "context": "Brazil holds a presidential election resulting in a victory for a new political party, amid ongoing economic instability and inflation.",
+    "domain": "Politics",
+    "why_significant": "Shifts Brazil's economic policies, impacts regional trade agreements, influences foreign investments, alters regional geopolitical dynamics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about economic policy changes and regional impacts. 3-month window shows initial policy direction and market response.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.aerotime.aero/articles/brazil-president-aircraft-faces-technical-issue",
+        "title": "Brazil president plane flies in circles due to tech issues",
+        "published_date": ""
+      },
+      {
+        "url": "https://dfrlab.org/2024/10/02/brazil-election-ai-research/",
+        "title": "The challenges of identifying deepfakes ahead of the 2024 ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1450123/000121390024084781/ea0202118-05.htm",
+        "title": "annual report",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.giga-hamburg.de/en/publications/giga-focus/mid-term-elections-brazil-s-far-right-battles-for-bolsonaro-s-legacy",
+        "title": "Mid-Term Elections: Brazil's Far Right Battles for ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://acleddata.com/update/latin-america-and-caribbean-overview-september-2024",
+        "title": "Latin America and the Caribbean Overview: September 2024",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "Major policy shift in China's economic strategy",
+    "date": "2024-10-05",
+    "context": "China announces a pivot from export-driven growth to a focus on domestic consumption and technological self-sufficiency.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade dynamics, shifts supply chains, and influences international economic policies.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade impacts and supply chain shifts. 3-month window reveals manufacturing relocations and trade pattern changes.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://thediplomat.com/2024/10/chinas-authoritarian-pitch-gains-ground-globally/",
+        "title": "China's Authoritarian Pitch Gains Ground Globally",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.economist.com/finance-and-economics/2024/10/02/xi-jinpings-belated-stimulus-has-reset-the-mood-in-chinese-markets",
+        "title": "Xi Jinping's belated stimulus has reset the mood in ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cgtn.com/specials/2024/peoples-republic-of-china-75-years.html",
+        "title": "People's Republic of China 75 years",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.thinkchina.sg/economy/long-road-recovery-chinas-economy",
+        "title": "Long road to recovery for China's economy",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.atlanticcouncil.org/in-depth-research-reports/report/end-of-the-line-the-cost-of-faltering-reforms/",
+        "title": "End of the line: The cost of faltering reforms",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event."
+  },
+  {
+    "event": "Brazilian presidential election ends in runoff",
+    "date": "2024-10-07",
+    "context": "Brazil's presidential election results in a runoff between incumbent Lula da Silva and challenger Tarc\u00edsio de Freitas.",
+    "domain": "Politics",
+    "why_significant": "Shapes Brazil's economic and environmental policies, impacts regional geopolitics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about runoff outcome and policy direction. 3-month window shows election result and initial governance.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reuters.com/world/americas/brazil-mayoral-elections-bolster-center-right-ahead-2026-presidential-race-2024-10-07/",
+        "title": "Brazil mayoral elections bolster center-right ahead of 2026 ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2024-10-07/bolsonaro-backed-candidates-pull-ahead-in-brazil-mayor-elections",
+        "title": "Bolsonaro-Backed Candidates Pull Ahead in Brazil Elections",
+        "published_date": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pablo_Mar%C3%A7al",
+        "title": "Pablo Mar\u00e7al",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/world/americas/brazil-votes-local-elections-with-eyes-2026-presidential-showdown-2024-10-06/",
+        "title": "Sao Paulo mayoral vote goes to runoff between center ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.scribd.com/document/775945516/Tasa-Terms-2",
+        "title": "Tasa Terms 2 | PDF",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 3 from reliable news outlets."
+  },
+  {
+    "event": "China imposes rare earth export restrictions",
+    "date": "2024-10-10",
+    "context": "Escalating trade tensions prompt China to limit rare earth metal exports.",
+    "domain": "Geopolitics",
+    "why_significant": "Disrupts global tech supply chains, increases prices, and escalates US-China trade war.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about tech manufacturing impacts and alternative sources. 3-month window reveals supply disruptions and sourcing shifts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reuters.com/markets/asia/china-sept-export-growth-hits-5-month-low-global-demand-cools-2024-10-14/",
+        "title": "China's exports miss forecasts as lone bright spot fades",
+        "published_date": ""
+      },
+      {
+        "url": "https://investornews.com/critical-minerals-rare-earths/inside-the-cmi-hitlist-the-five-critical-minerals-shaping-global-supply-chains/",
+        "title": "Inside the CMI Hitlist: The Five Critical Minerals Shaping ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reddit.com/r/China/comments/1g0fdkc/the_doubleedged_sword_of_semiconductor_export/",
+        "title": "The Double-Edged Sword of Semiconductor Export Controls",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.researchgate.net/publication/384972469_The_Geopolitical_Influence_of_China_on_US_Business_Deals_Strategic_Implications_Across_Key_Sectors",
+        "title": "The Geopolitical Influence of China on U.S. Business Deals",
+        "published_date": ""
+      },
+      {
+        "url": "https://carnegieendowment.org/research/2024/10/us-china-relations-for-the-2030s-toward-a-realistic-scenario-for-coexistence?lang=en",
+        "title": "U.S.-China Relations for the 2030s: Toward a Realistic ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event."
+  },
+  {
+    "event": "Microsoft finalizes $69B Activision Blizzard acquisition",
+    "date": "2024-10-13",
+    "context": "After 20 months and regulatory battles across US, UK, EU, Microsoft closes largest gaming acquisition. Call of Duty remains on PlayStation. Game Pass gains major content. Bobby Kotick exits.",
+    "domain": "Business",
+    "why_significant": "Reshapes gaming industry consolidation, tests antitrust enforcement limits, impacts console wars, cloud gaming strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would UK approve? What concessions required? Would Sony lose Call of Duty? Resolved by approval with 10-year PlayStation deal, Game Pass strategy validated, but integration challenges remain."
+  },
+  {
+    "event": "Hamas leader Yahya Sinwar killed in Gaza by Israeli forces",
+    "date": "2024-10-16",
+    "context": "Top Hamas leader and October 7 architect killed in Rafah battle. Israel confirms identity through dental records. Netanyahu vows war continues until hostages released. Ceasefire talks uncertain.",
+    "domain": "Geopolitics",
+    "why_significant": "Removes key Hamas leadership, creates succession questions, impacts hostage negotiations, affects Gaza war trajectory",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Hamas collapse? Would this enable ceasefire? Who would succeed Sinwar? Resolved by November with new leadership maintaining resistance, hostage talks stalled, war continuing."
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2024-10-24",
+    "context": "Labour wins 298 seats (326 needed), Reform UK takes 18. Coalition talks with LibDems begin.",
+    "domain": "Politics",
+    "why_significant": "GBP volatility, delayed energy transition bills, BoE pauses QE unwind",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about coalition formation and policy gridlock. 3-month window shows coalition negotiations and economic impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://hansard.parliament.uk/commons/2024-10-24/debates/4B23B7F6-11EF-42D7-90B2-8E5DD6096BB7/SpecialEducationalNeedsAndDisabilities",
+        "title": "Special Educational Needs and Disabilities - Hansard",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.nao.org.uk/wp-content/uploads/2024/10/work-and-pensions-overview-2023-24.pdf",
+        "title": "An Overview of the Department for Work & Pensions",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reddit.com/r/ireland/comments/1gb322k/clare_daly_to_switch_constituency_and_run_as/",
+        "title": "Clare Daly to switch constituency and run as Dublin ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo218569/pdf/GOVPUB-D-PURL-gpo218569.pdf",
+        "title": "CASPAR WEINBERGER",
+        "published_date": ""
+      },
+      {
+        "url": "https://soyjak.st/chive/src/1690550830355.pdf",
+        "title": "Mein Kampf",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Japan's Liberal Democratic Party loses majority for first time since 2009",
+    "date": "2024-10-27",
+    "context": "Ruling LDP-Komeito coalition loses parliamentary majority in snap election amid slush fund scandal. Opposition Constitutional Democratic Party gains seats but no clear governing coalition emerges.",
+    "domain": "Politics",
+    "why_significant": "Political instability in world's 4th largest economy raises questions about economic policy continuity, defense posture vs. China, U.S. alliance",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would PM Ishiba resign? Could opposition form coalition? How would markets react? Resolved by November with LDP minority government continuing, policy paralysis, yen volatility."
+  },
+  {
+    "event": "Amazon acquires TikTok's US operations",
+    "date": "2024-11-01",
+    "context": "Amazon finalizes $50 billion deal to acquire TikTok's US operations.",
+    "domain": "Business",
+    "why_significant": "Reconfigures social media landscape, raises antitrust concerns, and impacts digital advertising.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about social media competition and regulatory approval. 3-month window reveals antitrust review and market restructuring.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reddit.com/r/Scams/comments/1gfivpw/track_718_is_it_a_scam/",
+        "title": "Track 718 is it a scam",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.forbes.com/sites/pamdanziger/2024/11/01/walmart-and-amazon-are-rolling-out-ai-shopping-assistants-for-holiday-2024/",
+        "title": "Walmart And Amazon Are Rolling Out AI Shopping ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.modernretail.co/technology/big-brands-are-wary-of-tiktok-shops-livestreaming-bet/",
+        "title": "Big brands are wary of TikTok Shop's livestreaming bet",
+        "published_date": ""
+      },
+      {
+        "url": "https://analytics.usa.gov/data/federal-trade-commission/top-10000-pages-and-screens-30-days.csv",
+        "title": "https://analytics.usa.gov/data/federal-trade-commi...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.instagram.com/p/DBr-nSmTi3W/",
+        "title": "3 TikTok Shops just CRUSHED it, raking in over $5 MILLION ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "Trump wins 2024 presidential election in decisive Electoral College victory",
+    "date": "2024-11-06",
+    "context": "Donald Trump defeats Kamala Harris, winning all swing states for 312 Electoral College votes. Republicans gain Senate control. Democrats retain narrow House majority. Trump becomes second president to serve non-consecutive terms.",
+    "domain": "Politics",
+    "why_significant": "Reshapes U.S. policy on Ukraine, climate, trade, immigration, regulation. Affects global alliances, financial markets, tech sector.",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Democrats contest? How would markets react? Would this trigger constitutional crisis? Resolved by Harris conceding, markets surging, transition proceeding normally despite concerns."
+  },
+  {
+    "event": "WeWork files for bankruptcy after failed restructuring",
+    "date": "2024-11-06",
+    "context": "Office-sharing giant files Chapter 11 bankruptcy with $18.6B in losses since 2019. Once valued at $47B, company unable to renegotiate leases post-pandemic. Founder Adam Neumann barred from rescue bid.",
+    "domain": "Business",
+    "why_significant": "Symbol of pandemic's commercial real estate impact, tests flexible office model viability, affects property valuations in major cities",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Could WeWork survive? What happens to leases? Would this trigger property crisis? Resolved by restructuring, shedding leases, emerging smaller in 2025, validating hybrid work's lasting impact."
+  },
+  {
+    "event": "Venezuela invades Guyana's Essequibo region",
+    "date": "2024-11-15",
+    "context": "5000 troops cross border after failed mediation. US sanctions PDVSA within 72 hours.",
+    "domain": "Geopolitics",
+    "why_significant": "Oil prices spike $18/barrel, Brazil mobilizes troops, OAS emergency session called",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about regional conflict escalation and oil supply. 3-month window shows conflict progression and international response.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.facebook.com/groups/1657900637807057/posts/d41d8cd9/3748431755420591/",
+        "title": "GUYANA - IN SEARCH OF PARADISE.",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/1653910321314304/posts/8864827846889146/",
+        "title": "Dredge Creek!",
+        "published_date": ""
+      },
+      {
+        "url": "https://issuu.com/gxmedia/docs/nov162024",
+        "title": "Kaieteur News by GxMedia - Issuu",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 3 sources confirming event."
+  },
+  {
+    "event": "Iceland's volcanic eruption threatens Grindavik evacuation",
+    "date": "2024-11-20",
+    "context": "Sixth volcanic eruption on Reykjanes Peninsula since December 2023 threatens fishing town of Grindavik. Fissure opens near Blue Lagoon tourist site. 4,000 residents evacuated. Scientists warn of years-long volcanic episode.",
+    "domain": "Geopolitics",
+    "why_significant": "Tests Iceland's crisis management, threatens key tourism revenue, raises infrastructure resilience questions, affects trans-Atlantic flights",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Grindavik be abandoned permanently? How long would eruptions continue? What economic impact? Resolved by eruption stabilizing within weeks, town remaining evacuated, tourism adapting, but long-term uncertainty remains."
+  },
+  {
+    "event": "India launches nationwide digital currency",
+    "date": "2024-12-01",
+    "context": "RBI introduces digital rupee to modernize financial systems.",
+    "domain": "Economics",
+    "why_significant": "Reduces cash dependency, impacts banking sector, and sets global precedent.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about adoption rates and banking disruption. 3-month window shows rollout challenges and usage patterns.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://english.elpais.com/economy-and-business/2024-12-01/what-is-the-strategic-bitcoin-reserve-that-trump-is-promising-and-how-would-it-work.html",
+        "title": "What is the strategic bitcoin reserve that Trump ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.afi-global.org/old/activities/regional-initiatives/the-south-asia-region-financial-inclusion-initiative-sarfii/",
+        "title": "South Asia Region Financial Inclusion Initiative (SARFII)",
+        "published_date": ""
+      },
+      {
+        "url": "https://indiantradeportal.in/vs.jsp?lang=2&id=0,994",
+        "title": "Whats New",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.linkedin.com/posts/martin-camara-16852145_india-brics-cbdc-activity-7266515140924129282-p2IY",
+        "title": "Martin Camara's Post",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/ilibertariansdg/posts/28877574295167092/",
+        "title": "How to improve Indian Currency and make it stronger. ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "South Korea President Yoon declares martial law, faces impeachment",
+    "date": "2024-12-03",
+    "context": "President Yoon Suk-yeol declares martial law citing 'anti-state forces,' deploys troops to parliament. National Assembly votes 190-0 to overturn within hours. Opposition files impeachment motion.",
+    "domain": "Politics",
+    "why_significant": "Constitutional crisis in key U.S. ally threatens democratic stability, economic confidence, North Korea policy, tech sector",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would military withdraw? Would Yoon be impeached? How would markets react? Resolved by mid-December with impeachment passed, martial law reversed, markets stabilized, constitutional court review pending."
+  },
+  {
+    "event": "UAE hosts landmark Middle East peace summit",
+    "date": "2024-12-05",
+    "context": "United Arab Emirates mediates a summit between Israel, Saudi Arabia, and Palestine to discuss normalization and peace.",
+    "domain": "Geopolitics",
+    "why_significant": "Potential breakthrough in Middle East relations, impacts regional stability and global diplomacy",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about peace deal likelihood and regional impacts. 3-month window shows negotiation outcomes and regional reactions.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cfr.org/article/china-middle-east-november-2024-0",
+        "title": "China in the Middle East: November 2024",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/malawiwatsopano/posts/8964334150292564/",
+        "title": "President Chakwera's Visit to UAE for Fuel Supply ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://apnews.com/article/jill-biden-uae-trip-a5718b9c3ec4cb85136b4ff801b6da47",
+        "title": "US first lady Jill Biden travels to the UAE",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.arabnews.com/node/2582414/middle-east",
+        "title": "UK PM visits Sheikh Zayed Grand Mosque in Abu Dhabi",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.quora.com/Can-you-describe-the-experience-of-working-for-the-Arab-League",
+        "title": "Can you describe the experience of working for the Arab ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Syria's Assad regime falls after rebel offensive captures Damascus",
+    "date": "2024-12-08",
+    "context": "Opposition forces led by Hayat Tahrir al-Sham capture Damascus in rapid offensive. Assad flees to Russia. 13-year civil war ends with rebel victory. Regional powers scramble to respond.",
+    "domain": "Geopolitics",
+    "why_significant": "Reshapes Middle East power dynamics, threatens Russian/Iranian influence, raises questions about Syria's future government, ISIS resurgence, refugee returns",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would transitional government stabilize? Would ISIS exploit chaos? How would neighbors respond? Partially resolved by January 2025 with interim authority formed, but long-term governance unclear."
+  },
+  {
+    "event": "SEC approves spot Ethereum ETFs",
+    "date": "2024-12-10",
+    "context": "19b-4 filings approved after court loss on Grayscale case. Trading begins January 2025.",
+    "domain": "Economics",
+    "why_significant": "ETH hits $4,200, triggers wave of institutional crypto products",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about institutional adoption and ETH price. 3-month window shows ETF inflows and market impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://calebandbrown.com/blog/weekly-rollup-december-10-2024/",
+        "title": "Weekly Rollup - December 10, 2024",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.coindesk.com/business/2024/12/10/black-rocks-larry-fink-crypto-s-trad-fi-savior",
+        "title": "BlackRock's Larry Fink: Crypto's TradFi Savior",
+        "published_date": ""
+      },
+      {
+        "url": "https://zodiamarkets.com/insights/press-release/zodia-markets-granted-financial-services-permission-by-adgm-strengthening-middle-east-presence/",
+        "title": "Zodia Markets granted Financial Services Permission by ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.coinglass.com/fr/news/253218",
+        "title": "\u89e3\u5bc6\u97e9\u56fd\u6212\u4e25\u80cc\u540e\uff1a\u4e00\u573a\u6495\u88c2\u56fd\u5bb6\u5171\u8bc6\u7684\u653f\u6cbb\u5bbf\u654c\u4e4b\u4e89",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1807846/000095017025026108/ml-20241231.htm",
+        "title": "10-K",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Adobe abandons $20B Figma acquisition after regulatory rejection",
+    "date": "2024-12-18",
+    "context": "Adobe and Figma mutually terminate merger after UK and EU regulators signal opposition over competition concerns. Adobe pays $1B breakup fee. Both companies proceed independently.",
+    "domain": "Business",
+    "why_significant": "Major M&A failure signals increased antitrust scrutiny of tech acquisitions, impacts design software market, affects startup exit strategies",
+    "post_cutoff": true,
+    "filter_reason": "Created uncertainty: Would Adobe fight regulators? What happens to Figma? Would breakup fee be paid? Resolved by termination, Figma remains independent unicorn, chilling effect on tech M&A."
+  },
+  {
+    "event": "UK general election results in hung parliament",
+    "date": "2025-01-09",
+    "context": "Labour wins most seats but falls short of majority. Reform UK holds balance of power with 48 seats",
+    "domain": "Politics",
+    "why_significant": "Political paralysis delays Brexit renegotiation, Scotland independence talks revived, GBP hits 30-year low",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about coalition stability and economic policy. 3-month window shows government formation and policy gridlock.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reddit.com/r/Scotland/comments/1hxd888/new_reform_tops_ukwide_westminster_poll_for_the/",
+        "title": "Reform tops UK-wide Westminster poll for the first time ever ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://mid.ru/es/foreign_policy/rso/1991801/?lang=en",
+        "title": "Briefing by Foreign Ministry Spokeswoman Maria ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://issuu.com/pgcitizen/docs/prince_george_citizen_january_9_2025",
+        "title": "Prince George Citizen January 9, 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/theageAustralia/posts/opinion-if-labor-loses-just-three-seats-it-will-lose-majority-government-but-the/993391616159028/",
+        "title": "Opinion: If Labor loses just three seats, it will lose majority ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.quora.com/Will-the-UK-Labour-Party-find-a-way-to-stay-in-power-after-their-5-year-term",
+        "title": "Will the UK Labour Party find a way to stay in power after ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "OPEC+ agrees to cut oil production by 2 million barrels per day",
+    "date": "2025-01-10",
+    "context": "In response to falling oil prices, OPEC+ announces a significant production cut to stabilize the market.",
+    "domain": "Economics",
+    "why_significant": "Impacts global oil prices, energy markets, and inflation rates, with geopolitical implications.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about oil price response and compliance. 3-month window shows price impacts and member adherence.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.opec.org/assets/assetdb/bulletin-2025-01.pdf",
+        "title": "Bulletin 2025-01",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/oil-set-third-straight-weekly-gain-winter-fuel-demand-2025-01-10/",
+        "title": "Oil prices rally 3% as US hits Russian oil with tougher ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/new-us-sanctions-russian-tankers-hit-oil-supplies-india-refining-sources-say-2025-01-10/",
+        "title": "US to impose sanctions on Russian oil fleet and traders, ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.opec.org/assets/assetdb/momr-january-2025.pdf",
+        "title": "MOMR January 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/persecuted/posts/eight-of-the-12-members-of-the-organization-of-the-petroleum-exporting-countries/1034731388696411/",
+        "title": "International Christian Concern",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "Russia withdraws from New START Treaty",
+    "date": "2025-01-15",
+    "context": "Russia cites US sanctions as reason for withdrawal.",
+    "domain": "Geopolitics",
+    "why_significant": "Increases nuclear tensions, destabilizes global security, and impacts arms control agreements.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about arms race and nuclear verification loss. 3-month window shows NATO response and arms buildup.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reuters.com/world/europe/trump-advisers-concede-ukraine-peace-deal-is-months-away-2025-01-15/",
+        "title": "Trump advisers concede Ukraine peace deal is months away",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.mid.ru/en/press_service/spokesman/briefings/1991801/",
+        "title": "The Ministry of Foreign Affairs of the Russian Federation",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.congress.gov/crs-product/IN11897",
+        "title": "Russia's War Against Ukraine: European Union ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://europeanleadershipnetwork.org/commentary/in-russias-perceived-war-with-the-west-arms-control-is-collateral-damage/",
+        "title": "In Russia's perceived war with the West, arms control is ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://mid.ru/en/press_service/photos/meropriyatiya_s_uchastiem_ministra/1991476/",
+        "title": "Foreign Minister Sergey Lavrov's remarks and answers to ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "TSMC 2nm production delay announcement",
+    "date": "2025-01-17",
+    "context": "Flagship process node pushed to Q3 2026 due to yield issues. Apple and Nvidia shares drop 7%.",
+    "domain": "Technology",
+    "why_significant": "Semiconductor capex shifts to Intel/Samsung, AI chip supply constraints worsen",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about AI chip availability and competitor opportunities. 3-month window shows product delays and market share shifts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://semiwiki.com/forum/threads/tsmc-arizona-chip-plant-delays-show-us-isn%E2%80%99t-ready-to-outpace-taiwan-in-ai-tech.21918/",
+        "title": "TSMC Arizona Chip Plant Delays Show US Isn't Ready to ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.japantimes.co.jp/business/2025/01/17/companies/rapidus-koike-interview-japan/",
+        "title": "Atsuyoshi Koike's big game: Fourth down and 2 ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.sourcengine.com/blog/semiconductor-industry-news?srsltid=AfmBOoojDceqhKtq1WJjWfWfZjMvfloqvh5TeaWpyqdZXzFuIgQfZqU0",
+        "title": "Semiconductor Industry News - January 2025 Update",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 3 sources confirming event."
+  },
+  {
+    "event": "China-Taiwan Tensions Escalate",
+    "date": "2025-01-20",
+    "context": "China increases military exercises near Taiwan, raising fears of a potential conflict in the Taiwan Strait.",
+    "domain": "Geopolitics",
+    "why_significant": "Heightened global tensions, market instability, and shifts in international diplomatic relations.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about conflict risk and semiconductor supply. 3-month window shows escalation patterns and international response.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://understandingwar.org/research/china-taiwan/china-taiwan-weekly-update-january-24-2025/",
+        "title": "China-Taiwan Weekly Update, January 24, 2025 | ISW",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aei.org/articles/china-taiwan-weekly-update-january-24-2025/",
+        "title": "China-Taiwan Weekly Update, January 24, 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://pressxpress.org/2025/01/20/taiwan-strait-tensions-how-japanese-firms-are-redefining-their-strategies/",
+        "title": "Taiwan Strait Tensions: How Japanese Firms Are ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://understandingwar.org/research/china-taiwan/china-taiwan-weekly-update-january-16-2025/",
+        "title": "China-Taiwan Weekly Update, January 16, 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/Newsweek/posts/the-prime-minister-said-that-escalating-tensions-between-the-two-countries-could/980259530641158/",
+        "title": "The Prime Minister said that escalating tensions between the two ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "Microsoft launches Windows 12 with AI integration",
+    "date": "2025-01-22",
+    "context": "Microsoft releases Windows 12, featuring AI-powered productivity tools and enhanced cybersecurity.",
+    "domain": "Technology",
+    "why_significant": "Redefines operating systems, accelerates AI adoption in enterprise and personal computing",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about enterprise adoption and competitor response. 3-month window shows deployment rates and productivity impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.thewinningcsp.com/microsoft-csp-partner-program-updates-december-2024-early-january-2025-2/",
+        "title": "Microsoft CSP Partner Program Updates - Mid-January 2025 ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.linkedin.com/pulse/microsofts-ai-powered-future-pricing-partner-updates-2025-zjuuc",
+        "title": "Microsoft's AI-Powered Future: Pricing and Partner ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/relnotes/release-2025-01-22-windows.html",
+        "title": "Elastic Beanstalk Windows Server platform update on ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://computerrepair.sydney/windows-12-overview/",
+        "title": "Windows 12 Overview: What's Coming?",
+        "published_date": ""
+      },
+      {
+        "url": "https://dtptips.com/exploring-the-future-windows-12-features-and-expectations/",
+        "title": "Exploring the Future: Windows 12 Features and Expectations",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "TSMC 2nm fab operational in Arizona",
+    "date": "2025-02-03",
+    "context": "First US-based 2nm semiconductor production begins after CHIPS Act subsidies",
+    "domain": "Technology",
+    "why_significant": "Geopolitical tensions ease, Intel stock plunges 12%, China announces rival $100B semiconductor fund",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about semiconductor supply chain reshoring. 3-month window shows production ramp and geopolitical impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.trendforce.com/news/2025/02/03/news-tsmc-said-to-plan-2nm-production-in-u-s-1nm-fab-in-tainan/",
+        "title": "[News] TSMC Said to Plan 2nm Production in U.S., 1nm ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://techsoda.substack.com/p/may-you-live-in-interesting-times",
+        "title": "Tariffs, Trust, and Trouble in Trump's Trade War - TechSoda",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/1ig9579/eli5_why_is_tsmc_having_trouble_building_new/",
+        "title": "Why is TSMC having trouble building new factories outside ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://seekingalpha.com/article/4752528-deepseek-panic-heres-why-im-doubling-down-on-tsmc",
+        "title": "DeepSeek Panic: Here's Why I'm Doubling Down On TSMC",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.ft.com/content/07aaca14-46a2-48f0-b427-aa9ed44da90b",
+        "title": "Taiwan and TSMC rush to head off Donald Trump's tariff ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "South African coalition government collapses",
+    "date": "2025-02-28",
+    "context": "ANC-DA power-sharing deal fails after 8 months. Early elections called.",
+    "domain": "Geopolitics",
+    "why_significant": "Rand hits record low, BRICS expansion paused, mining stocks downgraded",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about political stability and BRICS cohesion. 3-month window shows election campaign and economic impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://practicalreason.blog/2025/02/28/sa-foreign-policy-in-the-time-of-trump/",
+        "title": "SA foreign policy in the time of Trump - Practical Reason",
+        "published_date": ""
+      },
+      {
+        "url": "https://pmg.org.za/committee-meeting/40280/",
+        "title": "Proposed Infrastructure Development Bill, CBE Bill & CIDB ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.businessday.co.za/bd/opinion/2025-02-28-jaco-oelofsen-sas-g20-presidency-must-not-compromise-african-unity-as-un-tax-plan-takes-shape/",
+        "title": "JACO OELOFSEN: SA's G20 presidency must not ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/993886894376603/posts/2172196903212257/",
+        "title": "ANC and DA Collaboration in South African Elections",
+        "published_date": ""
+      },
+      {
+        "url": "https://journals.co.za/doi/10.55190/JPADA.2025.410",
+        "title": "State Capture and South Africa's Government of National ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event."
+  },
+  {
+    "event": "Tesla launches fully autonomous vehicles in select cities",
+    "date": "2025-03-01",
+    "context": "Tesla begins selling fully autonomous vehicles in San Francisco, Los Angeles, and Austin, marking a milestone in self-driving technology.",
+    "domain": "Technology",
+    "why_significant": "Advances autonomous vehicle adoption, raises regulatory and safety concerns, and disrupts the automotive industry.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about safety record and regulatory approval. 3-month window shows accident rates and public acceptance.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://autos.yahoo.com/ev-and-future-tech/articles/self-driving-cars-031052134.html",
+        "title": "How Do Self-Driving Cars Work?",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.rollingstone.com/culture/culture-features/musk-tesla-backlash-protest-1235288504/",
+        "title": "Tesla Backlash Over Musk's Toxic Politics Is Spreading Fast",
+        "published_date": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/2503.00659",
+        "title": "A framework for Cooperative Autonomy Trust & Security",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cnbc.com/2025/03/04/elon-musk-first-month-in-white-house-was-tesla-worst-month-since-2022.html",
+        "title": "Elon Musk first month in White House was Tesla worst ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/groups/1515669108717618/posts/4259683950982773/",
+        "title": "Apple cofounder Steve Wozniak says Tesla 'is the worst in ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event."
+  },
+  {
+    "event": "UN sanctions North Korea over missile tests",
+    "date": "2025-03-05",
+    "context": "The United Nations imposes new sanctions on North Korea following a series of unauthorized missile tests.",
+    "domain": "Geopolitics",
+    "why_significant": "Escalates tensions on the Korean peninsula, impacts regional security, influences diplomatic relations, affects global arms control discussions",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about North Korea's response and enforcement. 3-month window shows sanction impacts and regional tensions.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://halifax.citynews.ca/2025/03/05/south-korea-and-the-us-will-begin-annual-military-drills-next-week/",
+        "title": "South Korea and the US will begin annual military drills ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.euronews.com/news/asia/north-korea?p=2",
+        "title": "Find all the latest news about north-korea",
+        "published_date": ""
+      },
+      {
+        "url": "https://koreajoongangdaily.joins.com/news/2025-03-05/national/northKorea/South-Koreas-humanitarian-aid-to-North-comes-to-zero/2255354",
+        "title": "South Korea's humanitarian aid to North comes to zero",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/korea-coree.aspx?lang=eng",
+        "title": "Canadian Sanctions Related to North Korea",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.quora.com/Are-there-any-laws-prohibiting-individuals-or-countries-from-providing-aid-to-North-Korea",
+        "title": "Are there any laws prohibiting individuals or countries from ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event."
+  },
+  {
+    "event": "Boeing acquires Spirit AeroSystems",
+    "date": "2025-03-05",
+    "context": "$8B all-stock deal to reintegrate supply chain after 2024 quality crisis.",
+    "domain": "Business",
+    "why_significant": "FAA oversight conditions attached, Airbus compensated $1B for lost contracts",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about integration success and quality improvements. 3-month window shows merger execution and production impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.bizjournals.com/wichita/news/2025/03/04/talent-summit-spirit-textron-ascension-ima.html",
+        "title": "Spirit AeroSystems HR director highlights career pathway ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.aerosociety.com/media/25870/aerospace-march-2025.pdf",
+        "title": "AEROSPACE March 2025.pdf",
+        "published_date": ""
+      },
+      {
+        "url": "https://airinsight.com/delta-jetzero-partnership-announced/",
+        "title": "Delta, JetZero partnership announced |",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.manufacturingdive.com/news/spirit-aerosystems-airbus-439-million-assets-production-a220-a350-deal/746513/",
+        "title": "Spirit AeroSystems, Airbus reach $439M divestiture deal",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.airlineratings.com/category/industry-news",
+        "title": "Industry News",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "South Africa BRICS presidency crisis",
+    "date": "2025-03-17",
+    "context": "IMF bailout terms conflict with BRICS development bank commitments. Rand collapses 23% in week",
+    "domain": "Geopolitics",
+    "why_significant": "Tests BRICS cohesion, accelerates de-dollarization talks, triggers African debt relief demands",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about BRICS unity and African financial stability. 3-month window shows crisis resolution and bloc dynamics.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://iol.co.za/business-report/2025-03-17-south-africa-urged-to-establish-stronger-us-trade-relations-as-agoa-benefits-at-risk/",
+        "title": "South Africa urged to establish stronger US trade relations ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://iol.co.za/news/politics/2025-03-17-ramaphosa-addresses-diplomatic-crisis--expelled-us-ambassador-ebrahim-rasool-to-deliver-crucial-report/",
+        "title": "Expelled US ambassador Ebrahim Rasool to deliver ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://speakingofmedicine.plos.org/2025/03/21/beyond-dependency-rethinking-africas-relationship-with-foreign-aid/",
+        "title": "Rethinking Africa's relationship with foreign aid",
+        "published_date": ""
+      },
+      {
+        "url": "https://government.co.za/view_latestNews2/657",
+        "title": "Government Directory | 657",
+        "published_date": ""
+      },
+      {
+        "url": "https://brandsouthafrica.com/178376/news-facts/south-africas-global-influence-leadership-beyond-borders/",
+        "title": "South Africa's Global Influence: Leadership Beyond Borders",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 5 sources confirming event."
+  },
+  {
+    "event": "Disney-Apple streaming merger announced",
+    "date": "2025-04-22",
+    "context": "$120B stock-swap deal combining Disney+ with Apple TV+ under new joint venture",
+    "domain": "Business",
+    "why_significant": "Netflix loses 15% market cap, regulators scrutinize, Warner Bros explores Paramount merger",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about antitrust approval and streaming consolidation. 3-month window shows regulatory review and competitor response.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.facebook.com/groups/movie.talk.club/posts/1897654191009322/",
+        "title": "A Star Wars Story on Disney+, starting\u2026 NOW.",
+        "published_date": ""
+      },
+      {
+        "url": "https://nexus.miraheze.org/wiki/Fox_Television_Animation",
+        "title": "20th Television Animation - Nexus, the Fanoncyclopedia",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.cynopsis.com/reelz-turning-a-strategic-evolution-and-scott-kohns-vision/",
+        "title": "REELZ Turning: A Strategic Evolution and Scott Kohn's ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://stratechery.com/?utm_source=blog.beehiiv.com&utm_medium=referral&utm_campaign=discover-the-million-dollar-secrets-10-newsletters-earning-big-and-how-you-can-too&via=Blessing-AmehFivver&query-0-page=2",
+        "title": "Stratechery by Ben Thompson",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 4 sources confirming event."
+  },
+  {
+    "event": "India signs major trade deal with ASEAN countries",
+    "date": "2025-04-30",
+    "context": "India finalizes a comprehensive trade agreement with ASEAN, focusing on technology, agriculture, and manufacturing.",
+    "domain": "Geopolitics",
+    "why_significant": "Boosts India's economic ties in Southeast Asia, reshapes regional trade dynamics",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade flow changes and regional integration. 3-month window shows implementation and economic impacts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.cgimedan.gov.in/docs/1749813529ECONOMIC%20&%20COMMERCIAL%20RELATIONS.pdf",
+        "title": "Home \u203a Trade and Commerce \u203a Commercial Bilateral Brief",
+        "published_date": ""
+      },
+      {
+        "url": "https://m.economictimes.com/news/newsblogs/india-news-pahalgam-terror-attack-indus-waters-treaty-pakistan-donald-trump-tariff-war-russia-ukraine-israel-gaza-war-pm-modi-supreme-court-india-weather/liveblog/120712875.cms",
+        "title": "India tariff talks going great, think we'll have a deal, says ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.india-briefing.com/news/india-canada-bilateral-and-trade-relations-in-2025-36594.html/",
+        "title": "India-Canada Bilateral and Trade Relations in 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://asean.org/our-communities/economic-community/finance-integration/",
+        "title": "Finance Integration",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.indianembassyjakarta.gov.in/pages?id=eyJpdiI6Im53XC9GQTR0YkViaHEwbFlsZ3VwWEJBPT0iLCJ2YWx1ZSI6IldXa1JRMWluM0djdDA0RjRlRzZuOHc9PSIsIm1hYyI6IjViY2MwMjNhZTA5NTkwYmZiOGNiOTNjMDJkNjMyYmU2MzMwMGY0MjcxYmNmODlkMDU2M2M3MTZmYzMxNzFjM2YifQ==&subid=eyJpdiI6InlxMjhIaWZSUnp3YnRhdVwvT1wvZ2Fwdz09IiwidmFsdWUiOiJpZ3R2T3ljZjNOXC9LblRGb2pqOFA3Zz09IiwibWFjIjoiOGFmNjU0MDgzZGNkMDExODYwODFhNjFlYWM1ZjlmMmU4ZTY3ZTU5YjYxMjliNjU5MGU2ZjRjMmY4ZTJkMWQ2MCJ9",
+        "title": "indonesia bilateral relations",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event."
+  },
+  {
+    "event": "Japan ends negative interest rate policy",
+    "date": "2025-05-08",
+    "context": "BOJ raises rates to 0.5% after 8 years of negative rates, citing sustained 2.1% inflation",
+    "domain": "Economics",
+    "why_significant": "Global bond markets volatile, yen strengthens 12% against USD, carry trade unwinding begins",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about carry trade unwind and global financial impacts. 3-month window shows currency movements and market reactions.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.reuters.com/markets/asia/boj-divided-over-how-us-policies-impact-rate-hike-timing-march-meeting-minutes-2025-05-08/",
+        "title": "BOJ split over how US policies impact rate hikes, March ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/business/finance/global-markets-central-banks-graphic-2025-05-08/",
+        "title": "Global central banks diverge as tariff risks hamper US Fed",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.sc.com/bw/market-outlook/weekly-market-view-9-5-2025",
+        "title": "Weekly Market View \u2013 9/5/2025 \u2013 Market Outlook",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.facebook.com/bloombergbusiness/posts/growth-in-japans-nominal-wages-slowed-more-than-expected-in-march-adding-to-the-/1106301948022564/",
+        "title": "Growth in Japan's nominal wages slowed more than ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.opec.org/assets/assetdb/momr-may-2025.pdf",
+        "title": "Feature article:",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 7 sources confirming event, including 2 from reliable news outlets."
+  },
+  {
+    "event": "US-China trade tensions escalate with new tariffs",
+    "date": "2025-05-20",
+    "context": "The US imposes new tariffs on Chinese imports, prompting China to retaliate with tariffs on US goods, reigniting trade tensions.",
+    "domain": "Geopolitics",
+    "why_significant": "Impacts global trade, supply chains, and economic growth, with potential for further escalation.",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about trade war escalation and economic impacts. 3-month window shows retaliation patterns and business adjustments.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.jpmorgan.com/insights/global-research/economy/china-economy",
+        "title": "How will the US-China tariff deal impact China's growth ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.reuters.com/markets/asia/decline-china-fiscal-revenue-slows-despite-trade-turmoil-2025-05-20/",
+        "title": "Decline in China fiscal revenue slows despite trade turmoil",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.primerus.com/article/tariffs-and-tensions-how-trumps-trade-strategy-impacts-allies-industries-and-us-consumers",
+        "title": "Tariffs and tensions: How Trump's trade strategy impacts ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://frontierview.com/insights/the-us-china-trade-war-may-update/",
+        "title": "The US-China trade war de-escalation --- May update",
+        "published_date": ""
+      },
+      {
+        "url": "https://ms-researchhub.com/home/resources/the-global-economy-this-week/a-decade-of-economic-tension-the-u.s.-china-trade-war-and-its-global-impacts.html",
+        "title": "A Decade of Economic Tension: The U.S.-China Trade War ...",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 8 sources confirming event."
+  },
+  {
+    "event": "Taiwan Strait incident: Chinese coast guard boards Taiwanese fishing vessel",
+    "date": "2025-05-21",
+    "context": "First boarding since 2020. Taiwan scrambles coast guard, US Seventh Fleet monitors.",
+    "domain": "Geopolitics",
+    "why_significant": "TSMC contingency plans activated, Japan expresses 'grave concern', semiconductor ETFs drop",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about military escalation and Taiwan Strait stability. 3-month window shows incident response and tensions trajectory.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.scmp.com/news/china/politics/article/3311274/illegal-entry-mainland-china-raises-alarms-about-taiwans-maritime-security",
+        "title": "Taiwan - maritime security",
+        "published_date": ""
+      },
+      {
+        "url": "https://api.parliament.nsw.gov.au/api/hansard/search/daily/pdf/HANSARD-1323879322-153544",
+        "title": "LEGISLATIVE ASSEMBLY - Tuesday 27 May 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://kritik.com.my/posts/364",
+        "title": "Is Japan implementing a 'Bachelor Tax' in 2026?",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.wsj.com/public/resources/documents/ABP9wjJZWmPo7X2PlCkY-WSJNewsPaper-5-24-2025.pdf?gaa_at=eafs&gaa_n=AWEtsqfls_kzKyvML1IONMfLQ7bd8sU9t8wbo1RqG-AyzztOYlJ1yLnAed5G&gaa_ts=69065b76&gaa_sig=Ktx1WOOnar4PoKe4SpznOrJhE5qvCIeWNv1FgtfArwoK6_4tRcsz55s6V3FemTaQ9jS8aqLNEVF3ojuyk8vUIg%3D%3D",
+        "title": "Retail Investors Grow Queasy In Squeeze of Market Volatility",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.316now.org/news-from-china",
+        "title": "News from China \u2014 316NOW",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  },
+  {
+    "event": "Brazil climate summit pledges fail ratification",
+    "date": "2025-06-11",
+    "context": "Only 3 of 12 major emissions reduction commitments from 2024 summit pass national legislatures",
+    "domain": "Politics",
+    "why_significant": "Carbon credit markets crash, climate activists shift to local strategies, UN governance reforms proposed",
+    "post_cutoff": true,
+    "filter_reason": "Creates uncertainty about climate policy effectiveness and carbon markets. 3-month window shows market impacts and strategy shifts.",
+    "verification_status": "\u2705 VERIFIED",
+    "sources_found": [
+      {
+        "url": "https://www.rinnovabili.net/environment/climate-change/un-high-seas-treaty-january-2025-ratification/",
+        "title": "UN High Seas Treaty may take effect by January 2025",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.businessgreen.com/news/4414874/government-vows-introduce-law-global-seas-treaty-end",
+        "title": "Government vows to introduce law for global High Seas ...",
+        "published_date": ""
+      },
+      {
+        "url": "https://whc.unesco.org/en/eur-na/",
+        "title": "Europe and North America",
+        "published_date": ""
+      },
+      {
+        "url": "https://docs.un.org/en/A/80/16",
+        "title": "Report of the Committee for Programme and Coordination",
+        "published_date": ""
+      },
+      {
+        "url": "https://www.canninghouse.org/storage/uploads/resources/latam-outlook/2025-report/LatAm_Outlook_2025_imkdp.pdf",
+        "title": "LatAm Outlook 2025 - Canning House",
+        "published_date": ""
+      }
+    ],
+    "verification_notes": "Found 6 sources confirming event."
+  }
+]

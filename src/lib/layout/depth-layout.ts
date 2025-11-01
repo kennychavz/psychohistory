@@ -22,11 +22,7 @@ export function calculateTreeLayout(
   const edges: Edge[] = [];
 
   // First pass: calculate positions
-  if (config.orientation === 'radial') {
-    layoutRadial(root, config, positions);
-  } else {
-    layoutNode(root, 0, 0, config, positions);
-  }
+  layoutNode(root, 0, 0, config, positions);
 
   // Second pass: create React Flow nodes and edges
   positions.forEach(pos => {
@@ -51,7 +47,6 @@ export function calculateTreeLayout(
         sources: eventNode.sources,
         processingStatus: eventNode.processingStatus,
         isOnMostProbablePath: isOnPath,
-        iconUrl: eventNode.iconUrl,
       },
     });
 
@@ -168,57 +163,6 @@ function layoutNode(
     }
 
     return totalHeight;
-  }
-}
-
-function layoutRadial(
-  root: EventNode,
-  config: LayoutConfig,
-  positions: NodePosition[]
-): void {
-  const { depthSpacing } = config;
-
-  interface NodeWithAngle {
-    node: EventNode;
-    depth: number;
-    startAngle: number;
-    endAngle: number;
-  }
-
-  const queue: NodeWithAngle[] = [{
-    node: root,
-    depth: 0,
-    startAngle: 0,
-    endAngle: 2 * Math.PI
-  }];
-
-  while (queue.length > 0) {
-    const { node, depth, startAngle, endAngle } = queue.shift()!;
-
-    const radius = depth * depthSpacing;
-    const angle = (startAngle + endAngle) / 2;
-
-    const x = radius * Math.cos(angle);
-    const y = radius * Math.sin(angle);
-
-    positions.push({ id: node.id, x, y });
-
-    if (node.children.length > 0) {
-      const angleRange = endAngle - startAngle;
-      const anglePerChild = angleRange / node.children.length;
-
-      node.children.forEach((child, i) => {
-        const childStartAngle = startAngle + i * anglePerChild;
-        const childEndAngle = childStartAngle + anglePerChild;
-
-        queue.push({
-          node: child,
-          depth: depth + 1,
-          startAngle: childStartAngle,
-          endAngle: childEndAngle,
-        });
-      });
-    }
   }
 }
 

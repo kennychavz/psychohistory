@@ -99,8 +99,8 @@ export async function processNode(
       id: uuidv4(),
       event: prob.event,
       probability: prob.probability,
-      justification: prob.justification,
-      sentiment: prob.sentiment,
+      justification: 'Based on historical research and analysis', // Default
+      sentiment: 0, // Default neutral
       depth: node.depth + 1,
       sources: researchResult.sources.slice(0, 5), // Top 5 sources
       children: [],

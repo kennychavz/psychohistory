@@ -16,11 +16,10 @@ interface EventNodeData {
   depth: number;
   processingStatus?: 'pending' | 'processing' | 'completed' | 'failed';
   isOnMostProbablePath?: boolean;
-  iconUrl?: string;
 }
 
 function EventNode({ data }: { data: EventNodeData }) {
-  const { event, probability, sentiment, depth, processingStatus = 'completed', isOnMostProbablePath = false, iconUrl } = data;
+  const { event, probability, sentiment, depth, processingStatus = 'completed', isOnMostProbablePath = false } = data;
 
   const sentimentColor = getSentimentColor(sentiment);
   const sentimentGradient = getSentimentGradient(sentiment);
@@ -46,33 +45,15 @@ function EventNode({ data }: { data: EventNodeData }) {
 
   return (
     <div
-      className="relative rounded-lg p-3 transition-all hover:scale-105"
+      className="rounded-lg p-3 transition-all hover:scale-105"
       style={{
         background: sentimentGradient,
         ...pathBorderStyle,
         minWidth: 200,
         maxWidth: 250,
         opacity: bgOpacity,
-        marginTop: iconUrl ? '40px' : '0', // Add space for icon
       }}
     >
-      {/* Icon positioned on top center */}
-      {iconUrl && (
-        <div
-          className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2"
-          style={{
-            top: 0,
-            zIndex: 10,
-          }}
-        >
-          <img
-            src={iconUrl}
-            alt="Category icon"
-            className="h-20 w-20 rounded-full border-4 border-white object-cover shadow-lg"
-          />
-        </div>
-      )}
-
       <Handle
         type="target"
         position={Position.Top}
