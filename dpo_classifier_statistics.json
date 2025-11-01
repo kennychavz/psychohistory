@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-01T20:48:34.229Z",
+  "totalDPOPairs": 40,
+  "totalPaths": 40,
+  "correctPaths": 20,
+  "incorrectPaths": 20,
+  "llmAccuracy": "50.00%",
+  "byOutcome": {
+    "YES": 16,
+    "NO": 24
+  }
+}
